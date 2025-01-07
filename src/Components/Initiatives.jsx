@@ -39,7 +39,7 @@ const Initiatives = () => {
 
 
 
-                <div className=' grid sm:grid-cols-12 grid-cols-6  gap-3 mt-7'>
+                <div className=' grid sm:grid-cols-12 grid-cols-3  gap-3 mt-7'>
                     <div className='overflow-hidden  flex flex-col justify-start  h-96 col-span-3  w-auto rounded-lg bg-cover bg-center border-4 border-[#310742]' style={{ backgroundImage: "url('/Initiatives.jpg')" }}>
                         <div className='relative top-80 hover:top-0 '>
                         <div className='top-0  bg-[#310742] flex justify-center py-3 font-semibold text-white bg-opacity-70 text-3xl'>SIP</div>
