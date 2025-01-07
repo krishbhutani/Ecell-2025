@@ -12,6 +12,7 @@ import Footer from './Components/Footer'
 const App = () => {
   return (
     <div className='w-full'>
+
       <Navbar />
       <Header />
       <Cooper/>

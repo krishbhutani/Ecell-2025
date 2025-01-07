@@ -17,7 +17,12 @@ const Initiatives = () => {
                     Hamirpur, empowering aspiring entrepreneurs with the resources and guidance to bring their visions to life.
                 </div>
 
-                <div className='grid  grid-rows-2 gap-4 mt-4'>
+
+
+
+
+
+                {/* <div className='grid  grid-rows-2 gap-4 mt-4'>
                     <div className='h-52 col-span-3 sm:col-span-1 w-auto rounded-lg bg-cover bg-center border-4 border-[#310742]' style={{ backgroundImage: "url('/E-summit.png')" }}>
 
                     </div>
@@ -30,7 +35,49 @@ const Initiatives = () => {
                     <div className='col-span-3 h-52 w-auto rounded-lg bg-cover bg-center  border-[#310742]' style={{ backgroundImage: "url('/Linkdin.png')" }}>
 
                     </div>
+                </div> */}
+
+
+
+                <div className=' grid sm:grid-cols-12 grid-cols-6  gap-3 mt-7'>
+                    <div className='overflow-hidden  flex flex-col justify-start  h-96 col-span-3  w-auto rounded-lg bg-cover bg-center border-4 border-[#310742]' style={{ backgroundImage: "url('/Initiatives.jpg')" }}>
+                        <div className='relative top-80 hover:top-0 '>
+                        <div className='top-0  bg-[#310742] flex justify-center py-3 font-semibold text-white bg-opacity-70 text-3xl'>SIP</div>
+                        <div className='px-4 bg-[#310742] h-full bg-opacity-70 text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet accusamus quia id minima beatae optio voluptate molestiae, assumenda debitis, possimus suscipit fugit neque fuga aperiam. Eligendi, culpa maxime quaerat adipisci, dolorem impedit velit aut totam rerum natus reprehenderit consequatur cum non minus iste? Rerum, sunt.</div>
+                        </div>
+                        
+                    </div>
+
+                    <div className='overflow-hidden  flex flex-col justify-start  h-96 col-span-3  w-auto rounded-lg bg-cover bg-center border-4 border-[#310742]' style={{ backgroundImage: "url('/Initiatives.jpg')" }}>
+                        <div className='relative top-80 hover:top-0 '>
+                        <div className='top-0  bg-[#310742] flex justify-center py-3 font-semibold text-white bg-opacity-70 text-3xl'>E-Summit</div>
+                        <div className='px-4 bg-[#310742] h-full bg-opacity-70 text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet accusamus quia id minima beatae optio voluptate molestiae, assumenda debitis, possimus suscipit fugit neque fuga aperiam. Eligendi, culpa maxime quaerat adipisci, dolorem impedit velit aut totam rerum natus reprehenderit consequatur cum non minus iste? Rerum, sunt.</div>
+                        </div>
+                        
+                    </div>
+
+                    <div className='overflow-hidden  flex flex-col justify-start  h-96 col-span-3  w-auto rounded-lg bg-cover bg-center border-4 border-[#310742]' style={{ backgroundImage: "url('/Initiatives.jpg')" }}>
+                        <div className='relative top-80 hover:top-0 '>
+                        <div className='top-0  bg-[#310742] flex justify-center py-3 font-semibold text-white bg-opacity-70 text-3xl'>E-Crescendo</div>
+                        <div className='px-4 bg-[#310742] h-full bg-opacity-70 text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet accusamus quia id minima beatae optio voluptate molestiae, assumenda debitis, possimus suscipit fugit neque fuga aperiam. Eligendi, culpa maxime quaerat adipisci, dolorem impedit velit aut totam rerum natus reprehenderit consequatur cum non minus iste? Rerum, sunt.</div>
+                        </div>
+                        
+                    </div>
+
+                    <div className='overflow-hidden  flex flex-col justify-start  h-96 col-span-3  w-auto rounded-lg bg-cover bg-center border-4 border-[#310742]' style={{ backgroundImage: "url('/Initiatives.jpg')" }}>
+                        <div className='relative top-80 hover:top-0 '>
+                        <div className='top-0  bg-[#310742] flex justify-center py-3 font-semibold text-white bg-opacity-70 text-3xl'>Hult Prize</div>
+                        <div className='px-4 bg-[#310742] h-full bg-opacity-70 text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet accusamus quia id minima beatae optio voluptate molestiae, assumenda debitis, possimus suscipit fugit neque fuga aperiam. Eligendi, culpa maxime quaerat adipisci, dolorem impedit velit aut totam rerum natus reprehenderit consequatur cum non minus iste? Rerum, sunt.</div>
+                        </div>
+                        
+                    </div>
+                    
+                    
+                
+                    
                 </div>
+
+
             </div>
             <div className='flex sm:flex-row flex-col sm:px-0 px-6 items-center sm:justify-center py-5 bg-[#310742] mt-8'>
                 <div className='text-white font-medium text-xl sm:text-3xl mr-3'>Wanna see how people react to our posts on <span className='text-yellow-300'>linkedin</span>

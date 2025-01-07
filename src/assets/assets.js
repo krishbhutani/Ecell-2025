@@ -19,6 +19,7 @@ import X_logo from "./X_logo.png"
 import yt_logo from "./Yt_logo.png"
 import linkedin_logo from "./linkedin_logo.png"
 import insta_logo from "./instalogo.png"
+import Initiatives from "./Initiatives.jpg"
 
 
 
@@ -43,7 +44,8 @@ export const assets = {
     X_logo,
     yt_logo,
     linkedin_logo,
-    insta_logo
+    insta_logo,
+    Initiatives
 
 
 }

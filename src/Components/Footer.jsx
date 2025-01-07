@@ -46,7 +46,7 @@ const Footer = () => {
             </div>
 
            
-                <div className='mt-5 sm:text-8xl text-xl font-extrabold text-[#4BA3E9]'>
+                <div className='mt-5 sm:text-8xl text-3xl font-extrabold text-[#4BA3E9]'>
                 Entrepreneurship Cell
                 </div>
                 
