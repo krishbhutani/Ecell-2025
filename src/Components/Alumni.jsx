@@ -25,8 +25,8 @@ const Alumni = () => {
                     <div className='flex justify-center py-3 font-medium text-3xl'>Batch 2023-24</div>
                     <div className='w-full h-px bg-black'></div>
 
-                    <div className='mt-10 grid grid-cols-12 gap-10 px-28 mb-20'>
-                        <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4 h-80 w-auto'>
+                    <div className='mt-10 grid sm:grid-cols-12 grid-cols-4 gap-10 sm:px-28 px-8 mb-20'>
+                        <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-auto'>
                             <div >
                                 <img className="h-64 w-full object-cover rounded-t-lg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Outdoors-man-portrait.jpg/1200px-Outdoors-man-portrait.jpg" alt="" />
                             </div>
@@ -48,7 +48,7 @@ const Alumni = () => {
                             </div>
                         </div>
 
-                        <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4 h-80 w-auto'>
+                        <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-auto'>
                             <div >
                                 <img className="h-64 w-full object-cover rounded-t-lg" src="https://www.format.com/wp-content/uploads/portrait.jpg" alt="" />
                             </div>
@@ -69,7 +69,7 @@ const Alumni = () => {
                     <div className='flex justify-center py-3 font-medium text-3xl'>Batch 2022-23</div>
                     <div className='w-full h-px bg-black'></div>
 
-                    <div className='mt-10 grid grid-cols-12 gap-10 px-28 mb-20'>
+                    <div className='mt-10 grid sm:grid-cols-12 grid-cols-4 gap-10 sm:px-28 px-8 mb-20'>
                         <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4 h-80 w-auto'>
                             <div >
                                 <img className="h-64 w-full object-cover rounded-t-lg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Outdoors-man-portrait.jpg/1200px-Outdoors-man-portrait.jpg" alt="" />
@@ -92,7 +92,7 @@ const Alumni = () => {
                             </div>
                         </div>
 
-                        <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4 h-80 w-auto'>
+                        <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-auto'>
                             <div >
                                 <img className="h-64 w-full object-cover rounded-t-lg" src="https://www.format.com/wp-content/uploads/portrait.jpg" alt="" />
                             </div>
@@ -112,7 +112,7 @@ const Alumni = () => {
                     <div className='flex justify-center py-3 font-medium text-3xl'>Batch 2021-22</div>
                     <div className='w-full h-px bg-black'></div>
 
-                    <div className='mt-10 grid grid-cols-12 gap-10 px-28 mb-20'>
+                    <div className='mt-10 grid sm:grid-cols-12 grid-cols-4 gap-10 sm:px-28 px-8 mb-20'>
                         <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4 h-80 w-auto'>
                             <div >
                                 <img className="h-64 w-full object-cover rounded-t-lg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Outdoors-man-portrait.jpg/1200px-Outdoors-man-portrait.jpg" alt="" />
@@ -155,7 +155,7 @@ const Alumni = () => {
                     <div className='flex justify-center py-3 font-medium text-3xl'>Batch 2020-21</div>
                     <div className='w-full h-px bg-black'></div>
 
-                    <div className='mt-10 grid grid-cols-12 gap-10 px-28 mb-20'>
+                    <div className='mt-10 grid sm:grid-cols-12 grid-cols-4 gap-10 sm:px-28 px-8 mb-20'>
                         <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4 h-80 w-auto'>
                             <div >
                                 <img className="h-64 w-full object-cover rounded-t-lg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Outdoors-man-portrait.jpg/1200px-Outdoors-man-portrait.jpg" alt="" />
@@ -198,7 +198,7 @@ const Alumni = () => {
                     <div className='flex justify-center py-3 font-medium text-3xl'>Batch 2019-20</div>
                     <div className='w-full h-px bg-black'></div>
 
-                    <div className='mt-10 grid grid-cols-12 gap-10 px-28 mb-20'>
+                    <div className='mt-10 grid sm:grid-cols-12 grid-cols-4 gap-10 sm:px-28 px-8 mb-20'>
                         <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4 h-80 w-auto'>
                             <div >
                                 <img className="h-64 w-full object-cover rounded-t-lg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Outdoors-man-portrait.jpg/1200px-Outdoors-man-portrait.jpg" alt="" />
@@ -241,7 +241,7 @@ const Alumni = () => {
                     <div className='flex justify-center py-3 font-medium text-3xl'>Batch 2019-20</div>
                     <div className='w-full h-px bg-black'></div>
 
-                    <div className=' flex justify-center mt-10  px-28 mb-20'>
+                    <div className=' flex justify-center mt-10  sm:px-28 px-8 mb-20'>
                         <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4 h-80 w-72'>
                             <div >
                                 <img className="h-64 w-full object-cover rounded-t-lg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Outdoors-man-portrait.jpg/1200px-Outdoors-man-portrait.jpg" alt="" />
