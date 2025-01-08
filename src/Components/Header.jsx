@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <div className='w-full bg-[#F3F2E3] h-max pb-32'>
             
-            <div className='flex pt-24 sm:pt-52 sm:pl-32 pl-5 px-5 sm:px-0'>
+            <div className='flex pt-24 sm:pt-28 sm:pl-32 pl-5 px-5 sm:px-0'>
                 <div className=' w-full sm:w-7/12 m-auto'>
                     <div className=' pb-5 text-3xl sm:text-7xl font-extrabold text-transparent bg-gradient-to-r from-orange-400 to-violet-800 bg-clip-text'>Entrepreneurship Cell</div>
                     <div className='pb-5 text-3xl sm:text-7xl font-extrabold text-transparent bg-gradient-to-r from-orange-400 to-violet-800 bg-clip-text'>NIT Hamirpur</div>

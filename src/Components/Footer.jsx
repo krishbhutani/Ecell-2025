@@ -1,9 +1,13 @@
 import React from 'react'
 import { assets } from '../assets/assets'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
     return (
+        <div>
+            <div className='w-full h-px bg-black'></div>
         <div className='bg-[#F3F2E3] sm:px-28 px-8 sm:py-16 py-10'>
+            
             <div className='flex sm:flex-row flex-col'>
                 <div>
                     <img className="w-full" src={assets.Footer_logo} alt="" />
@@ -20,12 +24,11 @@ const Footer = () => {
                         <div className='font-medium sm:text-xl text-lg sm:mb-4 mb-2'>Links</div>
 
                         <ul className='flex flex-col sm:gap-2 gap-0'>
-                            <a className='sm:text-xl text-lg' href="#">HOME</a>
-                            <a className='sm:text-xl text-lg' target="_blank" href="https://nith.ac.in/">NITH</a>
-                            <a className='sm:text-xl text-lg' href="#">About Us</a>
-                            <a className='sm:text-xl text-lg' href="#Team">Our Team</a>
-                            <a className='sm:text-xl text-lg' href="#">FAQs</a>
-
+                            <Link className='sm:text-xl text-lg' href="#">HOME</Link>
+                            <Link className='sm:text-xl text-lg' target="_blank" href="https://nith.ac.in/">NITH</Link>
+                            <Link className='sm:text-xl text-lg' href="#">About Us</Link>
+                            <Link className='sm:text-xl text-lg' href="#Team">Our Team</Link>
+                            <Link className='sm:text-xl text-lg' href="#">FAQs</Link>
                         </ul>
 
                     </div>
@@ -46,11 +49,10 @@ const Footer = () => {
             </div>
 
            
-                <div className='mt-5 sm:text-8xl text-3xl font-extrabold text-[#4BA3E9]'>
-                Entrepreneurship Cell
-                </div>
+                
                 
         
+        </div>
         </div>
     )
 }
