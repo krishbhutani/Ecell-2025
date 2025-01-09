@@ -10,6 +10,7 @@ import Gallery from './Components/Gallery'
 import Team from './Components/Team'
 import Footer from './Components/Footer'
 import Alumni from './Components/Alumni'
+import TeamMem from './Components/TeamMem'
 
 const router = createBrowserRouter(
   [
@@ -46,7 +47,16 @@ const router = createBrowserRouter(
           <Alumni />
           <Footer/>
         </div>
-    }
+    },
+    {
+      path: '/team',
+      element:
+      <div>
+        <Navbar/>
+        <TeamMem/>
+        <Footer/>
+      </div>
+    },
   ]
 )
 

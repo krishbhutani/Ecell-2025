@@ -19,17 +19,17 @@ const Past_speaker = () => {
                     Discover the influential speakers who have shared their wisdom and insights at E-Cell events, enriching the entrepreneurial spirit.
                 </div>
 
-                <div className='grid sm:grid-cols-12 grid-cols-3 grid-rows-2 gap-4 mt-4'>
-                    <div className=' col-span-2 h-48 rounded-md ] '><img className='object-container h-full w-full' src={assets.Past_sp_1} alt="" /></div>
-                    <div className=' col-span-4 h-48 rounded-lg'><img className='object-container h-full w-full' src={assets.Past_sp_3} alt="" /></div>
-                    <div className=' col-span-3 row-span-2 rounded-lg'><img className='object-container h-full w-full' src={assets.Past_sp_6} alt="" /></div>
-                    <div className=' col-span-1 rounded-lg'><img className='object-container h-48 w-full' src={assets.Past_sp_8} alt="" /></div>
-                    <div className=' col-span-2 rounded-lg'><img className='object-container h-48 w-full' src={assets.Past_sp_7} alt="" /></div>
+                <div className='grid sm:grid-cols-12 grid-flow-row-dense grid-cols-3 grid-rows-2 gap-4 mt-4'>
+                    <div className=' col-span-2 h-48 rounded-md '><img className='object-cover h-full w-full' src={assets.Past_sp_1} alt="" /></div>
+                    <div className=' col-span-4 h-48 rounded-lg'><img className='object-cover h-full w-full' src={assets.Past_sp_3} alt="" /></div>
+                    <div className=' col-span-3 row-span-2 rounded-lg'><img className='object-cover h-full w-full' src={assets.Past_sp_6} alt="" /></div>
+                    <div className=' col-span-1 rounded-lg'><img className='object-cover h-48 w-full' src={assets.Past_sp_8} alt="" /></div>
+                    <div className=' col-span-2 rounded-lg'><img className='object-cover h-48 w-full' src={assets.Past_sp_7} alt="" /></div>
 
-                    <div className=' col-span-2 rounded-lg'><img className='object-container h-48 w-full' src={assets.Past_sp_2} alt="" /></div>
-                    <div className=' col-span-2 rounded-lg'><img className='object-container h-48 w-full' src={assets.Past_sp_4} alt="" /></div>
-                    <div className=' col-span-2 rounded-lg'><img className='object-container h-48 w-full' src={assets.Past_sp_5} alt="" /></div>
-                    <div className=' col-span-3 rounded-lg'><img className='object-container h-48 w-full' src={assets.Past_sp_9} alt="" /></div>
+                    <div className=' col-span-2 rounded-lg'><img className='object-cover h-48 w-full' src={assets.Past_sp_2} alt="" /></div>
+                    <div className=' col-span-2 rounded-lg'><img className='object-cover h-48 w-full' src={assets.Past_sp_4} alt="" /></div>
+                    <div className=' col-span-2 rounded-lg'><img className='object-cover h-48 w-full' src={assets.Past_sp_5} alt="" /></div>
+                    <div className=' col-span-3 rounded-lg'><img className='object-cover h-48 w-full' src={assets.Past_sp_9} alt="" /></div>
 
 
                 </div>

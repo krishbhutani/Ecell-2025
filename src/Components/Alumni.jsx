@@ -234,28 +234,35 @@ const Alumni = () => {
                     </div>
                 </div>
 
+
                 {/* Batch 2018-19 */}
 
                 <div className='mt-5'>
                     <div className='w-full h-px bg-black'></div>
-                    <div className='flex justify-center py-3 font-medium text-3xl'>Batch 2019-20</div>
+                    <div className='flex justify-center py-3 font-medium text-3xl'>Batch 2018-19</div>
                     <div className='w-full h-px bg-black'></div>
 
-                    <div className=' flex justify-center mt-10  sm:px-28 px-8 mb-20'>
-                        <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4 h-80 w-72'>
-                            <div >
-                                <img className="h-64 w-full object-cover rounded-t-lg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Outdoors-man-portrait.jpg/1200px-Outdoors-man-portrait.jpg" alt="" />
-                            </div>
-                            <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
-                                <p className='text-white text-xl font-medium pl-2 pt-2'>Abhinav Dhimav</p>
-                                <p className='text-slate-100 pl-2 -mt-1'>President </p>
+                    <div className='mt-10 grid sm:grid-cols-12 grid-cols-4 gap-10 sm:px-28 px-8 mb-20'>
+                        
 
+                        <div class="grid grid-cols-subgrid sm:col-start-5 col-start-1 gap-10 col-span-4">
+                            <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4 h-80 w-auto'>
+                                <div >
+                                    <img className="h-64 w-full object-cover rounded-t-lg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Outdoors-man-portrait.jpg/1200px-Outdoors-man-portrait.jpg" alt="" />
+                                </div>
+                                <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
+                                    <p className='text-white text-xl font-medium pl-2 pt-2'>Abhinav Dhimav</p>
+                                    <p className='text-slate-100 pl-2 -mt-1'>President  </p>
+
+                                </div>
                             </div>
                         </div>
 
-                        
                     </div>
                 </div>
+
+
+                
 
 
             </div>

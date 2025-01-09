@@ -20,7 +20,8 @@ import yt_logo from "./Yt_logo.png"
 import linkedin_logo from "./linkedin_logo.png"
 import insta_logo from "./instalogo.png"
 import Initiatives from "./Initiatives.jpg"
-
+import toggle_menu from "./Toggle_button.jpg"
+import Cross_icon from "./Cross-icon.png"
 
 
 export const assets = {
@@ -45,7 +46,9 @@ export const assets = {
     yt_logo,
     linkedin_logo,
     insta_logo,
-    Initiatives
+    Initiatives,
+    toggle_menu,
+    Cross_icon
 
 
 }
