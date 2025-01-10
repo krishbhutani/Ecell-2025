@@ -57,6 +57,14 @@ const Gallery = () => {
             right: {x: '50%', scale: 0.7, zIndex: 2 }
         }
 
+        const imageVariants2 = {
+            center: { x: '0%', scale: 1, zIndex:5 },
+            left: {x: '0%', scale: 0.7, zIndex: 2 },
+            left1: {x: '0%', scale: 0.5, zIndex: 1 },
+            right1: {x: '0%', scale: 0.5, zIndex: 1 },
+            right: {x: '0%', scale: 0.7, zIndex: 2 }
+        }
+
     return (
         <div>
             <div className='w-full  sm:pt-10 pt-5 sm:px-36 px-7'>
@@ -75,7 +83,7 @@ const Gallery = () => {
 
            
 
-            <div className='sm:h-96 h-56 my-10 flex items-center flex-col justify-center '>
+            <div className='hidden sm:flex sm:h-96 h-56 my-10  items-center flex-col justify-center '>
                 {images.map((image, index) => (
                     
                     <motion.img
@@ -86,6 +94,22 @@ const Gallery = () => {
                         initial="center"
                         animate={positions[positionIndexes[index]]}
                         variants={imageVariants}
+                        transition={{ duration: 0.5 }}
+                        style={{ position: 'absolute' }} />
+                ))}
+            </div>
+
+            <div className='sm:hidden  h-56 my-10 flex items-center flex-col justify-center '>
+                {images.map((image, index) => (
+                    
+                    <motion.img
+                        key={index}
+                        src={image}
+                        alt={image}
+                        className=" rounded-[12px] sm:h-80 object-cover mx-10 sm:w-2/5 w-11/12 "
+                        initial="center"
+                        animate={positions[positionIndexes[index]]}
+                        variants={imageVariants2}
                         transition={{ duration: 0.5 }}
                         style={{ position: 'absolute' }} />
                 ))}
