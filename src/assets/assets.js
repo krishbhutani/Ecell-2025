@@ -22,7 +22,27 @@ import insta_logo from "./instalogo.png"
 import Initiatives from "./Initiatives.jpg"
 import toggle_menu from "./Toggle_button.jpg"
 import Cross_icon from "./Cross-icon.png"
+import img_slider_1 from "./img_slider_1.jpg"
+import img_slider_2 from "./img_slider_2.jpg"
+import img_slider_3 from "./img_slider_3.jpg"
+import img_slider_4 from "./img_slider_4.jpg"
+import img_slider_5 from "./img_slider_5.jpg"
+import img_slider_6 from "./img_slider_6.jpg"
+import img_slider_7 from "./img_slider_7.jpg"
+import img_slider_8 from "./img_slider_8.jpg"
+import img_slider_9 from "./img_slider_9.jpg"
 
+export const img_slider = [
+    img_slider_1,
+    img_slider_2,
+    img_slider_3,
+    img_slider_4,
+    img_slider_5,
+    img_slider_6,
+    img_slider_7,
+    img_slider_8,
+    img_slider_9
+]
 
 export const assets = {
     Ecell_logo,
@@ -48,7 +68,16 @@ export const assets = {
     insta_logo,
     Initiatives,
     toggle_menu,
-    Cross_icon
+    Cross_icon,
+    img_slider_1,
+    img_slider_2,
+    img_slider_3,
+    img_slider_4,
+    img_slider_5,
+    img_slider_6,
+    img_slider_7,
+    img_slider_8,
+    img_slider_9
 
 
 }
