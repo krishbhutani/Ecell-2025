@@ -14,11 +14,11 @@ import img_slider_9 from "../assets/img_slider_9.jpg"
 
 
 const Gallery = () => {
-        const [positionIndexes, setPositionIndexes] = useState([0, 1, 2, 3, 4,6,7,8])
+        const [positionIndexes, setPositionIndexes] = useState([0, 1, 2, 3, 4])
 
         const handleNext = () => {
             setPositionIndexes((prevIndexes) => {
-                const updatedIndexes = prevIndexes.map((prevIndexes) => (prevIndexes + 1) % 9)
+                const updatedIndexes = prevIndexes.map((prevIndexes) => (prevIndexes + 1) % 5)
                 return updatedIndexes
             })
         }
@@ -28,11 +28,11 @@ const Gallery = () => {
                 img_slider_2,
                 img_slider_3,
                 img_slider_4,
-                img_slider_5,
-                img_slider_6,
-                img_slider_7,
-                img_slider_8,
-                img_slider_9
+                img_slider_5
+                // img_slider_6,
+                // img_slider_7,
+                // img_slider_8,
+                // img_slider_9
 
         ]
 
@@ -41,12 +41,12 @@ const Gallery = () => {
             'center',
             'left1',
             'left',
-            'left3',
-            'left4',
+            // 'left3',
+            // 'left4',
             'right',
-            'right1',
-            'right3',
-            'right4'
+            'right1'
+            // 'right3',
+            // 'right4'
         ]
 
         const imageVariants = {
@@ -54,11 +54,11 @@ const Gallery = () => {
             left: {x: '-50%', scale: 0.7, zIndex: 2 },
             left1: {x: '-90%', scale: 0.5, zIndex: 1 },
             right1: {x: '90%', scale: 0.5, zIndex: 1 },
-            right: {x: '50%', scale: 0.7, zIndex: 2 },
-            right3: {x: '0%', scale: 0.7, zIndex: 1 },
-            right4: {x: '0%', scale: 0.7, zIndex: 1 },
-            left3: {x: '0%', scale: 0.7, zIndex: 1 },
-            left4: {x: '0%', scale: 0.7, zIndex: 1 }
+            right: {x: '50%', scale: 0.7, zIndex: 2 }
+            // right3: {x: '0%', scale: 0.7, zIndex: 1 },
+            // right4: {x: '0%', scale: 0.7, zIndex: 1 },
+            // left3: {x: '0%', scale: 0.7, zIndex: 1 },
+            // left4: {x: '0%', scale: 0.7, zIndex: 1 }
         }
 
         const imageVariants2 = {
@@ -66,11 +66,11 @@ const Gallery = () => {
             left: {x: '0%', scale: 0.7, zIndex: 2 },
             left1: {x: '0%', scale: 0.5, zIndex: 1 },
             right1: {x: '0%', scale: 0.5, zIndex: 1 },
-            right: {x: '0%', scale: 0.7, zIndex: 2 },
-            right3: {x: '0%', scale: 0.7, zIndex: 2 },
-            right4: {x: '0%', scale: 0.7, zIndex: 2 },
-            left3: {x: '0%', scale: 0.7, zIndex: 2 },
-            left4: {x: '0%', scale: 0.7, zIndex: 2 }
+            right: {x: '0%', scale: 0.7, zIndex: 2 }
+            // right3: {x: '0%', scale: 0.7, zIndex: 2 },
+            // right4: {x: '0%', scale: 0.7, zIndex: 2 },
+            // left3: {x: '0%', scale: 0.7, zIndex: 2 },
+            // left4: {x: '0%', scale: 0.7, zIndex: 2 }
         }
 
     return (
