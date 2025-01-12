@@ -1,4 +1,5 @@
 import React from 'react'
+import { assets } from '../assets/assets'
 
 const Alumni = () => {
     return (
@@ -28,10 +29,10 @@ const Alumni = () => {
                     <div className='mt-10 grid sm:grid-cols-12 grid-cols-4 gap-10 sm:px-28 px-8 mb-20'>
                         <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-auto'>
                             <div >
-                                <img className="h-64 w-full object-cover rounded-t-lg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Outdoors-man-portrait.jpg/1200px-Outdoors-man-portrait.jpg" alt="" />
+                                <img className="h-64 w-full object-cover rounded-t-lg" src={assets.unknown} alt="" />
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
-                                <p className='text-white text-xl font-medium pl-2 pt-2'>Abhinav Dhimav</p>
+                                <p className='text-white text-xl font-medium pl-2 pt-2'>Yash Panthri</p>
                                 <p className='text-slate-100 pl-2 -mt-1'>Manager </p>
 
                             </div>
@@ -39,10 +40,10 @@ const Alumni = () => {
 
                         <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4 h-80 w-auto'>
                             <div >
-                                <img className="h-64 w-full object-cover rounded-t-lg" src="https://www.vivaphotography.com.au/wp-content/uploads/2021/08/IV_3978-8_0x10_0-01.jpg" alt="" />
+                                <img className="h-64 w-full object-cover rounded-t-lg" src={assets.unknown} alt="" />
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
-                                <p className='text-white text-xl font-medium pl-2 pt-2'>Abhinav Dhimav</p>
+                                <p className='text-white text-xl font-medium pl-2 pt-2'>Sagar Attri</p>
                                 <p className='text-slate-100 pl-2 -mt-1'>Assistant Manager   </p>
 
                             </div>
@@ -50,10 +51,10 @@ const Alumni = () => {
 
                         <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-auto'>
                             <div >
-                                <img className="h-64 w-full object-cover rounded-t-lg" src="https://www.format.com/wp-content/uploads/portrait.jpg" alt="" />
+                                <img className="h-64 w-full object-cover rounded-t-lg" src={assets.unknown} alt="" />
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
-                                <p className='text-white text-xl font-medium pl-2 pt-2'>Abhinav Dhimav</p>
+                                <p className='text-white text-xl font-medium pl-2 pt-2'>Arnav Sharma</p>
                                 <p className='text-slate-100 pl-2 -mt-1'>Overall Coordinator  </p>
 
                             </div>
@@ -70,12 +71,12 @@ const Alumni = () => {
                     <div className='w-full h-px bg-black'></div>
 
                     <div className='mt-10 grid sm:grid-cols-12 grid-cols-4 gap-10 sm:px-28 px-8 mb-20'>
-                        <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4 h-80 w-auto'>
+                    <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-auto'>
                             <div >
-                                <img className="h-64 w-full object-cover rounded-t-lg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Outdoors-man-portrait.jpg/1200px-Outdoors-man-portrait.jpg" alt="" />
+                                <img className="h-64 w-full object-cover rounded-t-lg" src={assets.unknown} alt="" />
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
-                                <p className='text-white text-xl font-medium pl-2 pt-2'>Abhinav Dhimav</p>
+                                <p className='text-white text-xl font-medium pl-2 pt-2'>Ayush Kaushik</p>
                                 <p className='text-slate-100 pl-2 -mt-1'>Manager </p>
 
                             </div>
@@ -83,10 +84,10 @@ const Alumni = () => {
 
                         <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4 h-80 w-auto'>
                             <div >
-                                <img className="h-64 w-full object-cover rounded-t-lg" src="https://www.vivaphotography.com.au/wp-content/uploads/2021/08/IV_3978-8_0x10_0-01.jpg" alt="" />
+                                <img className="h-64 w-full object-cover rounded-t-lg" src={assets.unknown} alt="" />
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
-                                <p className='text-white text-xl font-medium pl-2 pt-2'>Abhinav Dhimav</p>
+                                <p className='text-white text-xl font-medium pl-2 pt-2'>Harsh Raj</p>
                                 <p className='text-slate-100 pl-2 -mt-1'>Assistant Manager   </p>
 
                             </div>
@@ -94,10 +95,10 @@ const Alumni = () => {
 
                         <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-auto'>
                             <div >
-                                <img className="h-64 w-full object-cover rounded-t-lg" src="https://www.format.com/wp-content/uploads/portrait.jpg" alt="" />
+                                <img className="h-64 w-full object-cover rounded-t-lg" src={assets.unknown} alt="" />
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
-                                <p className='text-white text-xl font-medium pl-2 pt-2'>Abhinav Dhimav</p>
+                                <p className='text-white text-xl font-medium pl-2 pt-2'>Vani Sharma</p>
                                 <p className='text-slate-100 pl-2 -mt-1'>Overall Coordinator  </p>
 
                             </div>
@@ -113,12 +114,12 @@ const Alumni = () => {
                     <div className='w-full h-px bg-black'></div>
 
                     <div className='mt-10 grid sm:grid-cols-12 grid-cols-4 gap-10 sm:px-28 px-8 mb-20'>
-                        <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4 h-80 w-auto'>
+                    <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-auto'>
                             <div >
-                                <img className="h-64 w-full object-cover rounded-t-lg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Outdoors-man-portrait.jpg/1200px-Outdoors-man-portrait.jpg" alt="" />
+                                <img className="h-64 w-full object-cover rounded-t-lg" src={assets.unknown} alt="" />
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
-                                <p className='text-white text-xl font-medium pl-2 pt-2'>Abhinav Dhimav</p>
+                                <p className='text-white text-xl font-medium pl-2 pt-2'>Deepika Agarwal</p>
                                 <p className='text-slate-100 pl-2 -mt-1'>Manager </p>
 
                             </div>
@@ -126,21 +127,21 @@ const Alumni = () => {
 
                         <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4 h-80 w-auto'>
                             <div >
-                                <img className="h-64 w-full object-cover rounded-t-lg" src="https://www.vivaphotography.com.au/wp-content/uploads/2021/08/IV_3978-8_0x10_0-01.jpg" alt="" />
+                                <img className="h-64 w-full object-cover rounded-t-lg" src={assets.unknown} alt="" />
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
-                                <p className='text-white text-xl font-medium pl-2 pt-2'>Abhinav Dhimav</p>
+                                <p className='text-white text-xl font-medium pl-2 pt-2'>Radhika Bhatti</p>
                                 <p className='text-slate-100 pl-2 -mt-1'>Assistant Manager   </p>
 
                             </div>
                         </div>
 
-                        <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4 h-80 w-auto'>
+                        <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-auto'>
                             <div >
-                                <img className="h-64 w-full object-cover rounded-t-lg" src="https://www.format.com/wp-content/uploads/portrait.jpg" alt="" />
+                                <img className="h-64 w-full object-cover rounded-t-lg" src={assets.unknown} alt="" />
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
-                                <p className='text-white text-xl font-medium pl-2 pt-2'>Abhinav Dhimav</p>
+                                <p className='text-white text-xl font-medium pl-2 pt-2'>Akhya Rai</p>
                                 <p className='text-slate-100 pl-2 -mt-1'>Overall Coordinator  </p>
 
                             </div>
@@ -156,12 +157,12 @@ const Alumni = () => {
                     <div className='w-full h-px bg-black'></div>
 
                     <div className='mt-10 grid sm:grid-cols-12 grid-cols-4 gap-10 sm:px-28 px-8 mb-20'>
-                        <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4 h-80 w-auto'>
+                    <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-auto'>
                             <div >
-                                <img className="h-64 w-full object-cover rounded-t-lg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Outdoors-man-portrait.jpg/1200px-Outdoors-man-portrait.jpg" alt="" />
+                                <img className="h-64 w-full object-cover rounded-t-lg" src={assets.unknown} alt="" />
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
-                                <p className='text-white text-xl font-medium pl-2 pt-2'>Abhinav Dhimav</p>
+                                <p className='text-white text-xl font-medium pl-2 pt-2'>Vaibhav Maheshwari</p>
                                 <p className='text-slate-100 pl-2 -mt-1'>Manager </p>
 
                             </div>
@@ -169,21 +170,21 @@ const Alumni = () => {
 
                         <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4 h-80 w-auto'>
                             <div >
-                                <img className="h-64 w-full object-cover rounded-t-lg" src="https://www.vivaphotography.com.au/wp-content/uploads/2021/08/IV_3978-8_0x10_0-01.jpg" alt="" />
+                                <img className="h-64 w-full object-cover rounded-t-lg" src={assets.unknown} alt="" />
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
-                                <p className='text-white text-xl font-medium pl-2 pt-2'>Abhinav Dhimav</p>
+                                <p className='text-white text-xl font-medium pl-2 pt-2'>Pawan Sehrawat</p>
                                 <p className='text-slate-100 pl-2 -mt-1'>Assistant Manager   </p>
 
                             </div>
                         </div>
 
-                        <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4 h-80 w-auto'>
+                        <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-auto'>
                             <div >
-                                <img className="h-64 w-full object-cover rounded-t-lg" src="https://www.format.com/wp-content/uploads/portrait.jpg" alt="" />
+                                <img className="h-64 w-full object-cover rounded-t-lg" src={assets.unknown} alt="" />
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
-                                <p className='text-white text-xl font-medium pl-2 pt-2'>Abhinav Dhimav</p>
+                                <p className='text-white text-xl font-medium pl-2 pt-2'>Abhishek Kolish</p>
                                 <p className='text-slate-100 pl-2 -mt-1'>Overall Coordinator  </p>
 
                             </div>
@@ -199,12 +200,12 @@ const Alumni = () => {
                     <div className='w-full h-px bg-black'></div>
 
                     <div className='mt-10 grid sm:grid-cols-12 grid-cols-4 gap-10 sm:px-28 px-8 mb-20'>
-                        <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4 h-80 w-auto'>
+                    <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-auto'>
                             <div >
-                                <img className="h-64 w-full object-cover rounded-t-lg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Outdoors-man-portrait.jpg/1200px-Outdoors-man-portrait.jpg" alt="" />
+                                <img className="h-64 w-full object-cover rounded-t-lg" src={assets.unknown} alt="" />
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
-                                <p className='text-white text-xl font-medium pl-2 pt-2'>Abhinav Dhimav</p>
+                                <p className='text-white text-xl font-medium pl-2 pt-2'>Shubham Vijay</p>
                                 <p className='text-slate-100 pl-2 -mt-1'>Manager </p>
 
                             </div>
@@ -212,21 +213,21 @@ const Alumni = () => {
 
                         <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4 h-80 w-auto'>
                             <div >
-                                <img className="h-64 w-full object-cover rounded-t-lg" src="https://www.vivaphotography.com.au/wp-content/uploads/2021/08/IV_3978-8_0x10_0-01.jpg" alt="" />
+                                <img className="h-64 w-full object-cover rounded-t-lg" src={assets.unknown} alt="" />
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
-                                <p className='text-white text-xl font-medium pl-2 pt-2'>Abhinav Dhimav</p>
+                                <p className='text-white text-xl font-medium pl-2 pt-2'>Shrey Asati</p>
                                 <p className='text-slate-100 pl-2 -mt-1'>Assistant Manager   </p>
 
                             </div>
                         </div>
 
-                        <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4 h-80 w-auto'>
+                        <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-auto'>
                             <div >
-                                <img className="h-64 w-full object-cover rounded-t-lg" src="https://www.format.com/wp-content/uploads/portrait.jpg" alt="" />
+                                <img className="h-64 w-full object-cover rounded-t-lg" src={assets.unknown} alt="" />
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
-                                <p className='text-white text-xl font-medium pl-2 pt-2'>Abhinav Dhimav</p>
+                                <p className='text-white text-xl font-medium pl-2 pt-2'>Shashant Mangal  </p>
                                 <p className='text-slate-100 pl-2 -mt-1'>Overall Coordinator  </p>
 
                             </div>
@@ -248,10 +249,10 @@ const Alumni = () => {
                         <div class="grid grid-cols-subgrid sm:col-start-5 col-start-1 gap-10 col-span-4">
                             <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4 h-80 w-auto'>
                                 <div >
-                                    <img className="h-64 w-full object-cover rounded-t-lg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Outdoors-man-portrait.jpg/1200px-Outdoors-man-portrait.jpg" alt="" />
+                                    <img className="h-64 w-full object-cover rounded-t-lg" src={assets.unknown} alt="" />
                                 </div>
                                 <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
-                                    <p className='text-white text-xl font-medium pl-2 pt-2'>Abhinav Dhimav</p>
+                                    <p className='text-white text-xl font-medium pl-2 pt-2'>Siddhant Garg</p>
                                     <p className='text-slate-100 pl-2 -mt-1'>President  </p>
 
                                 </div>

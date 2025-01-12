@@ -1,10 +1,10 @@
 import Ecell_logo from "./Ecell_logo.png"
 import NITH_logo from "./NITH_logo.png"
 import Header_img from "./Header_image.png"
-import SIP from "./SIP.png"
-import Linkdin from "./Linkdin.png"
+import SIP from "./SIP.jpg"
 import E_summit from "./E-summit.png"
-import Crescendo from "./Crescendo.png"
+import Crescendo from "./Crescendo.jpg"
+import Hult from "./Hult.jpg"
 import Past_sp_1 from "./Past_sp_1.png"
 import Past_sp_2 from "./Past_sp_2.png"
 import Past_sp_3 from "./Past_sp_3.png"
@@ -32,26 +32,35 @@ import img_slider_7 from "./img_slider_7.jpg"
 import img_slider_8 from "./img_slider_8.jpg"
 import img_slider_9 from "./img_slider_9.jpg"
 
-export const img_slider = [
-    img_slider_1,
-    img_slider_2,
-    img_slider_3,
-    img_slider_4,
-    img_slider_5,
-    img_slider_6,
-    img_slider_7,
-    img_slider_8,
-    img_slider_9
-]
+import Prashant from "./Prashant.jpg"
+import Khushi from "./Khushi.jpg"
+import Krish from "./Krish.jpg"
+import Ashmit from "./Ashmit.jpg"
+import Robin from "./Robin.jpeg"
+import Jai from "./Jai.jpg"
+import Kartik from "./Kartik.jpg"
+import Parti from "./Parti.jpg"
+import Gyan from "./Gyan.jpg"
+import unknown from "./download.png"
+import Divyanshu from "./Divyanshu.jpg"
+import Sachit from "./Sachit.jpg"
+import Abhinav from "./Abhinav.jpg"
+import Yash from "./Yash.jpg"
+import Janhavi from "./Janhavi.jpg"
+import Srujan from "./Srujan.jpg"
+import Nupur from "./Nupur.jpg"
+import Vaishnav from "./Vaishnav.jpg"
+
+
 
 export const assets = {
     Ecell_logo,
     NITH_logo,
     Header_img,
-    SIP,
-    Linkdin,
     E_summit,
     Crescendo,
+    Hult,
+    SIP,
     Past_sp_1,
     Past_sp_2,
     Past_sp_3,
@@ -77,7 +86,27 @@ export const assets = {
     img_slider_6,
     img_slider_7,
     img_slider_8,
-    img_slider_9
+    img_slider_9,
+
+    Prashant,
+    Khushi,
+    Krish,
+    Ashmit,
+    Robin,
+    Jai,
+    Kartik,
+    Parti,
+    Gyan,
+    unknown,
+    Divyanshu,
+    Sachit,
+    Abhinav,
+    Yash,
+    Janhavi,
+    Srujan,
+    Nupur,
+    Vaishnav,
+    
 
 
 }
