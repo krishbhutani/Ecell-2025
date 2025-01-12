@@ -46,7 +46,7 @@ const TeamMem = () => {
                                 </div>
                                 <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
                                     <p className='text-white text-xl font-medium pl-2 pt-2'>Abhinav Dhiman</p>
-                                    <p className='text-slate-100 pl-2 -mt-1'>Club Member</p>
+                                    <p className='text-slate-100 pl-2 -mt-1'>Sub-Coordinator</p>
 
                                 </div>
                             </div>
@@ -84,7 +84,7 @@ const TeamMem = () => {
                                 </div>
                                 <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
                                     <p className='text-white text-xl font-medium pl-2 pt-2'>Harshit Parti</p>
-                                    <p className='text-slate-100 pl-2 -mt-1'>Club Member</p>
+                                    <p className='text-slate-100 pl-2 -mt-1'>Sub-Coordinator</p>
 
                                 </div>
                             </div>
@@ -119,7 +119,7 @@ const TeamMem = () => {
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
                                 <p className='text-white text-xl font-medium pl-2 pt-2'>Khushi Singh</p>
-                                <p className='text-slate-100 pl-2 -mt-1'>Club Member</p>
+                                <p className='text-slate-100 pl-2 -mt-1'>Sub-Coordinator</p>
 
                             </div>
                         </div>
@@ -130,7 +130,7 @@ const TeamMem = () => {
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
                                 <p className='text-white text-xl font-medium pl-2 pt-2'>Divyanshu Verma</p>
-                                <p className='text-slate-100 pl-2 -mt-1'>Club Member</p>
+                                <p className='text-slate-100 pl-2 -mt-1'>Sub-Coordinator</p>
 
                             </div>
                         </div>
@@ -163,7 +163,7 @@ const TeamMem = () => {
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
                                 <p className='text-white text-xl font-medium pl-2 pt-2'>Prashant Kumar</p>
-                                <p className='text-slate-100 pl-2 -mt-1'>Club Member</p>
+                                <p className='text-slate-100 pl-2 -mt-1'>Sub-Coordinator</p>
 
                             </div>
                         </div>
@@ -174,7 +174,7 @@ const TeamMem = () => {
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
                                 <p className='text-white text-xl font-medium pl-2 pt-2'>Yash Taank</p>
-                                <p className='text-slate-100 pl-2 -mt-1'>Club Member</p>
+                                <p className='text-slate-100 pl-2 -mt-1'>Sub-Coordinator</p>
 
                             </div>
                         </div>
@@ -206,7 +206,7 @@ const TeamMem = () => {
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
                                 <p className='text-white text-xl font-medium pl-2 pt-2'>Janhavi Bisht</p>
-                                <p className='text-slate-100 pl-2 -mt-1'>Club Member</p>
+                                <p className='text-slate-100 pl-2 -mt-1'>Sub-Coordinator</p>
 
                             </div>
                         </div>
@@ -217,7 +217,7 @@ const TeamMem = () => {
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
                                 <p className='text-white text-xl font-medium pl-2 pt-2'>Sachit Sharma</p>
-                                <p className='text-slate-100 pl-2 -mt-1'>Club Member</p>
+                                <p className='text-slate-100 pl-2 -mt-1'>Sub-Coordinator</p>
 
                             </div>
                         </div>
@@ -249,7 +249,7 @@ const TeamMem = () => {
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
                                 <p className='text-white text-xl font-medium pl-2 pt-2'>Nupur Rana</p>
-                                <p className='text-slate-100 pl-2 -mt-1'>Club Member</p>
+                                <p className='text-slate-100 pl-2 -mt-1'>Sub-Coordinator</p>
 
                             </div>
                         </div>
@@ -260,7 +260,7 @@ const TeamMem = () => {
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
                                 <p className='text-white text-xl font-medium pl-2 pt-2'>Anurag Yadav</p>
-                                <p className='text-slate-100 pl-2 -mt-1'>Club Member</p>
+                                <p className='text-slate-100 pl-2 -mt-1'>Sub-Coordinator</p>
 
                             </div>
                         </div>
