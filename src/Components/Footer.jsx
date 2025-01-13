@@ -44,7 +44,7 @@ const Footer = () => {
                     <div className='sm:mt-0  mt-10 sm:px-0 px-10'>
                         <div className='font-medium sm:text-xl text-lg sm:mb-2 '>CONTACT</div>
                         <div>
-                            <p className='text-base mb-1'> 📍 STUDENT ACTIVITY CENTER, NIT</p>
+                            <p className='text-base mb-1'> 📍STUDENT ACTIVITY CENTER,NIT</p>
                             <p className='text-base mb-1'>HIMACHAL PRADESH 177005</p>
                             <Link to="/contact" className='text-base '>📧 CONTACT</Link>
                         </div>
