@@ -47,7 +47,7 @@ const Navbar = () => {
                         <Link onClick={()=> setShowMobileMenu(false)} to='/about' className='cursor-pointer text-black'>About Us</Link>
                         <Link onClick={()=> setShowMobileMenu(false)} to='/team' className='cursor-pointer text-black'>Our Team</Link>
                         <Link onClick={()=> setShowMobileMenu(false)} to='/alumni' className='cursor-pointer text-black'>Our Alumni</Link>
-                        <Link onClick={()=> setShowMobileMenu(false)} to='#' className='cursor-pointer text-black'>Contact Us</Link>
+                        <Link onClick={()=> setShowMobileMenu(false)} to='/contact' className='cursor-pointer text-black'>Contact Us</Link>
 
                     </ul>
             </div>

@@ -62,7 +62,7 @@ const router = createBrowserRouter(
       </div>
     },
     {
-      path:'/contact',
+      path: '/contact',
       element:
       <div>
         <ToastContainer/>
