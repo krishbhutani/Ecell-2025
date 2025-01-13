@@ -1,9 +1,16 @@
 import React from 'react'
+import {motion} from "framer-motion"
+import { Link } from 'react-router-dom'
 
 const Events = () => {
     return (
         <div>
-            <div className='w-full  sm:pt-10 pt-5 sm:px-36 px-7'>
+            <motion.div
+                        initial = {{opacity:0,translateY: "20%"}}
+                        whileInView={{opacity:1,translateY:0}}
+                        transition={{duration: 1}}
+            
+            className='w-full  sm:pt-10 pt-5 sm:px-36 px-7'>
                 <div className='sm:text-4xl text-3xl font-medium flex items-center gap-3 '>
                     <span className='text-slate-500'>Our</span><span>Events</span>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-20">
@@ -76,7 +83,7 @@ const Events = () => {
                     </div>
 
                 </div>
-            </div>
+            </motion.div>
 
 
             <div className='flex sm:flex-row flex-col sm:px-0 px-6 items-center sm:justify-center py-5 bg-[#310742] mt-8'>
@@ -85,7 +92,7 @@ const Events = () => {
                 {/* <div className='text-yellow-300 pl-2 font-medium text-xl sm:text-3xl mr-3'> Instagram</div> */}
                 <div>
                     <button type="button" className="text-black mt-4 sm:mt-0 bg-white font-medium rounded-full text-sm px-5 py-2.5 text-center inline-flex items-center ">
-                        Click here
+                    <Link to="https://nith.ac.in/">Click here</Link>
                         <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
                         </svg>

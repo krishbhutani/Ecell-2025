@@ -50,6 +50,7 @@ import Janhavi from "./Janhavi.jpg"
 import Srujan from "./Srujan.jpg"
 import Nupur from "./Nupur.jpg"
 import Vaishnav from "./Vaishnav.jpg"
+import About1 from "./About1.jpg"
 
 
 
@@ -87,6 +88,7 @@ export const assets = {
     img_slider_7,
     img_slider_8,
     img_slider_9,
+    About1,
 
     Prashant,
     Khushi,

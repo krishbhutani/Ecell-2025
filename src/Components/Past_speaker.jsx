@@ -1,10 +1,17 @@
 import React from 'react'
 import { assets } from '../assets/assets'
+import {motion} from "framer-motion"
+import { Link } from 'react-router-dom'
 
 const Past_speaker = () => {
     return (
         <div>
-            <div className='w-full  sm:pt-10 pt-5 sm:px-36 px-7'  >
+            <motion.div
+            initial = {{opacity:0,translateY: "20%"}}
+            whileInView={{opacity:1,translateY:0}}
+            transition={{duration: 1}}
+
+            className='w-full  sm:pt-10 pt-5 sm:px-36 px-7'  >
                 <div>
                     {/* <span className='text-slate-500'>Our</span><span className='inline-block'>Past Speakers</span> */}
                     <div className='flex flex-row items-center justify-start sm:text-4xl text-3xl mb-2 sm:mb-0 font-medium ' >
@@ -33,14 +40,14 @@ const Past_speaker = () => {
 
 
                 </div>
-            </div>
+            </motion.div>
             <div className='flex sm:flex-row flex-col sm:px-0 px-6 items-center sm:justify-center py-5 bg-[#310742] mt-8'>
                 <div className='text-white font-medium text-xl sm:text-3xl mr-3'>Wanna see how people react to our reels on <span className='text-yellow-300'>Instagram</span>
                 </div>
                 {/* <div className='text-yellow-300 pl-2 font-medium text-xl sm:text-3xl mr-3'> Instagram</div> */}
                 <div>
                     <button type="button" className="text-black mt-4 sm:mt-0 bg-white font-medium rounded-full text-sm px-5 py-2.5 text-center inline-flex items-center ">
-                        Click here
+                        <Link to = "">Click here</Link>
                         <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
                         </svg>

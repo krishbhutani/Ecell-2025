@@ -29,8 +29,8 @@ const TeamMem = () => {
                     <div className='mt-10 grid sm:grid-cols-12 grid-cols-4 gap-10 sm:px-28 px-8 mb-20'>
                         <div class="grid grid-cols-subgrid sm:col-start-3 col-start-1 gap-10 col-span-8">
                             <div className=' bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  sm:col-span-4 col-span-8 h-80 w-auto'>
-                                <div >
-                                    <img className="h-64 w-full object-cover rounded-t-lg hover:scale-105   duration-1000" src={assets.Krish} alt="" />
+                                <div className='overflow-hidden'>
+                                    <img className="h-64 w-full object-cover rounded-t-lg hover:scale-110 hover:-rotate-3 duration-1000" src={assets.Krish} alt="" />
                                 </div>
                                 <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
                                     <p className='text-white text-xl font-medium pl-2 pt-2'>Krish Bhutani</p>
@@ -41,8 +41,8 @@ const TeamMem = () => {
 
 
                             <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  sm:col-span-4 col-span-8 h-80 w-auto'>
-                                <div >
-                                    <img className="h-64 w-full object-cover rounded-t-lg" src={assets.Abhinav} alt="" />
+                                <div className='overflow-hidden'>
+                                    <img className="h-64 w-full object-cover rounded-t-lg hover:scale-110 hover:-rotate-3 duration-1000" src={assets.Abhinav} alt="" />
                                 </div>
                                 <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
                                     <p className='text-white text-xl font-medium pl-2 pt-2'>Abhinav Dhiman</p>
@@ -67,8 +67,8 @@ const TeamMem = () => {
                     <div className='mt-10 grid sm:grid-cols-12 grid-cols-4 gap-10 sm:px-28 px-8 mb-20'>
                         <div class="grid grid-cols-subgrid sm:col-start-3 col-start-1 gap-10 col-span-8">
                             <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  sm:col-span-4 col-span-8 h-80 w-auto'>
-                                <div >
-                                    <img className="h-64 w-full object-cover rounded-t-lg" src={assets.Kartik} alt="" />
+                                <div className='overflow-hidden'>
+                                    <img className="h-64 w-full object-cover rounded-t-lg hover:scale-110 hover:-rotate-3 duration-1000" src={assets.Kartik} alt="" />
                                 </div>
                                 <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
                                     <p className='text-white text-xl font-medium pl-2 pt-2'>Kartik D. Gadade</p>
@@ -79,9 +79,9 @@ const TeamMem = () => {
 
 
                             <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  sm:col-span-4 col-span-8 h-80 w-auto'>
-                                <div >
-                                    <img className="h-64 w-full object-cover rounded-t-lg" src={assets.Parti} alt="" />
-                                </div>
+                                <div className='overflow-hidden'>
+                                    <img className="h-64 w-full object-cover rounded-t-lg hover:scale-110 hover:-rotate-3 duration-1000" src={assets.Parti} alt="" />
+                                </div >
                                 <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
                                     <p className='text-white text-xl font-medium pl-2 pt-2'>Harshit Parti</p>
                                     <p className='text-slate-100 pl-2 -mt-1'>Sub-Coordinator</p>
@@ -103,8 +103,8 @@ const TeamMem = () => {
 
                     <div className='mt-10 grid sm:grid-cols-12 grid-cols-4 gap-10 sm:px-28 px-8 mb-20'>
                         <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-auto'>
-                            <div >
-                                <img className="h-64 w-full object-cover rounded-t-lg" src={assets.Gyan} alt="" />
+                            <div className='overflow-hidden'>
+                                <img className="h-64 w-full object-cover rounded-t-lg hover:scale-110 hover:-rotate-3 duration-1000" src={assets.Gyan} alt="" />
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
                                 <p className='text-white text-xl font-medium pl-2 pt-2'>Gyan Prakash</p>
@@ -114,8 +114,8 @@ const TeamMem = () => {
                         </div>
 
                         <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4 h-80 w-auto'>
-                            <div >
-                                <img className="h-64 w-full object-cover rounded-t-lg" src={assets.Khushi} alt="" />
+                            <div className='overflow-hidden'>
+                                <img className="h-64 w-full object-cover rounded-t-lg hover:scale-110 hover:-rotate-3 duration-1000" src={assets.Khushi} alt="" />
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
                                 <p className='text-white text-xl font-medium pl-2 pt-2'>Khushi Singh</p>
@@ -125,8 +125,8 @@ const TeamMem = () => {
                         </div>
 
                         <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-auto'>
-                            <div >
-                                <img className="h-64 w-full object-cover rounded-t-lg" src={assets.Divyanshu} alt="" />
+                            <div className='overflow-hidden'>
+                                <img className="h-64 w-full object-cover rounded-t-lg hover:scale-110 hover:-rotate-3 duration-1000" src={assets.Divyanshu} alt="" />
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
                                 <p className='text-white text-xl font-medium pl-2 pt-2'>Divyanshu Verma</p>
@@ -147,8 +147,8 @@ const TeamMem = () => {
 
                     <div className='mt-10 grid sm:grid-cols-12 grid-cols-4 gap-10 sm:px-28 px-8 mb-20'>
                         <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-auto'>
-                            <div >
-                                <img className="h-64 w-full object-cover rounded-t-lg" src={assets.Vaishnav} alt="" />
+                            <div className='overflow-hidden'>
+                                <img className="h-64 w-full object-cover rounded-t-lg hover:scale-110 hover:-rotate-3 duration-1000" src={assets.Vaishnav} alt="" />
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
                                 <p className='text-white text-xl font-medium pl-2 pt-2'>Vaishnav A. Baravkar</p>
@@ -158,8 +158,8 @@ const TeamMem = () => {
                         </div>
 
                         <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4 h-80 w-auto'>
-                            <div >
-                                <img className="h-64 w-full object-cover rounded-t-lg" src={assets.Prashant} alt="" />
+                            <div className='overflow-hidden'>
+                                <img className="h-64 w-full object-cover rounded-t-lg hover:scale-110 hover:-rotate-3 duration-1000" src={assets.Prashant} alt="" />
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
                                 <p className='text-white text-xl font-medium pl-2 pt-2'>Prashant Kumar</p>
@@ -169,8 +169,8 @@ const TeamMem = () => {
                         </div>
 
                         <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-auto'>
-                            <div >
-                                <img className="h-64 w-full object-cover rounded-t-lg" src={assets.Yash} alt="" />
+                            <div className='overflow-hidden'>
+                                <img className="h-64 w-full object-cover rounded-t-lg hover:scale-110 hover:-rotate-3 duration-1000" src={assets.Yash} alt="" />
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
                                 <p className='text-white text-xl font-medium pl-2 pt-2'>Yash Taank</p>
@@ -190,8 +190,8 @@ const TeamMem = () => {
 
                     <div className='mt-10 grid sm:grid-cols-12 grid-cols-4 gap-10 sm:px-28 px-8 mb-20'>
                         <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-auto'>
-                            <div >
-                                <img className="h-64 w-full object-cover rounded-t-lg" src={assets.Srujan} alt="" />
+                            <div className='overflow-hidden'>
+                                <img className="h-64 w-full object-cover rounded-t-lg hover:scale-110 hover:-rotate-3 duration-1000" src={assets.Srujan} alt="" />
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
                                 <p className='text-white text-xl font-medium pl-2 pt-2'>Srujan Sontakke</p>
@@ -201,8 +201,8 @@ const TeamMem = () => {
                         </div>
 
                         <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4 h-80 w-auto'>
-                            <div >
-                                <img className="h-64 w-full object-cover rounded-t-lg" src={assets.Janhavi} alt="" />
+                            <div className='overflow-hidden'>
+                                <img className="h-64 w-full object-cover rounded-t-lg hover:scale-110 hover:-rotate-3 duration-1000" src={assets.Janhavi} alt="" />
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
                                 <p className='text-white text-xl font-medium pl-2 pt-2'>Janhavi Bisht</p>
@@ -212,8 +212,8 @@ const TeamMem = () => {
                         </div>
 
                         <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-auto'>
-                            <div >
-                                <img className="h-64 w-full object-cover rounded-t-lg" src={assets.Sachit} alt="" />
+                            <div className='overflow-hidden'>
+                                <img className="h-64 w-full object-cover rounded-t-lg hover:scale-110 hover:-rotate-3 duration-1000" src={assets.Sachit} alt="" />
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
                                 <p className='text-white text-xl font-medium pl-2 pt-2'>Sachit Sharma</p>
@@ -233,8 +233,8 @@ const TeamMem = () => {
 
                     <div className='mt-10 grid sm:grid-cols-12 grid-cols-4 gap-10 sm:px-28 px-8 mb-20'>
                         <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-auto'>
-                            <div >
-                                <img className="h-64 w-full object-cover rounded-t-lg" src={assets.unknown} alt="" />
+                            <div className='overflow-hidden'>
+                                <img className="h-64 w-full object-cover rounded-t-lg hover:scale-110 hover:-rotate-3 duration-1000" src={assets.unknown} alt="" />
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
                                 <p className='text-white text-xl font-medium pl-2 pt-2'>Prachi Pathak</p>
@@ -244,8 +244,8 @@ const TeamMem = () => {
                         </div>
 
                         <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4 h-80 w-auto'>
-                            <div >
-                                <img className="h-64 w-full object-cover rounded-t-lg" src={assets.Nupur} alt="" />
+                            <div className='overflow-hidden'>
+                                <img className="h-64 w-full object-cover rounded-t-lg hover:scale-110 hover:-rotate-3 duration-1000" src={assets.Nupur} alt="" />
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
                                 <p className='text-white text-xl font-medium pl-2 pt-2'>Nupur Rana</p>
@@ -255,8 +255,8 @@ const TeamMem = () => {
                         </div>
 
                         <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-auto'>
-                            <div >
-                                <img className="h-64 w-full object-cover rounded-t-lg" src={assets.unknown} alt="" />
+                            <div className='overflow-hidden'>
+                                <img className="h-64 w-full object-cover rounded-t-lg hover:scale-110 hover:-rotate-3 duration-1000" src={assets.unknown} alt="" />
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
                                 <p className='text-white text-xl font-medium pl-2 pt-2'>Anurag Yadav</p>

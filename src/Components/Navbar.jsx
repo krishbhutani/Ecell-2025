@@ -32,7 +32,7 @@ const Navbar = () => {
                         <Link to='/about' className='cursor-pointer text-white'>About Us</Link>
                         <Link to='/team' className='cursor-pointer text-white'>Our Team</Link>
                         <Link to='/alumni' className='cursor-pointer text-white'>Our Alumni</Link>
-                        <Link to='#' className='cursor-pointer text-white'>Contact Us</Link>
+                        <Link to='/contact' className='cursor-pointer text-white'>Contact Us</Link>
 
                     </ul>
                 </div>

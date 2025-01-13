@@ -11,6 +11,9 @@ import Team from './Components/Team'
 import Footer from './Components/Footer'
 import Alumni from './Components/Alumni'
 import TeamMem from './Components/TeamMem'
+import Contact from './Components/Contact'
+import About from "./Components/About"
+import { ToastContainer} from 'react-toastify';
 
 const router = createBrowserRouter(
   [
@@ -36,7 +39,8 @@ const router = createBrowserRouter(
       element:
         <div>
           <Navbar />
-          <Initiatives />
+          <About/>
+          <Footer/>
         </div>
     },
     {
@@ -54,6 +58,16 @@ const router = createBrowserRouter(
       <div>
         <Navbar/>
         <TeamMem/>
+        <Footer/>
+      </div>
+    },
+    {
+      path:'/contact',
+      element:
+      <div>
+        <ToastContainer/>
+        <Navbar/>
+        <Contact/>
         <Footer/>
       </div>
     },

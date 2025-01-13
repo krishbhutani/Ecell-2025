@@ -13,10 +13,10 @@ const Footer = () => {
                     <img className="w-full" src={assets.Footer_logo} alt="" />
 
                     <div className='flex items-center gap-2 sm:gap-4'>
-                        <img className='h-12 w-auto'  src={assets.linkedin_logo} alt="" />
-                        <img className='h-12 w-auto'  src={assets.insta_logo} alt="" />
-                        <img className='h-8 w-auto'  src={assets.X_logo} alt="" />
-                        <img className='h-12 w-auto'  src={assets.yt_logo} alt="" />
+                       <Link to="https://www.linkedin.com/company/entrepreneurshipcellnith/"><img className='h-12 w-auto cursor-pointer'  src={assets.linkedin_logo} alt="" /></Link> 
+                        <Link to="https://www.instagram.com/ecell_nith?igsh=dG9vaDBxaWM0Z2pz&utm_source=qr"><img className='cursor-pointer h-12 w-auto'  src={assets.insta_logo} alt="" /></Link>
+                        <Link><img className='cursor-pointer h-8 w-auto'  src={assets.X_logo} alt="" /></Link>
+                        <Link><img className='cursor-pointer h-12 w-auto'  src={assets.yt_logo} alt="" /></Link>
                     </div>
                 </div>
                 <div className='flex flex-row  sm:pl-72 pl-0 sm:gap-14 gap-7 sm:mt-0 mt-5 '>
@@ -24,11 +24,11 @@ const Footer = () => {
                         <div className='font-medium sm:text-xl text-lg sm:mb-4 mb-2'>Links</div>
 
                         <ul className='flex flex-col sm:gap-2 gap-0'>
-                            <Link className='sm:text-xl text-lg' href="#">HOME</Link>
-                            <Link className='sm:text-xl text-lg' target="_blank" href="https://nith.ac.in/">NITH</Link>
-                            <Link className='sm:text-xl text-lg' href="#">About Us</Link>
-                            <Link className='sm:text-xl text-lg' href="#Team">Our Team</Link>
-                            <Link className='sm:text-xl text-lg' href="#">FAQs</Link>
+                            <Link className='sm:text-xl text-lg' to="/">HOME</Link>
+                            <Link className='sm:text-xl text-lg' target="_blank" to="https://nith.ac.in/">NITH</Link>
+                            <Link className='sm:text-xl text-lg' to="/about">About Us</Link>
+                            <Link className='sm:text-xl text-lg' to="/team">Our Team</Link>
+                            <Link className='sm:text-xl text-lg' to="#">FAQs</Link>
                         </ul>
 
                     </div>
@@ -37,10 +37,13 @@ const Footer = () => {
                         <div className='font-medium sm:text-xl text-lg sm:mb-4 mb-2'>Our Initiatives</div>
 
                         <ul className='flex flex-col sm:gap-2 gap-0'>
-                            <a className='sm:text-xl text-lg' href="#">E-Summit</a>
-                            <a className='sm:text-xl text-lg' href="#">SIP</a>
-                            <a className='sm:text-xl text-lg' href="#">HULT Prize</a>
-                            <a className='sm:text-xl text-lg' href="https://e-crescendo.vercel.app">E-Crescendo</a>
+                        
+                        <Link className='sm:text-xl text-lg' to="https://e-crescendo.vercel.app">E-Crescendo</Link>
+                        <Link className='sm:text-xl text-lg' to="https://ecell-hult-e.vercel.app">HULT Prize</Link>
+                        <Link className='sm:text-xl text-lg' to="#">E-Summit</Link>
+                        <Link className='sm:text-xl text-lg' to="#">SIP</Link>
+
+                            
 
                         </ul>
 
