@@ -52,6 +52,22 @@ import Nupur from "./Nupur.jpg"
 import Vaishnav from "./Vaishnav.jpg"
 import About1 from "./About1.jpg"
 
+import Yash_Panthri_alumini from "./Yash_Panthri_alumini.jpeg"
+import Sagar_Attri_Alumini from "./Sagar_Attri_Alumini.jpeg"
+import Arnav_Sharma_alumini from "./Arnav_Sharma_alumini.jpeg"
+import Ayush_Kaushik_alumini from "./Ayush_Kaushik_alumini.jpeg"
+import  Harsh_Raj_Alumini from "./Harsh_Raj_Alumini.jpeg"
+import Vani_Sharma_alumini from "./Vani_Sharma_alumini.jpeg"
+import Radhika_Bhatti_alumini from "./Radhika_Bhatti_alumini.jpeg"
+import Akhya_Rai_alumini from "./Akhya_Rai_alumini.jpeg"
+import Vaibhav_Maheshwari_alumini from "./Vaibhav_Maheshwari_alumini.jpeg"
+import Pawan_Sehrawat_alumini from "./Pawan_Sehrawat_alumini.jpeg"
+import Abhishek_Kolish_alumini from "./Abhishek_Kolish_alumini.jpeg"
+import Shubham_Vijay_alumini from "./Shubham_Vijay_alumini.jpeg"
+import  Shrey_Asati_alumini from "./Shrey_Asati_alumini.jpeg"
+import Shashant_Mangal_alumini from "./Shashant_Mangal_alumini.jpeg"
+import Siddhant_Garg_alumini from "./Siddhant_Garg_alumini.jpeg"
+ 
 
 
 export const assets = {
@@ -108,6 +124,24 @@ export const assets = {
     Srujan,
     Nupur,
     Vaishnav,
+
+    Yash_Panthri_alumini,
+    Sagar_Attri_Alumini,
+    Arnav_Sharma_alumini,
+    Ayush_Kaushik_alumini,
+    Harsh_Raj_Alumini,
+    Vani_Sharma_alumini,
+    Radhika_Bhatti_alumini,
+    Akhya_Rai_alumini,
+    Vaibhav_Maheshwari_alumini,
+    Pawan_Sehrawat_alumini,
+    Abhishek_Kolish_alumini,
+    Shubham_Vijay_alumini,
+    Shrey_Asati_alumini,
+    Shashant_Mangal_alumini,
+    Siddhant_Garg_alumini
+
+
     
 
 

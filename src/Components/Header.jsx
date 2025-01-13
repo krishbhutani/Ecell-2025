@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from './Navbar'
+import { Link } from 'react-router-dom'
 import { assets } from '../assets/assets'
 import { motion } from "framer-motion"
 
@@ -34,7 +34,7 @@ const Header = () => {
                     <div className='pt-3 pb-4'>
                         Dare to dream the leader within you. The art of technical innovation awaits as the dedication and commitment is enough to bring flying colours in your innovation.So, if you're ready to innovate, collaborate, and lead the charge into the future, the E-Cell is the place to be.
                     </div>
-                    <button className=' text-white bg-[#310742] hover:bg-[#310756]/90 focus:ring-4 focus:outline-none focus:ring-[#310743]/50 font-medium  text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#4285F4]/55 me-2 mb-2'>Dig deeper about E-cell NITH</button>
+                    <Link to="/coming"><button className=' text-white bg-[#310742] hover:bg-[#310756]/90 focus:ring-4 focus:outline-none focus:ring-[#310743]/50 font-medium  text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#4285F4]/55 me-2 mb-2'>Dig deeper about E-cell NITH</button></Link>
                 </motion.div>
                 <motion.div
                     initial={{ opacity: 0, translateY: "40%" }}

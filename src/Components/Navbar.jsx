@@ -22,8 +22,8 @@ const Navbar = () => {
         <div className='sticky top-0 left-0 w-full z-10'>
             <div className='container flex justify-between items-center max-w-full py-3 px-6 md:px-16 lg:px-18 bg-[#310742]'>
                 <div className= 'flex justify-center items-center gap-2 sm:gap-5'>
-                    <img className="hidden h-12 sm:h-20" src={assets.NITH_logo} alt="NITH Logo" />
-                    <img className="h-10 sm:h-14" src={assets.Ecell_logo} alt="Ecell Logo" />
+                    <Link to="/"><img className="hidden h-12 cursor-pointer sm:h-20" src={assets.NITH_logo} alt="NITH Logo" /></Link>
+                    <Link to="/"><img className="h-10 cursor-pointer sm:h-14" src={assets.Ecell_logo} alt="Ecell Logo" /></Link>
                 </div>
 
                 <div>

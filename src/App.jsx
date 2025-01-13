@@ -14,6 +14,8 @@ import TeamMem from './Components/TeamMem'
 import Contact from './Components/Contact'
 import About from "./Components/About"
 import { ToastContainer} from 'react-toastify';
+import ScrollToTop from './ScrollToTop'
+import Coming_Soon from './Components/Coming_Soon'
 
 const router = createBrowserRouter(
   [
@@ -21,6 +23,7 @@ const router = createBrowserRouter(
       path: '/',
       element:
         <div>
+          <ScrollToTop/>
           <Navbar />
           <Header />
           <Cooper />
@@ -38,6 +41,7 @@ const router = createBrowserRouter(
       path: '/about',
       element:
         <div>
+          <ScrollToTop/>
           <Navbar />
           <About/>
           <Footer/>
@@ -47,6 +51,7 @@ const router = createBrowserRouter(
       path: '/alumni',
       element:
         <div>
+          <ScrollToTop/>
           <Navbar />
           <Alumni />
           <Footer/>
@@ -56,6 +61,7 @@ const router = createBrowserRouter(
       path: '/team',
       element:
       <div>
+        <ScrollToTop/>
         <Navbar/>
         <TeamMem/>
         <Footer/>
@@ -65,9 +71,21 @@ const router = createBrowserRouter(
       path: '/contact',
       element:
       <div>
+        <ScrollToTop/>
         <ToastContainer/>
         <Navbar/>
         <Contact/>
+        <Footer/>
+      </div>
+    },
+
+    {
+      path: '/coming',
+      element:
+      <div>
+        <ScrollToTop/>
+        <Navbar/>
+        <Coming_Soon/>
         <Footer/>
       </div>
     },
