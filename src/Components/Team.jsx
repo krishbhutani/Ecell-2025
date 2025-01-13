@@ -35,7 +35,7 @@ const Team = () => {
 
                         <div className=' bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  sm:col-span-3 col-span-12 h-[655px]  w-auto'>
                             <div >
-                                <img className="h-64 w-full object-cover rounded-t-lg " src={assets.unknown} alt="" />
+                                <img className="h-64 w-full object-cover rounded-t-lg " src={assets.Robin} alt="" />
                             </div>
                             <div className='w-full h-px bg-black'></div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-[399px] top-0'>
@@ -52,7 +52,7 @@ const Team = () => {
                     <div class="grid grid-cols-subgrid sm:col-start-3 col-start-1 gap-10 sm:mt-5 sm:mb-7 col-span-12">
                     <div className=' bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  sm:col-span-3 col-span-12 h-[655px]  w-auto'>
                             <div >
-                                <img className="h-64 w-full object-cover rounded-t-lg " src={assets.unknown} alt="" />
+                                <img className="h-64 w-full object-cover rounded-t-lg " src={assets.Rishikesh_Mishra} alt="" />
                             </div>
                             <div className='w-full h-px bg-black'></div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-[399px] top-0'>
@@ -66,7 +66,7 @@ const Team = () => {
 
                         <div className=' bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  sm:col-span-3 col-span-12 h-[655px]  w-auto'>
                             <div >
-                                <img className="h-64 w-full object-cover rounded-t-lg " src={assets.unknown} alt="" />
+                                <img className="h-64 w-full object-cover rounded-t-lg " src={assets.Aryan_mittal} alt="" />
                             </div>
                             <div className='w-full h-px bg-black'></div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-[399px] top-0'>

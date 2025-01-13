@@ -17,6 +17,7 @@ import Past_sp_9 from "./Past_sp_9.png"
 import Footer_logo from "./Footer_logo.png"
 import X_logo from "./X_logo.png"
 import yt_logo from "./Yt_logo.png"
+import mail_logo from "./mail_logo.png"
 import linkedin_logo from "./linkedin_logo.png"
 import insta_logo from "./instalogo.png"
 import Initiatives from "./Initiatives.jpg"
@@ -50,7 +51,9 @@ import Janhavi from "./Janhavi.jpg"
 import Srujan from "./Srujan.jpg"
 import Nupur from "./Nupur.jpg"
 import Vaishnav from "./Vaishnav.jpg"
-import About1 from "./About1.jpg"
+import About1 from "./About1.jpg" 
+import Rishikesh_Mishra from "./Rishikesh_Mishra.jpeg"
+import Aryan_mittal from "./Aryan_mittal.jpeg"
 
 import Yash_Panthri_alumini from "./Yash_Panthri_alumini.jpeg"
 import Sagar_Attri_Alumini from "./Sagar_Attri_Alumini.jpeg"
@@ -67,7 +70,7 @@ import Shubham_Vijay_alumini from "./Shubham_Vijay_alumini.jpeg"
 import  Shrey_Asati_alumini from "./Shrey_Asati_alumini.jpeg"
 import Shashant_Mangal_alumini from "./Shashant_Mangal_alumini.jpeg"
 import Siddhant_Garg_alumini from "./Siddhant_Garg_alumini.jpeg"
- 
+import Deepika_agarwal_alumini from "./Deepika_agarwal_alumini.jpeg"
 
 
 export const assets = {
@@ -90,6 +93,7 @@ export const assets = {
     Footer_logo,
     X_logo,
     yt_logo,
+    mail_logo,
     linkedin_logo,
     insta_logo,
     Initiatives,
@@ -124,6 +128,8 @@ export const assets = {
     Srujan,
     Nupur,
     Vaishnav,
+    Rishikesh_Mishra,
+    Aryan_mittal,
 
     Yash_Panthri_alumini,
     Sagar_Attri_Alumini,
@@ -139,7 +145,8 @@ export const assets = {
     Shubham_Vijay_alumini,
     Shrey_Asati_alumini,
     Shashant_Mangal_alumini,
-    Siddhant_Garg_alumini
+    Siddhant_Garg_alumini,
+    Deepika_agarwal_alumini
 
 
     

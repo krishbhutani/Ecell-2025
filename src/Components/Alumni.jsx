@@ -30,7 +30,7 @@ const Alumni = () => {
                     <div className='mt-10 grid sm:grid-cols-12 grid-cols-4 gap-10 sm:px-28 px-8 mb-20'>
                         <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-auto'>
                             <div >
-                                <Link to="https://www.linkedin.com/in/yash-panthri/"><img className="h-64 w-full object-cover rounded-t-lg" src={assets.Yash_Panthri_alumini} alt="" /></Link>
+                                <Link to="https://www.linkedin.com/in/yash-panthri/" target="_blank"><img className="h-64 w-full object-cover rounded-t-lg" src={assets.Yash_Panthri_alumini} alt="" /></Link>
                                 
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
@@ -42,7 +42,7 @@ const Alumni = () => {
 
                         <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4 h-80 w-auto'>
                             <div >
-                                <Link to="https://www.linkedin.com/in/sagar-attri-28a889202/"><img className="h-64 w-full object-cover rounded-t-lg" src={assets.Sagar_Attri_Alumini} alt="" /></Link>
+                                <Link to="https://www.linkedin.com/in/sagar-attri-28a889202/" target="_blank"><img className="h-64 w-full object-cover rounded-t-lg" src={assets.Sagar_Attri_Alumini} alt="" /></Link>
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
                                 <p className='text-white text-xl font-medium pl-2 pt-2'>Sagar Attri</p>
@@ -53,7 +53,7 @@ const Alumni = () => {
 
                         <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-auto'>
                             <div >
-                                <Link to="https://www.linkedin.com/in/arnav-sharma-993933287/"><img className="h-64 w-full object-cover rounded-t-lg" src={assets.Arnav_Sharma_alumini} alt="" /></Link>
+                                <Link to="https://www.linkedin.com/in/arnav-sharma-348829206/" target="_blank"><img className="h-64 w-full object-cover rounded-t-lg" src={assets.Arnav_Sharma_alumini} alt="" /></Link>
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
                                 <p className='text-white text-xl font-medium pl-2 pt-2'>Arnav Sharma</p>
@@ -75,7 +75,7 @@ const Alumni = () => {
                     <div className='mt-10 grid sm:grid-cols-12 grid-cols-4 gap-10 sm:px-28 px-8 mb-20'>
                     <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-auto'>
                             <div >
-                                <Link to="https://www.linkedin.com/in/ayush-kaushik/"><img className="h-64 w-full object-cover rounded-t-lg" src={assets.Ayush_Kaushik_alumini} alt="" /></Link>
+                                <Link to="https://www.linkedin.com/in/ayush-kaushik/" target="_blank"><img className="h-64 w-full object-cover rounded-t-lg" src={assets.Ayush_Kaushik_alumini} alt="" /></Link>
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
                                 <p className='text-white text-xl font-medium pl-2 pt-2'>Ayush Kaushik</p>
@@ -86,7 +86,7 @@ const Alumni = () => {
 
                         <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4 h-80 w-auto'>
                             <div >
-                                <Link to="https://www.linkedin.com/in/harsh-raj-672225193/"><img className="h-64 w-full object-cover rounded-t-lg" src={assets. Harsh_Raj_Alumini} alt="" /></Link>
+                                <Link to="https://www.linkedin.com/in/harsh-raj-672225193/" target="_blank"><img className="h-64 w-full object-cover rounded-t-lg" src={assets. Harsh_Raj_Alumini} alt="" /></Link>
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
                                 <p className='text-white text-xl font-medium pl-2 pt-2'>Harsh Raj</p>
@@ -97,7 +97,7 @@ const Alumni = () => {
 
                         <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-auto'>
                             <div >
-                                <Link to="https://www.linkedin.com/in/vanisharma0830/"><img className="h-64 w-full object-cover rounded-t-lg" src={assets.Vani_Sharma_alumini} alt="" /></Link>
+                                <Link to="https://www.linkedin.com/in/vanisharma0830/" target="_blank"><img className="h-64 w-full object-cover rounded-t-lg" src={assets.Vani_Sharma_alumini} alt="" /></Link>
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
                                 <p className='text-white text-xl font-medium pl-2 pt-2'>Vani Sharma</p>
@@ -118,7 +118,7 @@ const Alumni = () => {
                     <div className='mt-10 grid sm:grid-cols-12 grid-cols-4 gap-10 sm:px-28 px-8 mb-20'>
                     <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-auto'>
                             <div >
-                                <img className="h-64 w-full object-cover rounded-t-lg" src={assets.unknown} alt="" />
+                                <Link to="https://www.linkedin.com/in/ar-deepika-agarwal-7a6407179/" target="_blank"><img className="h-64 w-full object-cover rounded-t-lg" src={assets.Deepika_agarwal_alumini} alt="" /></Link>
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
                                 <p className='text-white text-xl font-medium pl-2 pt-2'>Deepika Agarwal</p>
@@ -129,7 +129,7 @@ const Alumni = () => {
 
                         <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4 h-80 w-auto'>
                             <div >
-                                <Link to = "https://www.linkedin.com/in/radhika-bhatti-34232a1aa/"><img className="h-64 w-full object-cover rounded-t-lg" src={assets.Radhika_Bhatti_alumini} alt="" /></Link>
+                                <Link to = "https://www.linkedin.com/in/radhika-bhatti-34232a1aa/" target="_blank"><img className="h-64 w-full object-cover rounded-t-lg" src={assets.Radhika_Bhatti_alumini} alt="" /></Link>
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
                                 <p className='text-white text-xl font-medium pl-2 pt-2'>Radhika Bhatti</p>
@@ -140,7 +140,7 @@ const Alumni = () => {
 
                         <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-auto'>
                             <div >
-                                <Link to="https://www.linkedin.com/in/akhyarai/"><img className="h-64 w-full object-cover rounded-t-lg" src={assets.Akhya_Rai_alumini} alt="" /></Link>
+                                <Link to="https://www.linkedin.com/in/akhyarai/" target="_blank"><img className="h-64 w-full object-cover rounded-t-lg" src={assets.Akhya_Rai_alumini} alt="" /></Link>
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
                                 <p className='text-white text-xl font-medium pl-2 pt-2'>Akhya Rai</p>
@@ -161,7 +161,7 @@ const Alumni = () => {
                     <div className='mt-10 grid sm:grid-cols-12 grid-cols-4 gap-10 sm:px-28 px-8 mb-20'>
                     <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-auto'>
                             <div >
-                                <Link to="https://www.linkedin.com/in/vaibhav-kumar-maheshwari-34b491156/"><img className="h-64 w-full object-cover rounded-t-lg" src={assets.Vaibhav_Maheshwari_alumini} alt="" /></Link>
+                                <Link to="https://www.linkedin.com/in/vaibhav-kumar-maheshwari-34b491156/" target="_blank"><img className="h-64 w-full object-cover rounded-t-lg" src={assets.Vaibhav_Maheshwari_alumini} alt="" /></Link>
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
                                 <p className='text-white text-xl font-medium pl-2 pt-2'>Vaibhav Maheshwari</p>
@@ -172,7 +172,7 @@ const Alumni = () => {
 
                         <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4 h-80 w-auto'>
                             <div >
-                                <Link to="https://www.linkedin.com/in/pawan-sehrawat-079724161/"><img className="h-64 w-full object-cover rounded-t-lg" src={assets.Pawan_Sehrawat_alumini} alt="" /></Link>
+                                <Link to="https://www.linkedin.com/in/pawan-sehrawat-079724161/" target="_blank"><img className="h-64 w-full object-cover rounded-t-lg" src={assets.Pawan_Sehrawat_alumini} alt="" /></Link>
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
                                 <p className='text-white text-xl font-medium pl-2 pt-2'>Pawan Sehrawat</p>
@@ -183,7 +183,7 @@ const Alumni = () => {
 
                         <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-auto'>
                             <div >
-                                <Link to="https://www.linkedin.com/in/abhishek-kolish/"><img className="h-64 w-full object-cover rounded-t-lg" src={assets.Abhishek_Kolish_alumini} alt="" /></Link>
+                                <Link to="https://www.linkedin.com/in/abhishek-kolish/" target="_blank"><img className="h-64 w-full object-cover rounded-t-lg" src={assets.Abhishek_Kolish_alumini} alt="" /></Link>
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
                                 <p className='text-white text-xl font-medium pl-2 pt-2'>Abhishek Kolish</p>
@@ -204,7 +204,7 @@ const Alumni = () => {
                     <div className='mt-10 grid sm:grid-cols-12 grid-cols-4 gap-10 sm:px-28 px-8 mb-20'>
                     <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-auto'>
                             <div >
-                                <Link to="https://www.linkedin.com/in/shubhamvijay-/"><img className="h-64 w-full object-cover rounded-t-lg" src={assets.Shubham_Vijay_alumini} alt="" /></Link>
+                                <Link to="https://www.linkedin.com/in/shubhamvijay-/" target="_blank"><img className="h-64 w-full object-cover rounded-t-lg" src={assets.Shubham_Vijay_alumini} alt="" /></Link>
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
                                 <p className='text-white text-xl font-medium pl-2 pt-2'>Shubham Vijay</p>
@@ -215,7 +215,7 @@ const Alumni = () => {
 
                         <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4 h-80 w-auto'>
                             <div >
-                                <Link to="https://www.linkedin.com/in/shrey-asati/"><img className="h-64 w-full object-cover rounded-t-lg" src={assets. Shrey_Asati_alumini} alt="" /></Link>
+                                <Link to="https://www.linkedin.com/in/shrey-asati/" target="_blank"><img className="h-64 w-full object-cover rounded-t-lg" src={assets. Shrey_Asati_alumini} alt="" /></Link>
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
                                 <p className='text-white text-xl font-medium pl-2 pt-2'>Shrey Asati</p>
@@ -226,7 +226,7 @@ const Alumni = () => {
 
                         <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-auto'>
                             <div >
-                                <Link to="https://www.linkedin.com/in/shashantmangal/"><img className="h-64 w-full object-cover rounded-t-lg" src={assets.Shashant_Mangal_alumini} alt="" /></Link>
+                                <Link to="https://www.linkedin.com/in/shashantmangal/" target="_blank"><img className="h-64 w-full object-cover rounded-t-lg" src={assets.Shashant_Mangal_alumini} alt="" /></Link>
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
                                 <p className='text-white text-xl font-medium pl-2 pt-2'>Shashant Mangal  </p>
@@ -251,7 +251,7 @@ const Alumni = () => {
                         <div class="grid grid-cols-subgrid sm:col-start-5 col-start-1 gap-10 col-span-4">
                             <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4 h-80 w-auto'>
                                 <div >
-                                    <Link to="https://www.linkedin.com/in/siddhant-garg-2409/"><img className="h-64 w-full object-cover rounded-t-lg" src={assets.Siddhant_Garg_alumini} alt="" /></Link>
+                                    <Link to="https://www.linkedin.com/in/siddhant-garg-2409/" target="_blank"><img className="h-64 w-full object-cover rounded-t-lg" src={assets.Siddhant_Garg_alumini} alt="" /></Link>
                                 </div>
                                 <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
                                     <p className='text-white text-xl font-medium pl-2 pt-2'>Siddhant Garg</p>
