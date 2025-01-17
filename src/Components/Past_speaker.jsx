@@ -41,8 +41,8 @@ const Past_speaker = () => {
 
                 </div>
             </motion.div>
-            <div className='flex sm:flex-row flex-col sm:px-0 px-6 items-center sm:justify-center py-5 bg-[#310742] mt-8'>
-                <div className='text-white font-medium text-xl sm:text-3xl mr-3'>Wanna see how people react to our reels on <span className='text-yellow-300'>Instagram</span>
+            <div className='flex lg:flex-row flex-col lg:px-0 px-6 items-center lg:justify-center py-5 bg-[#310742] mt-8'>
+                <div className='text-white font-medium text-xl md:text-2xl lg:text-3xl mr-3'>Wanna see how people react to our reels on <span className='text-yellow-300'>Instagram</span>
                 </div>
                 {/* <div className='text-yellow-300 pl-2 font-medium text-xl sm:text-3xl mr-3'> Instagram</div> */}
                 <div>
