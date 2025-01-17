@@ -4,26 +4,28 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
     return (
-        <div className='bg-[#F3F2E3] h-auto sm:h-80'>
+        <div className='bg-[#F3F2E3] h-auto '>
             <div className='w-full  h-px bg-black'></div>
-            <div className='sm:flex justify-between'>
+            <div className='flex flex-wrap justify-around gap-10'>
                 <div>
-                    <div className='mt-4 flex px-5'>
-                        <Link to='/'><img className="border-r-4 border-stone-950 w-96 sm:pl-40 sm:pt-14 py-5 cursor-pointer" src={assets.Footer_logo} alt="" /></Link>
-                        <div className='pl-3 sm:pt-6 pt-2'>
-                            <p className='font-bold'>THE</p>
-                            <p className='font-bold'>ENTREPRENEURSHIP</p>
-                            <p className='font-bold'>CELL</p>
+                    <div className='mt-4  flex   px-5'>
+                        <div className='flex items-center'>
+                        <Link to='/'><img className=" sm:w-96 w-auto  py-5 cursor-pointer" src={assets.Footer_logo} alt="" /></Link>
+                        </div>
+                        <div className='sm:pl-3   flex flex-col justify-center border-l-4 border-stone-950'>
+                            <p className='sm:font-bold font-medium'>THE</p>
+                            <p className='sm:font-bold font-medium'>ENTREPRENEURSHIP</p>
+                            <p className='sm:font-bold font-medium'>CELL</p>
                             <p>NIT HAMIRPUR</p>
                         </div>
                     </div>
                 </div>
 
-                <div className='sm:flex sm:justify-between mt-7 sm:px-11 px-5'>
-                    <div className='flex justify-around'>
+                <div className='flex flex-wrap justify-center gap-7 mt-4 px-5 '>
+                    <div className='flex justify-around gap-20'>
                     <div>
-                        <div className='font-medium sm:text-xl text-lg sm:mb-2  sm:pr-32 pr-10'>INITIATIVES</div>
-                        <ul className='flex flex-col sm:gap-1 gap-0'>
+                        <div className='font-medium md:text-xl text-lg  '>INITIATIVES</div>
+                        <ul className='flex flex-col md:gap-1 gap-0'>
                             <Link className='sm:text-base text-base' to="https://e-crescendo.vercel.app">E-CRESCENDO</Link>
                             <Link className='sm:text-base text-base' to="https://ecell-hult-e.vercel.app">HULT PRIZE</Link>
                             <Link className='sm:text-base text-base' to="/coming">E-SUMMIT</Link>
@@ -31,7 +33,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div>
-                        <div className='font-medium sm:text-xl text-lg sm:mb-2  sm:pr-32 pr-10'>LINKS</div>
+                        <div className='font-medium md:text-xl text-lg'>LINKS</div>
                         <ul className='flex flex-col sm:gap-1 gap-0'>
                             <Link className='sm:text-base text-base' to="/">HOME</Link>
                             <Link className='sm:text-base text-base' target="_blank" to="https://nith.ac.in/">NITH</Link>
@@ -41,8 +43,8 @@ const Footer = () => {
                         </ul>
                     </div>
                     </div>
-                    <div className='sm:mt-0  mt-10 sm:px-0 px-10'>
-                        <div className='font-medium sm:text-xl text-lg sm:mb-2 '>CONTACT</div>
+                    <div className=''>
+                        <div className='font-medium md:text-xl text-lg sm:mb-2 '>CONTACT</div>
                         <div>
                             <p className='text-base mb-1'> 📍STUDENT ACTIVITY CENTER,NIT</p>
                             <p className='text-base mb-1'>HIMACHAL PRADESH 177005</p>
@@ -53,14 +55,14 @@ const Footer = () => {
             </div>
 
 
-            <div className='sm:flex justify-between px-10 mt-16'>
-                <div className='mt-5 font-semibold'>©2025 ECELL NIT HAMIRPUR. All Rights Reserved.</div>
+            <div className='flex flex-wrap-reverse  sm:justify-between justify-center items-center sm:gap-10 gap-4 px-10 mt-16'>
+                <div className='flex items-end font-semibold sm:text-base text-xs'>©2025 ECELL NIT HAMIRPUR. All Rights Reserved.</div>
 
-                <div className='flex items-center gap-2 sm:gap-4'>
-                    <Link to="https://www.linkedin.com/company/entrepreneurshipcellnith/" target='_blank'><img className='h-10 w-auto cursor-pointer' src={assets.linkedin_logo} alt="" /></Link>
+                <div className='flex items-center  gap-2 sm:gap-4'>
+                    <Link to="https://www.linkedin.com/company/entrepreneurshipcellnith/" target='_blank'><img className='h-9 w-auto cursor-pointer' src={assets.linkedin_logo} alt="" /></Link>
                     <Link to="https://www.instagram.com/ecell_nith?igsh=dG9vaDBxaWM0Z2pz&utm_source=qr" target='_blank'><img className='cursor-pointer h-10 w-auto' src={assets.insta_logo} alt="" /></Link>
-                    <Link to='/contact'><img className='cursor-pointer h-10 w-auto' src={assets.mail_logo} alt="" /></Link>
-                    <Link to='/coming'><img className='cursor-pointer h-10 w-auto' src={assets.yt_logo} alt="" /></Link>
+                    <Link to='/contact'><img className='cursor-pointer h-11 w-auto' src={assets.mail_logo} alt="" /></Link>
+                    <Link to='/coming'><img className='cursor-pointer h-11 w-auto' src={assets.yt_logo} alt="" /></Link>
                 </div>
 
 
