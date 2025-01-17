@@ -26,9 +26,11 @@ const TeamMem = () => {
                     <div className='flex justify-center py-3 font-medium sm:text-3xl text-xl'>Web Development</div>
                     <div className='w-full h-px bg-black'></div>
 
-                    <div className='mt-10 grid xl:grid-cols-12 sm:grid-cols-8 grid-cols-4 gap-10 lg:px-28 md:px-14 sm:px-20 px-8 mb-20'>
-                        <div class="grid grid-cols-subgrid xl:col-start-3 col-start-1 gap-10 col-span-8">
-                            <div className=' bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  md:col-span-4 col-span-8 h-80 w-auto'>
+
+
+                    <div className='mt-10 flex flex-wrap justify-center  md:gap-10 gap-5  mb-10'>
+                       
+                            <div className=' bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  h-80 w-72'>
                                 <div className='overflow-hidden'>
                                     <img className="h-64 w-full object-cover rounded-t-lg hover:scale-110 hover:-rotate-3 duration-1000" src={assets.Krish} alt="" />
                                 </div>
@@ -40,7 +42,7 @@ const TeamMem = () => {
                             </div>
 
 
-                            <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  md:col-span-4 col-span-8 h-80 w-auto'>
+                            <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl h-80 w-72'>
                                 <div className='overflow-hidden'>
                                     <img className="h-64 w-full object-cover rounded-t-lg hover:scale-110 hover:-rotate-3 duration-1000" src={assets.Abhinav} alt="" />
                                 </div>
@@ -50,7 +52,7 @@ const TeamMem = () => {
 
                                 </div>
                             </div>
-                        </div>
+            
                     </div>
 
 
@@ -64,9 +66,8 @@ const TeamMem = () => {
                     <div className='flex justify-center py-3 font-medium sm:text-3xl text-xl'>Media-Graphics</div>
                     <div className='w-full h-px bg-black'></div>
 
-                    <div className='mt-10 grid sm:grid-cols-12 grid-cols-4 gap-10 sm:px-28 px-8 mb-20'>
-                        <div class="grid grid-cols-subgrid sm:col-start-3 col-start-1 gap-10 col-span-8">
-                            <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  sm:col-span-4 col-span-8 h-80 w-auto'>
+                    <div className='mt-10 flex flex-wrap justify-center  md:gap-10 gap-5  mb-10'>
+                            <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl h-80 w-72'>
                                 <div className='overflow-hidden'>
                                     <img className="h-64 w-full object-cover rounded-t-lg hover:scale-110 hover:-rotate-3 duration-1000" src={assets.Kartik} alt="" />
                                 </div>
@@ -78,7 +79,7 @@ const TeamMem = () => {
                             </div>
 
 
-                            <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  sm:col-span-4 col-span-8 h-80 w-auto'>
+                            <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl h-80 w-72'>
                                 <div className='overflow-hidden'>
                                     <img className="h-64 w-full object-cover rounded-t-lg hover:scale-110 hover:-rotate-3 duration-1000" src={assets.Parti} alt="" />
                                 </div >
@@ -89,7 +90,7 @@ const TeamMem = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+           
 
 
                 </div>
@@ -101,8 +102,8 @@ const TeamMem = () => {
                     <div className='flex justify-center py-3 font-medium sm:text-3xl text-xl'>Public Relations</div>
                     <div className='w-full h-px bg-black'></div>
 
-                    <div className='mt-10 grid md:grid-cols-8 lg:grid-cols-12  grid-cols-4 xl:gap-10 gap-6 xl:px-28  lg:px-12 sm:px-16 px-16 mb-20'>
-                        <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-auto'>
+                    <div className='mt-10 flex flex-wrap justify-center  md:gap-10 gap-5  mb-10'>
+                        <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-72'>
                             <div className='overflow-hidden'>
                                 <img className="h-64 w-full object-cover rounded-t-lg hover:scale-110 hover:-rotate-3 duration-1000" src={assets.Gyan} alt="" />
                             </div>
@@ -113,7 +114,7 @@ const TeamMem = () => {
                             </div>
                         </div>
 
-                        <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4 h-80 w-auto'>
+                        <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4 h-80 w-72'>
                             <div className='overflow-hidden'>
                                 <img className="h-64 w-full object-cover rounded-t-lg hover:scale-110 hover:-rotate-3 duration-1000" src={assets.Khushi} alt="" />
                             </div>
@@ -124,7 +125,7 @@ const TeamMem = () => {
                             </div>
                         </div>
 
-                        <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-auto'>
+                        <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-72'>
                             <div className='overflow-hidden'>
                                 <img className="h-64 w-full object-cover rounded-t-lg hover:scale-110 hover:-rotate-3 duration-1000" src={assets.Divyanshu} alt="" />
                             </div>
@@ -145,8 +146,8 @@ const TeamMem = () => {
                     <div className='flex justify-center py-3 font-medium sm:text-3xl text-xl'>Finance</div>
                     <div className='w-full h-px bg-black'></div>
 
-                    <div className='mt-10 grid md:grid-cols-8 lg:grid-cols-12  grid-cols-4 xl:gap-10 gap-6 xl:px-28  lg:px-12 sm:px-16 px-16 mb-20'>
-                        <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-auto'>
+                    <div className='mt-10 flex flex-wrap justify-center  md:gap-10 gap-5  mb-10'>
+                        <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-72'>
                             <div className='overflow-hidden'>
                                 <img className="h-64 w-full object-cover rounded-t-lg hover:scale-110 hover:-rotate-3 duration-1000" src={assets.Vaishnav} alt="" />
                             </div>
@@ -157,7 +158,7 @@ const TeamMem = () => {
                             </div>
                         </div>
 
-                        <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4 h-80 w-auto'>
+                        <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4 h-80 w-72'>
                             <div className='overflow-hidden'>
                                 <img className="h-64 w-full object-cover rounded-t-lg hover:scale-110 hover:-rotate-3 duration-1000" src={assets.Prashant} alt="" />
                             </div>
@@ -168,7 +169,7 @@ const TeamMem = () => {
                             </div>
                         </div>
 
-                        <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-auto'>
+                        <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-72'>
                             <div className='overflow-hidden'>
                                 <img className="h-64 w-full object-cover rounded-t-lg hover:scale-110 hover:-rotate-3 duration-1000" src={assets.Yash} alt="" />
                             </div>
@@ -188,8 +189,8 @@ const TeamMem = () => {
                     <div className='flex justify-center py-3 font-medium sm:text-3xl text-xl'>Corporate Public Relations</div>
                     <div className='w-full h-px bg-black'></div>
 
-                    <div className='mt-10 grid md:grid-cols-8 lg:grid-cols-12  grid-cols-4 xl:gap-10 gap-6 xl:px-28  lg:px-12 sm:px-16 px-16 mb-20'>
-                        <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-auto'>
+                    <div className='mt-10 flex flex-wrap justify-center  md:gap-10 gap-5  mb-10'>
+                        <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-72'>
                             <div className='overflow-hidden'>
                                 <img className="h-64 w-full object-cover rounded-t-lg hover:scale-110 hover:-rotate-3 duration-1000" src={assets.Srujan} alt="" />
                             </div>
@@ -200,7 +201,7 @@ const TeamMem = () => {
                             </div>
                         </div>
 
-                        <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4 h-80 w-auto'>
+                        <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4 h-80 w-72'>
                             <div className='overflow-hidden'>
                                 <img className="h-64 w-full object-cover rounded-t-lg hover:scale-110 hover:-rotate-3 duration-1000" src={assets.Janhavi} alt="" />
                             </div>
@@ -211,7 +212,7 @@ const TeamMem = () => {
                             </div>
                         </div>
 
-                        <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-auto'>
+                        <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-72'>
                             <div className='overflow-hidden'>
                                 <img className="h-64 w-full object-cover rounded-t-lg hover:scale-110 hover:-rotate-3 duration-1000" src={assets.Sachit} alt="" />
                             </div>
@@ -231,8 +232,8 @@ const TeamMem = () => {
                     <div className='flex justify-center py-3 font-medium sm:text-3xl text-xl'>Tech & Innovation</div>
                     <div className='w-full h-px bg-black'></div>
 
-                    <div className='mt-10 grid md:grid-cols-8 lg:grid-cols-12  grid-cols-4 xl:gap-10 gap-6 xl:px-28  lg:px-12 sm:px-16 px-16 mb-20'>
-                        <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-auto'>
+                    <div className='mt-10 flex flex-wrap justify-center  md:gap-10 gap-5  mb-10'>
+                        <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-72'>
                             <div className='overflow-hidden'>
                                 <img className="h-64 w-full object-cover rounded-t-lg hover:scale-110 hover:-rotate-3 duration-1000" src={assets.unknown} alt="" />
                             </div>
@@ -243,7 +244,7 @@ const TeamMem = () => {
                             </div>
                         </div>
 
-                        <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4 h-80 w-auto'>
+                        <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4 h-80 w-72'>
                             <div className='overflow-hidden'>
                                 <img className="h-64 w-full object-cover rounded-t-lg hover:scale-110 hover:-rotate-3 duration-1000" src={assets.Nupur} alt="" />
                             </div>
@@ -254,7 +255,7 @@ const TeamMem = () => {
                             </div>
                         </div>
 
-                        <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-auto'>
+                        <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-72'>
                             <div className='overflow-hidden'>
                                 <img className="h-64 w-full object-cover rounded-t-lg hover:scale-110 hover:-rotate-3 duration-1000" src={assets.unknown} alt="" />
                             </div>
