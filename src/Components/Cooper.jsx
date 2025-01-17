@@ -18,7 +18,7 @@ const Cooper = () => {
         whileInView={{opacity:1,translateY:0}}
         transition={{duration: 1}}
 
-        className='mb-3'>Cooperation is Culture" reflects the essence of building a thriving entrepreneurial ecosystem where collaboration takes precedence over competition. It emphasizes the importance of collective efforts, shared ideas, and mutual support in achieving innovation and success. At E-Cell, we believe that entrepreneurship is not just about individual growth but about fostering a community where ideas, resources, and skills are exchanged freely to create impactful solutions. This theme encourages students to adopt a mindset of teamwork and highlights how a culture of cooperation can pave the way for groundbreaking achievements.
+        className='mb-3'>Welcome to our E-Cell, the pulsating heart of innovation and entrepreneurship on campus. Here, we nurture budding entrepreneurs, providing a fertile ground for ideas to flourish and ambitions to soar. From ideation to execution, we offer guidance, resources, and a vibrant community, fostering a culture of innovation and daring exploration. We redefine boundaries, disrupt industries, and shape the future. Encapsulates the essence of sparking ambition, innovation, and drive within individuals to pursue their startup dreams. It signifies the beginning of a journey filled with passion, determination, and creativity, where aspiring entrepreneurs are empowered to turn their ideas into reality and make a meaningful impact in the world of business and innovation.
         </motion.div>
       </div>
       <div className='w-full h-px bg-black'></div>

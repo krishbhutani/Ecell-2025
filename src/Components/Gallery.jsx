@@ -2,15 +2,15 @@ import React, { useState } from 'react'
 import { assets } from '../assets/assets'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import img_slider_1 from "../assets/imgslider_1.jpg"
-import img_slider_2 from "../assets/imgslider_2.jpg"
-import img_slider_3 from "../assets/imgslider_3.jpg"
-import img_slider_4 from "../assets/imgslider_4.jpg"
-import img_slider_5 from "../assets/imgslider_5.jpg"
-import img_slider_6 from "../assets/imgslider_6.jpg"
-import img_slider_7 from "../assets/imgslider_7.jpg"
-import img_slider_8 from "../assets/imgslider_8.jpg"
-import img_slider_9 from "../assets/imgslider_9.jpg"
+import img_slider_1 from "../assets/img_slider_1.jpg"
+import img_slider_2 from "../assets/img_slider_2.jpg"
+import img_slider_3 from "../assets/img_slider_3.jpg"
+import img_slider_4 from "../assets/img_slider_4.jpg"
+import img_slider_5 from "../assets/img_slider_5.jpg"
+import img_slider_6 from "../assets/img_slider_6.jpg"
+import img_slider_7 from "../assets/img_slider_7.jpg"
+import img_slider_8 from "../assets/img_slider_8.jpg"
+import img_slider_9 from "../assets/img_slider_9.jpg"
 
 
 
