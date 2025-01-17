@@ -6,7 +6,7 @@ const TeamMem = () => {
         <div className='w-full'>
 
 
-            <div className='w-full  sm:pt-10 pt-5 sm:px-36 px-7'>
+            <div className='w-full  sm:pt-10 pt-5 lg:px-36 px-7'>
                 <div className='sm:text-4xl text-3xl font-medium flex items-center gap-3  '>
                     <span className='text-slate-500'>Our</span><span>Team</span>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-20">
@@ -26,9 +26,9 @@ const TeamMem = () => {
                     <div className='flex justify-center py-3 font-medium sm:text-3xl text-xl'>Web Development</div>
                     <div className='w-full h-px bg-black'></div>
 
-                    <div className='mt-10 grid sm:grid-cols-12 grid-cols-4 gap-10 sm:px-28 px-8 mb-20'>
-                        <div class="grid grid-cols-subgrid sm:col-start-3 col-start-1 gap-10 col-span-8">
-                            <div className=' bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  sm:col-span-4 col-span-8 h-80 w-auto'>
+                    <div className='mt-10 grid xl:grid-cols-12 sm:grid-cols-8 grid-cols-4 gap-10 lg:px-28 md:px-14 sm:px-20 px-8 mb-20'>
+                        <div class="grid grid-cols-subgrid xl:col-start-3 col-start-1 gap-10 col-span-8">
+                            <div className=' bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  md:col-span-4 col-span-8 h-80 w-auto'>
                                 <div className='overflow-hidden'>
                                     <img className="h-64 w-full object-cover rounded-t-lg hover:scale-110 hover:-rotate-3 duration-1000" src={assets.Krish} alt="" />
                                 </div>
@@ -40,7 +40,7 @@ const TeamMem = () => {
                             </div>
 
 
-                            <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  sm:col-span-4 col-span-8 h-80 w-auto'>
+                            <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  md:col-span-4 col-span-8 h-80 w-auto'>
                                 <div className='overflow-hidden'>
                                     <img className="h-64 w-full object-cover rounded-t-lg hover:scale-110 hover:-rotate-3 duration-1000" src={assets.Abhinav} alt="" />
                                 </div>
@@ -101,7 +101,7 @@ const TeamMem = () => {
                     <div className='flex justify-center py-3 font-medium sm:text-3xl text-xl'>Public Relations</div>
                     <div className='w-full h-px bg-black'></div>
 
-                    <div className='mt-10 grid sm:grid-cols-12 grid-cols-4 gap-10 sm:px-28 px-8 mb-20'>
+                    <div className='mt-10 grid md:grid-cols-8 lg:grid-cols-12  grid-cols-4 xl:gap-10 gap-6 xl:px-28  lg:px-12 sm:px-16 px-16 mb-20'>
                         <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-auto'>
                             <div className='overflow-hidden'>
                                 <img className="h-64 w-full object-cover rounded-t-lg hover:scale-110 hover:-rotate-3 duration-1000" src={assets.Gyan} alt="" />
@@ -145,7 +145,7 @@ const TeamMem = () => {
                     <div className='flex justify-center py-3 font-medium sm:text-3xl text-xl'>Finance</div>
                     <div className='w-full h-px bg-black'></div>
 
-                    <div className='mt-10 grid sm:grid-cols-12 grid-cols-4 gap-10 sm:px-28 px-8 mb-20'>
+                    <div className='mt-10 grid md:grid-cols-8 lg:grid-cols-12  grid-cols-4 xl:gap-10 gap-6 xl:px-28  lg:px-12 sm:px-16 px-16 mb-20'>
                         <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-auto'>
                             <div className='overflow-hidden'>
                                 <img className="h-64 w-full object-cover rounded-t-lg hover:scale-110 hover:-rotate-3 duration-1000" src={assets.Vaishnav} alt="" />
@@ -188,7 +188,7 @@ const TeamMem = () => {
                     <div className='flex justify-center py-3 font-medium sm:text-3xl text-xl'>Corporate Public Relations</div>
                     <div className='w-full h-px bg-black'></div>
 
-                    <div className='mt-10 grid sm:grid-cols-12 grid-cols-4 gap-10 sm:px-28 px-8 mb-20'>
+                    <div className='mt-10 grid md:grid-cols-8 lg:grid-cols-12  grid-cols-4 xl:gap-10 gap-6 xl:px-28  lg:px-12 sm:px-16 px-16 mb-20'>
                         <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-auto'>
                             <div className='overflow-hidden'>
                                 <img className="h-64 w-full object-cover rounded-t-lg hover:scale-110 hover:-rotate-3 duration-1000" src={assets.Srujan} alt="" />
@@ -231,7 +231,7 @@ const TeamMem = () => {
                     <div className='flex justify-center py-3 font-medium sm:text-3xl text-xl'>Tech & Innovation</div>
                     <div className='w-full h-px bg-black'></div>
 
-                    <div className='mt-10 grid sm:grid-cols-12 grid-cols-4 gap-10 sm:px-28 px-8 mb-20'>
+                    <div className='mt-10 grid md:grid-cols-8 lg:grid-cols-12  grid-cols-4 xl:gap-10 gap-6 xl:px-28  lg:px-12 sm:px-16 px-16 mb-20'>
                         <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-auto'>
                             <div className='overflow-hidden'>
                                 <img className="h-64 w-full object-cover rounded-t-lg hover:scale-110 hover:-rotate-3 duration-1000" src={assets.unknown} alt="" />

@@ -5,7 +5,7 @@ const Cooper = () => {
   return (
     <div>
       <div className='w-full h-px bg-black'></div>
-      <div className="bg-cover bg-center w-full h-auto sm:h-56 flex flex-col sm:px-40 px-10 justify-center items-center" style={{ backgroundImage: "url('/banner.png')" }}>
+      <div className="bg-cover bg-center w-full py-10 h-auto flex flex-col lg:px-40  px-10 justify-center items-center" style={{ backgroundImage: "url('/banner.png')" }}>
         <motion.div
         initial = {{opacity:0,scale:0}}
         whileInView={{opacity:1,scale:1}}

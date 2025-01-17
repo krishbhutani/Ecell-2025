@@ -14,6 +14,7 @@ import img_slider_9 from "../assets/img_slider_9.jpg"
 
 
 
+
 const Gallery = () => {
         const [positionIndexes, setPositionIndexes] = useState([0, 1, 2, 3, 4])
 
@@ -133,8 +134,7 @@ const Gallery = () => {
                     </button>
             </div>
 
-
-
+                
 
             <div className='flex sm:flex-row flex-col sm:px-0 px-6 items-center sm:justify-center py-5 bg-[#310742] mt-8'>
                 <div className='text-white font-medium text-xl sm:text-3xl mr-3'>Wanna to see something Crazy
@@ -149,6 +149,7 @@ const Gallery = () => {
                     </button>
                 </div>
             </div>
+
 
         </div>
     )

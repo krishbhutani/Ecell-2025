@@ -5,9 +5,9 @@ import { motion } from "framer-motion"
 
 const Header = () => {
     return (
-        <div className='w-full bg-[#F3F2E3] h-max pb-32'>
+        <div className='w-full bg-[#F3F2E3] h-max pb-12 md:pb-24 lg:pb-32'>
 
-            <div className='flex pt-6 sm:pt-28 sm:pl-32 pl-5 px-2  sm:px-0'>
+            <div className='flex pt-6 lg:pt-16 xl:pt-28 lg:pl-32 md:pl-20 sm:pl-7 pl-5 px-2  sm:px-0'>
                 <motion.div
 
                     initial={{ opacity: 0, scale: 0 }}
@@ -15,18 +15,18 @@ const Header = () => {
                     transition={{ duration: 1 }}
 
 
-                    className=' w-full sm:w-7/12 m-auto'>
-                    <div className=' hidden sm:block pb-5 text-3xl sm:text-7xl  font-extrabold text-transparent bg-gradient-to-r from-slate-500 via-purple-500 to-stone-500 bg-clip-text' >Entrepreneurship Cell</div>
-                    <div className='sm:hidden block pb-3 text-5xl sm:text-7xl font-extrabold text-transparent bg-gradient-to-r from-slate-500 via-purple-500 to-stone-500 bg-clip-text'>E-Cell</div>
-                    <div className='pb-2 text-5xl sm:text-7xl font-extrabold text-transparent bg-gradient-to-r from-slate-500 via-purple-500 to-stone-500 bg-clip-text'>NIT Hamirpur</div>
+                    className=' w-full md:w-7/12 m-auto'>
+                    <div className='hidden lg:block pb-5 text-5xl xl:text-6xl 2xl:text-7xl font-extrabold text-transparent bg-gradient-to-r from-slate-500 via-purple-500 to-stone-500 bg-clip-text' >Entrepreneurship Cell</div>
+                    <div className='lg:hidden block pb-3 text-5xl  font-extrabold text-transparent bg-gradient-to-r from-slate-500 via-purple-500 to-stone-500 bg-clip-text'>E-Cell</div>
+                    <div className='pb-2 text-5xl xl:text-6xl 2xl:text-7xl font-extrabold text-transparent bg-gradient-to-r from-slate-500 via-purple-500 to-stone-500 bg-clip-text'>NIT Hamirpur</div>
 
                     <motion.div
                         initial={{ opacity: 0, translateY: "40%" }}
                         whileInView={{ opacity: 1, translateY: 0 }}
                         transition={{ duration: 2 }}
 
-                        className='sm:hidden w-96'>
-                        <img className='w-10/12' src={assets.Header_img} alt="" />
+                        className='md:hidden w-auto'>
+                        <img className='w-9/12' src={assets.Header_img} alt="" />
                     </motion.div>
 
 
@@ -41,7 +41,7 @@ const Header = () => {
                     whileInView={{ opacity: 1, translateY: 0 }}
                     transition={{ duration: 2 }}
 
-                    className='hidden sm:block w-5/12 py-14'>
+                    className='hidden md:block w-5/12 py-14'>
                     <img className='w-10/12' src={assets.Header_img} alt="" />
                 </motion.div>
             </div>
