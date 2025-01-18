@@ -7,12 +7,12 @@ const Team = () => {
             <div className='w-full  sm:pt-10 pt-5 sm:px-36 px-7'>
                 <div className='sm:text-4xl text-3xl font-medium flex items-center gap-3 '>
                     <span className='text-slate-500'>Our</span><span>Vision</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="hidden size-20">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
                     </svg>
 
                 </div>
-                <div className='sm:w-5/12 w-full font-medium font-title text-slate-500'>
+                <div className='sm:w-5/12 w-full font-medium font-title text-slate-500 mt-5'>
                     Meet the driving force behind E-cell NIT Hamirpur-our dedicated team,passionately working together to inspire innovation,foster collaboration, and fuel the entrepreneurial spirit.
                 </div>
 

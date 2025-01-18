@@ -7,7 +7,7 @@ const Initiatives = () => {
     return (
         <div>
             <motion.div
-                initial={{ opacity: 0, translateY: "20%" }}
+                initial={{ opacity: 0, translateY: "10%" }}
                 whileInView={{ opacity: 1, translateY: 0 }}
                 transition={{ duration: 1 }}
 
@@ -16,12 +16,12 @@ const Initiatives = () => {
                 className='w-full pt-5 sm:px-20 px-10'>
                 <div className='sm:text-4xl text-3xl font-medium flex items-center gap-3 '>
                     <span className='text-slate-500'>Our</span><span>Initiatives</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="hidden size-20">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
                     </svg>
 
                 </div>
-                <div className='sm:w-4/12 font-medium font-title text-slate-500'>
+                <div className='sm:w-4/12 font-medium font-title text-slate-500 mt-5'>
                     Discover the transformative initiatives by E-Cell NIT
                     Hamirpur, empowering aspiring entrepreneurs with the resources and guidance to bring their visions to life.
                 </div>
@@ -202,9 +202,9 @@ const Initiatives = () => {
                 </div>
                 {/* <div className='text-yellow-300 pl-2 font-medium text-xl sm:text-3xl mr-3'> Instagram</div> */}
                 <div>
-                    <button type="button" className="text-black mt-4 lg:mt-0 bg-white font-medium rounded-full text-sm px-5 py-2.5 text-center inline-flex items-center ">
+                    <button type="button" className="text-black mt-4 lg:mt-0 bg-white hover:bg-zinc-400 font-medium rounded-full text-sm px-5 py-2.5 text-center inline-flex items-center ">
                         <Link to="https://www.linkedin.com/company/entrepreneurshipcellnith/">Click here</Link>
-                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                        <svg class="hidden rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
                         </svg>
                     </button>

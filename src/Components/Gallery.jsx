@@ -80,12 +80,12 @@ const Gallery = () => {
             <div className='w-full  sm:pt-10 pt-5 sm:px-36 px-7'>
                 <div className='sm:text-4xl text-3xl font-medium flex items-center gap-3  '>
                     <span className='text-slate-500'>Our</span><span>Gallery</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="hidden size-20">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
                     </svg>
 
                 </div>
-                <div className='sm:w-5/12 w-full font-medium font-title text-slate-500'>
+                <div className='sm:w-5/12 w-full font-medium font-title text-slate-500 mt-5'>
                     Step into the vibrant world of E-Cell NIT Hamirpur through our gallery, capturing moments of inspiration, collaboration, and entrepreneurial zeal from our events and initiatives.
                 </div>
 
@@ -128,7 +128,7 @@ const Gallery = () => {
             <div className='flex justify-center'>
             <button type="button" className="text-white mt-4 sm:mt-0 bg-[#310742] font-medium rounded-full text-sm px-5 py-2.5 text-center inline-flex items-center " onClick={handleNext}>
                         Click here
-                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                        <svg class="hidden rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
                         </svg>
                     </button>
@@ -143,7 +143,7 @@ const Gallery = () => {
                 <div>
                     <button type="button" className="text-black mt-4 sm:mt-0 bg-white font-medium rounded-full text-sm px-5 py-2.5 text-center inline-flex items-center ">
                     <Link to="/coming">Click here</Link>
-                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                        <svg class="hidden rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
                         </svg>
                     </button>
