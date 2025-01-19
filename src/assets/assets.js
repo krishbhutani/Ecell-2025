@@ -73,6 +73,19 @@ import Shashant_Mangal_alumini from "./Shashant_Mangal_alumini.jpeg"
 import Siddhant_Garg_alumini from "./Siddhant_Garg_alumini.jpeg"
 import Deepika_agarwal_alumini from "./Deepika_agarwal_alumini.jpeg"
 
+import Summit_Header_img from "./Summit_photos/Header_img.png"
+import Summit_logo from "./Summit_photos/Summit_logo.png"
+import bg_1 from "./Summit_photos/bg_1.png"
+import bg_2 from "./Summit_photos/bg_2.png"
+import bg_3 from "./Summit_photos/bg_3.png"
+import bg_4 from "./Summit_photos/bg_4.png"
+import bg_5 from "./Summit_photos/bg_5.png"
+import bg_6 from "./Summit_photos/bg_6.png"
+import Event_1 from "./Summit_photos/Event_1.png"
+import Event_2 from "./Summit_photos/Event_2.png"
+import Event_3 from "./Summit_photos/Event_3.png"
+import Event_4 from "./Summit_photos/Event_4.png"
+
 
 export const assets = {
     Ecell_logo,
@@ -148,10 +161,26 @@ export const assets = {
     Shrey_Asati_alumini,
     Shashant_Mangal_alumini,
     Siddhant_Garg_alumini,
-    Deepika_agarwal_alumini
+    Deepika_agarwal_alumini,
 
-
-    
-
+    Summit_Header_img,
+    Summit_logo,
+    bg_1,
+    bg_2,
+    bg_3,
+    bg_4,
+    bg_5,
+    bg_6,
+    Event_1,
+    Event_2,
+    Event_3,
+    Event_4,
 
 }
+
+export const events_data = [
+    {
+        img: Summit_logo,
+        title: "How are you",
+    },
+]
