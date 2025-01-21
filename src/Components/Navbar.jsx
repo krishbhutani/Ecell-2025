@@ -40,14 +40,20 @@ const Navbar = () => {
                 <img onClick={()=> setShowMobileMenu(true)} className='lg:hidden h-12 cursor-pointer' src={assets.toggle_menu} alt="" />
             </div>
 
-            <div className={`lg:hidden ${showMobileMenu ? 'fixed w-[50%]' : 'h-0 w-0'} backdrop-blur-lg bg-cyan-300/10 right-0 top-0 bottom-0 overflow-hidden transition-all`}>
-                <div className='flex justify-end p-6 cursor-pointer'><img onClick={()=> setShowMobileMenu(false)} className='w-8' src={assets.Cross_icon} alt="" /></div>
-            <ul className='flex flex-col items-center gap-2 mt-5 px-5 text-xl font-bold '>
+            <div className={`lg:hidden ${showMobileMenu ? 'fixed w-[50%]' : 'h-0 w-0'} backdrop-blur-md bg-cyan-300/10 right-0 border-l-[1px] border-[#310742] top-0 bottom-0 overflow-hidden transition-all`}>
+                <div className='flex justify-end p-6 cursor-pointer'><img onClick={()=> setShowMobileMenu(false)} className='w-8'  src={assets.Cross_icon} alt="" /></div>
+            <ul className='flex flex-col items-center gap-2 mt-5 px-5  '>
+                
                         <Link onClick={()=> setShowMobileMenu(false)} to='/' className='cursor-pointer text-black'>Home</Link>
+                        <span className='w-full h-[1px] bg-black'></span>
                         <Link onClick={()=> setShowMobileMenu(false)} to='/about' className='cursor-pointer text-black'>About Us</Link>
+                        <span className='w-full h-[0.9px] bg-black'></span>
                         <Link onClick={()=> setShowMobileMenu(false)} to='/team' className='cursor-pointer text-black'>Our Team</Link>
+                        <div className='w-full h-[0.8px] bg-black'></div>
                         <Link onClick={()=> setShowMobileMenu(false)} to='/alumni' className='cursor-pointer text-black'>Our Alumni</Link>
+                        <div className='w-full h-[0.8px] bg-black'></div>
                         <Link onClick={()=> setShowMobileMenu(false)} to='/contact' className='cursor-pointer text-black'>Contact Us</Link>
+                        <div className='w-full h-[0.8px] bg-black'></div>
 
                     </ul>
             </div>

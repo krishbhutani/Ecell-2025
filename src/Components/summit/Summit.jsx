@@ -15,7 +15,7 @@ const Summit = () => {
                     <div className='z-20 hidden lg:flex gap-7 items-center backdrop-blur-md bg-cyan-300/10 px-9 rounded-l-full'>
                         <Link className='text-white font-normal text-base'>Home</Link>
                         <Link className='text-white font-normal text-base'>Highlights</Link>
-                        <Link className='text-white font-normal text-base'>Gallery</Link>
+                        <Link to="gallary" className='text-white font-normal text-base'>Gallery</Link>
                         <Link className='text-white font-normal text-base'>Guests</Link>
                         <Link className='text-white font-normal text-base'>Organizers</Link>
                         <button className='bg-yellow-400 text-black font-medium text-base px-4 py-1 rounded-sm '>Passes</button>
@@ -30,7 +30,7 @@ const Summit = () => {
                     <img src={assets.bg_3} className='z-0 absolute h-[40vmin] left-0 -bottom-4' alt="" />
                 </div>
 
-                <div className='realtive text-white font-extrabold mt-10 mb-5 py-6 sm:text-7xl text-5xl   flex justify-center '>
+                <div className='realtive z-10 text-white font-extrabold mt-10 mb-5 py-6 sm:text-7xl text-5xl   flex justify-center '>
                     Events 
 
                     <img src={assets.bg_4} className='z-0 absolute h-[60vmin] right-0 ' alt="" />
@@ -57,7 +57,7 @@ const Summit = () => {
                 
                 </div>
 
-                <div className='text-white font-extrabold mt-10 mb-5 py-6 sm:text-7xl text-5xl   flex justify-center '>
+                <div id="gallary" className='text-white font-extrabold mt-10 mb-5 py-6 sm:text-7xl text-3xl   flex justify-center '>
                     Past Speakers
                 </div>
 
