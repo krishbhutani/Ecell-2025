@@ -47,6 +47,9 @@ const Team = () => {
 
                         </div>
                     </div>
+                    </div>
+                    
+                    <div className='flex gap-8 flex-wrap justify-center my-9'>
 
                     <div className=' bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl   h-[655px]  w-72'>
                         <div >

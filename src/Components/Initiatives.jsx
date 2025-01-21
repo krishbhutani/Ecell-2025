@@ -117,7 +117,7 @@ const Initiatives = () => {
                     <div className='box-content bg-[#310742ce]  rounded-lg border-black border-4  h-80 w-[275px]'>
                         <div className=' h-80 md:p-4 p-1'>
                             <div className='flex justify-center font-bold text-3xl text-white'>E-Summit</div>
-                            <p className='sm:py-3 py-2 sm:px-2 px-1 text-white  sm:font-normal font-light'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ullam cumque saepe facilis fuga blanditiis quaerat a recusandae quisquam ipsam, non laborum sequi repellat veniam dolores dolorum, illum error necessitatibus aliquid! Saepe.</p>
+                            <p className='sm:py-3 py-2 sm:px-2 px-1 text-white  sm:font-normal font-light'>E-Summit is where innovation meets opportunity! Attendees connect with industry leaders, participate in workshops, and pitch startups to investors, making it ideal for budding entrepreneurs.</p>
                             <div className='flex justify-center'>
                                 <button type="button" className="text-black mt-4 sm:mt-0 bg-white font-medium rounded-full text-sm px-5 py-2.5 text-center inline-flex items-center ">
                                     <Link to="/coming">Explore</Link>
@@ -136,7 +136,8 @@ const Initiatives = () => {
                     <div className='box-content bg-[#310742ce] rounded-lg border-black border-4  col-span-3  h-80 w-[275px]'>
                         <div className='h-80 md:p-4 p-1'>
                             <div className='flex justify-center font-bold text-3xl text-white'>E-Crescendo</div>
-                            <p className='sm:py-3 py-2 sm:px-2 px-1 text-white  sm:font-normal font-light'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ullam cumque saepe facilis fuga blanditiis quaerat a recusandae quisquam ipsam, non laborum sequi repellat veniam dolores dolorum, illum error necessitatibus aliquid! Saepe.</p>
+                            <p className='sm:py-3 py-2 sm:px-2 px-1 text-white  sm:font-normal font-light'>Ecresendo is a vibrant platform where the young entrepreneurs prove their metal by pitching their extraordinary ideas thereby laying a foundation for upholding their vision.
+                            Join us to experience the thrill.</p>
                             <div className='flex justify-center'>
                                 <button type="button" className="text-black mt-4 sm:mt-0 bg-white font-medium rounded-full text-sm px-5 py-2.5 text-center inline-flex items-center ">
                                     <Link to="https://e-crescendo.vercel.app">Explore</Link>
@@ -155,7 +156,7 @@ const Initiatives = () => {
                     <div className='box-content bg-[#310742ce] rounded-lg border-black border-4 h-80 w-[275px]'>
                         <div className='h-80 md:p-4 p-1'>
                             <div className='flex justify-center font-bold text-3xl text-white'>Hult Prize</div>
-                            <p className='sm:py-3 py-2 sm:px-2 px-1 text-white  sm:font-normal font-light'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ullam cumque saepe facilis fuga blanditiis quaerat a recusandae quisquam ipsam, non laborum sequi repellat veniam dolores dolorum, illum error necessitatibus aliquid! Saepe.</p>
+                            <p className='sm:py-3 py-2 sm:px-2 px-1 text-white  sm:font-normal font-light'>The Hult Prize Campus Program at NIT Hamirpur invites students to develop innovative solutions for global issues, offering mentorship, competition, and seed funding for impactful ventures.</p>
                             <div className='flex justify-center'>
                                 <button type="button" className="text-black mt-4 sm:mt-0 bg-white font-medium rounded-full text-sm px-5 py-2.5 text-center inline-flex items-center ">
                                     <Link to="https://ecell-hult-e.vercel.app">Explore</Link>
@@ -174,7 +175,7 @@ const Initiatives = () => {
                     <div className='box-content bg-[#310742ce] rounded-lg border-black border-4  h-80 w-[275px]'>
                         <div className='h-80 md:p-4 p-1'>
                             <div className='flex justify-center font-bold text-3xl text-white'>SIP</div>
-                            <p className='sm:py-3 py-2 sm:px-2 px-1 text-white  sm:font-normal font-light'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ullam cumque saepe facilis fuga blanditiis quaerat a recusandae quisquam ipsam, non laborum sequi repellat veniam dolores dolorum, illum error necessitatibus aliquid! Saepe.</p>
+                            <p className='sm:py-3 py-2 sm:px-2 px-1 text-white  sm:font-normal font-light'>The Startup Internship Program provides students hands-on experience, mentorship, and real-world exposure in startups, bridging academics and entrepreneurship while fostering creativity and professional growth.</p>
                             <div className='flex justify-center'>
                                 <button type="button" className="text-black mt-4 sm:mt-0 bg-white font-medium rounded-full text-sm px-5 py-2.5 text-center inline-flex items-center ">
                                     <Link to="/coming">Explore</Link>

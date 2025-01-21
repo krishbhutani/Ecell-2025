@@ -16,7 +16,7 @@ const TeamMem = () => {
                 </div>
 
                 <div className='mt-5 sm:w-5/12 w-full font-medium font-title text-slate-500'>
-                    Step into the vibrant world of E-Cell NIT Hamirpur through our gallery, capturing moments of inspiration, collaboration, and entrepreneurial zeal from our events and initiatives.
+                Meet the driving force behind E-cell NIT Hamirpur-our dedicated team,passionately working together to inspire innovation,foster collaboration, and fuel the entrepreneurial spirit.
                 </div>
 
                 {/* Web Development */}
