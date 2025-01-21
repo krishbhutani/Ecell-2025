@@ -37,7 +37,7 @@ const Navbar = () => {
                     </ul>
                 </div>
 
-                <img onClick={()=> setShowMobileMenu(true)} className='lg:hidden h-12 cursor-pointer' src={assets.toggle_menu} alt="" />
+                <img onClick={()=> setShowMobileMenu(true)} className={`lg:hidden  ${showMobileMenu ? 'hidden' : 'block'} h-12 cursor-pointer`} src={assets.toggle_menu} alt="" />
             </div>
 
             <div className={`lg:hidden ${showMobileMenu ? 'fixed w-[50%]' : 'h-0 w-0'} backdrop-blur-md bg-cyan-300/10 right-0 border-l-[1px] border-[#310742] top-0 bottom-0 overflow-hidden transition-all`}>
