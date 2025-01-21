@@ -146,13 +146,42 @@ const Events = () => {
                     </div>
 
 
-                    <div className='bg-[#A7BA42] rounded-md grow w-72 p-6 '>
+                    <div className='bg-[#47924a] rounded-md grow w-72 p-6 '>
                         <div className='font-medium text-2xl text-white -mb-3' > IPL Auction</div>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="hidden size-16">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
                         </svg>
 
                         <div className='mt-4 mb-2 w-10/12 text-pretty font-medium leading-5 text-white'>Simulated bidding event for fun and strategy.</div>
+                    </div>
+
+
+                    <div className='bg-[#A7BA42] rounded-md grow w-72 p-6 '>
+                        <div className='font-medium text-2xl text-white -mb-3' > Reverse Pitch</div>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="hidden size-16">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                        </svg>
+
+                        <div className='mt-4 mb-2 w-10/12 text-pretty font-medium leading-5 text-white'>Match your insights to reality-this is reverse engineering like never before!</div>
+                    </div>
+
+                    <div className='bg-[#777e54] rounded-md grow w-72 p-6 '>
+                        <div className='font-medium text-2xl text-white -mb-3' > Startup Expo</div>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="hidden size-16">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                        </svg>
+
+                        <div className='mt-4 mb-2 w-10/12 text-pretty font-medium leading-5 text-white'>Witness disruptive ideas, explore revolutionary prototypes, and connect with cutting-edge startups.</div>
+                    </div>
+
+
+                    <div className='bg-[#a0393b] rounded-md grow w-72 p-6 '>
+                        <div className='font-medium text-2xl text-white -mb-3' > Sell Your Idea</div>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="hidden size-16">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                        </svg>
+
+                        <div className='mt-4 mb-2 w-10/12 text-pretty font-medium leading-5 text-white'>Bring your wildest ideas to life and win over the judges with your brilliance.</div>
                     </div>
 
 
