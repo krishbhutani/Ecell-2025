@@ -95,6 +95,7 @@ const router = createBrowserRouter(
       path: '/summit',
       element:
         <div>
+           <ScrollToTop/>
           <Summit/>
         </div>
     },
