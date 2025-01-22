@@ -86,6 +86,7 @@ import Event_1 from "./Summit_photos/Event_1.png"
 import Event_2 from "./Summit_photos/Event_2.png"
 import Event_3 from "./Summit_photos/Event_3.png"
 import Event_4 from "./Summit_photos/Event_4.png"
+import Summit_footer from "./Summit_photos/Summit_footer.png"
 
 
 export const assets = {
@@ -177,6 +178,7 @@ export const assets = {
     Event_2,
     Event_3,
     Event_4,
+    Summit_footer,
 
 }
 

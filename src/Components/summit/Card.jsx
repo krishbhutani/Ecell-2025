@@ -1,13 +1,19 @@
 import React from 'react'
+import "./Card.css"
+<style>
+
+</style>
 
 const Card = (props) => {
+  const data = 1
   return (
-    <div className='h-[300px] w-64 border-[1px] rounded-md border-white p-2'>
+    <div className='card relative h-[260px] w-64 border-[1px] rounded-md border-white  overflow-hidden '>
       <div>
-        <img className='h-64 w-full object-contain ' src={props.img} alt="" />
+        <img className='w-full object-contain ' src={props.img} alt="" />
       </div>
-      <div className='text-white flex justify-center font-semibold'>
-        {props.title}
+      <div className={`text_content absolute backdrop-blur-xl bg-white-300 top-[230px] transition-all duration-500 text-white w-full  flex flex-col items-center`}>
+        <div className='font-bold text-lg w-full flex justify-around mb-3'>{props.title}</div>
+        <div className='font-normal px-5 mb-4 text-wrap'>{props.subtitle}</div>
       </div>
     </div>
   )
