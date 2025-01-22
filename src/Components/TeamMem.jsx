@@ -235,7 +235,7 @@ const TeamMem = () => {
                     <div className='mt-10 flex flex-wrap justify-center  md:gap-10 gap-5  mb-10'>
                         <div className='bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl  col-span-4  h-80 w-72'>
                             <div className='overflow-hidden'>
-                                <img className="h-64 w-full object-cover rounded-t-lg hover:scale-110 hover:-rotate-3 duration-1000" src={assets.unknown} alt="" />
+                                <img className="h-64 w-full object-cover rounded-t-lg hover:scale-110 hover:-rotate-3 duration-1000" src={assets.Prachi} alt="" />
                             </div>
                             <div className='relative rounded-b-lg bg-[#310742a4] h-16 top-0'>
                                 <p className='text-white text-xl font-medium pl-2 pt-2'>Prachi Pathak</p>

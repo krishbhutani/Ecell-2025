@@ -55,6 +55,7 @@ import About1 from "./About1.jpg"
 import Rishikesh_Mishra from "./Rishikesh_Mishra.jpeg"
 import Aryan_mittal from "./Aryan_mittal.jpeg"
 import jp from "./JP.png"
+import Prachi from "./prachi.jpg"
 
 import Yash_Panthri_alumini from "./Yash_Panthri_alumini.png"
 import Sagar_Attri_Alumini from "./Sagar_Attri_Alumini.jpeg"
@@ -145,6 +146,7 @@ export const assets = {
     Rishikesh_Mishra,
     Aryan_mittal,
     jp,
+    Prachi,
 
     Yash_Panthri_alumini,
     Sagar_Attri_Alumini,
