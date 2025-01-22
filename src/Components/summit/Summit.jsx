@@ -81,6 +81,10 @@ const Summit = () => {
                    Faqs
                 </div>
 
+                <div className='h-7 w-[70vw] bg-white mx-auto mb-10'>
+                    
+                </div>
+
                 
             </div>
         </div>
