@@ -110,7 +110,7 @@ const Summit = () => {
 
                 </div>
 
-                <div id="gallary" className='text-white font-extrabold mt-10 mb-5 py-6 sm:text-7xl text-3xl   flex justify-center '>
+                <div ref = {speaker} className='text-white font-extrabold mt-10 mb-5 py-6 sm:text-7xl text-3xl   flex justify-center '>
                     Past Speakers
                 </div>
 
