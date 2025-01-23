@@ -28,6 +28,7 @@ const Summit = () => {
     const events = useRef(null);
     const faqs = useRef(null);
     const contact = useRef(null);
+    const speaker = useRef(null);
     
     const scrollToSection = (elementRef) =>{
         window.scrollTo({
