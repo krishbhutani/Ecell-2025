@@ -2,3 +2,7 @@
     bottom:0;
     top:0;
 }
+
+.card:hover{
+    filter: blur(var(--blur-xl));
+}

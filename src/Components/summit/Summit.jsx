@@ -1,10 +1,11 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { assets } from '../../assets/assets'
 import { Link } from 'react-router-dom'
 import Card from './Card'
 import Card2 from './Card2'
 import Footer from './Footer'
 import FrequentlyAsked from './FrequentlyAsked'
+import Contact from './contact'
 
 const Summit = () => {
     const [showMobileMenu, setShowMobileMenu] = useState(false)
@@ -21,20 +22,32 @@ const Summit = () => {
             document.body.style.overflow = 'auto'
         }
     }, [setShowMobileMenu])
+    
+    const home =useRef(null);
+    const events = useRef(null);
+    const faqs = useRef(null);
+    const contact = useRef(null);
+    
+    const scrollToSection = (elementRef) =>{
+        window.scrollTo({
+            top:elementRef.current.offsetTop,
+            behavior: "smooth"
+        })
+    }
 
     return (
         <div>
-            <div className='bg-[#000000] w-full h-auto'>
+            <div ref={home} className='bg-[#000000] w-full h-auto'>
                 <div className='z-10 sticky top-0 flex justify-between items-center lg:pl-9 pl-5 py-4 h-16 lg:h-auto  bg-cyan-300/10 lg:bg-transparent'>
 
                     <img className='lg:h-12 md:h-9 my-auto h-8 z-20' src={assets.Ecell_logo} alt="" />
 
                     <div className='z-40 hidden lg:flex gap-7 items-center backdrop-blur-md bg-cyan-300/10 px-9 py-3 rounded-l-full'>
-                        <Link className='text-white font-normal text-base'>Home</Link>
-                        <Link className='text-white font-normal text-base'>Events</Link>
-                        <Link to="gallary" className='text-white font-normal text-base'>Speakers</Link>
-                        <Link className='text-white font-normal text-base'>Guests</Link>
-                        <Link className='text-white font-normal text-base'>Faqs</Link>
+                        <Link onClick={()=>scrollToSection(home)} className='text-white font-normal text-base'>Home</Link>
+                        <Link onClick={()=>scrollToSection(events)} className='text-white font-normal text-base'>Events</Link>
+                        <Link  className='text-white font-normal text-base'>Speakers</Link>
+                        <Link onClick={()=>scrollToSection(faqs)} className='text-white font-normal text-base'>Faqs</Link>
+                        <Link onClick={()=>scrollToSection(contact)} className='text-white font-normal text-base'>Contact Us</Link>
                         <button className='bg-yellow-400 text-black font-medium text-base px-4 py-1 rounded-sm '>Passes</button>
 
                     </div>
@@ -46,21 +59,21 @@ const Summit = () => {
                                 <div className='flex justify-end p-6 cursor-pointer'><img onClick={()=> setShowMobileMenu(false)} className='w-8'  src={assets.Cross_icon} alt="" /></div>
                             <ul className='flex  flex-col items-center gap-2 mt-5 px-5  '>
                                 
-                                        <Link onClick={()=> setShowMobileMenu(false)} to='/' className='cursor-pointer text-white'>Home</Link>
+                                        <Link onClick={()=> {setShowMobileMenu(false),scrollToSection(home)}}  className='cursor-pointer text-white'>Home</Link>
                                         <span className='w-full h-[1px] bg-white'></span>
-                                        <Link onClick={()=> setShowMobileMenu(false)} to='/about' className='cursor-pointer text-white'>About Us</Link>
+                                        <Link onClick={()=> {setShowMobileMenu(false),scrollToSection(events)}}  className='cursor-pointer text-white'>Events</Link>
                                         <span className='w-full h-[0.9px] bg-white'></span>
-                                        <Link onClick={()=> setShowMobileMenu(false)} to='/team' className='cursor-pointer text-white'>Our Team</Link>
+                                        <Link onClick={()=> setShowMobileMenu(false)}  className='cursor-pointer text-white'>Speakers</Link>
                                         <div className='w-full h-[0.8px] bg-white'></div>
-                                        <Link onClick={()=> setShowMobileMenu(false)} to='/alumni' className='cursor-pointer text-white'>Our Alumni</Link>
+                                        <Link onClick={()=> {setShowMobileMenu(false),scrollToSection(faqs)}}  className='cursor-pointer text-white'>Faqs</Link>
                                         <div className='w-full h-[0.8px] bg-white'></div>
-                                        <Link onClick={()=> setShowMobileMenu(false)} to='/contact' className='cursor-pointer text-white'>Contact Us</Link>
+                                        <Link onClick={()=> {setShowMobileMenu(false), scrollToSection(contact)}} className='cursor-pointer text-white'>Contact Us</Link>
                                         <div className='w-full h-[0.8px] bg-white'></div>
                 
                                     </ul>
                             </div>
 
-                <div className='relative h-auto flex flex-wrap justify-center items-center'>
+                <div  className='relative h-auto flex flex-wrap justify-center items-center'>
                     <img className='z-10 md:w-7/12 w-10/12 md:py-40 py-32 h-auto' src={assets.Summit_Header_img} alt="" />
                     <img className='absolute w-[60vw] sm:w-[40vw] h-auto z-0 opacity-60 blur-md' src={assets.Summit_logo}></img>
                     <img src={assets.bg_1} className=' absolute h-[50vmin] right-0 -top-20' alt="" />
@@ -68,7 +81,7 @@ const Summit = () => {
                     <img src={assets.bg_3} className='hidden sm:block z-0 absolute h-[40vmin] left-0 -bottom-4' alt="" />
                 </div>
 
-                <div className='realtive z-10 text-white font-extrabold mt-10 mb-5 py-6 sm:text-7xl text-5xl   flex justify-center '>
+                <div ref={events} className='realtive z-10 text-white font-extrabold mt-10 mb-5 py-6 sm:text-7xl text-5xl   flex justify-center '>
                     Events
 
                     <img src={assets.bg_4} className='z-0 absolute h-[60vmin] right-0 ' alt="" />
@@ -115,11 +128,17 @@ const Summit = () => {
 
                 </div>
 
-                <div className='text-white font-extrabold py-6 sm:text-7xl text-5xl   flex justify-center '>
+                <div ref={faqs} className='text-white font-extrabold py-6 sm:text-7xl text-5xl  my-5 flex justify-center '>
                     Faqs
                 </div>
 
                 <FrequentlyAsked/>
+
+                <div ref={contact} className='text-white font-extrabold py-6 sm:text-7xl text-5xl  my-5 flex justify-center '>
+                    Contact Us
+                </div>
+
+                <Contact/>
 
                 <Footer/>
 
