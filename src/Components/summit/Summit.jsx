@@ -5,7 +5,8 @@ import Card from './Card'
 import Card2 from './Card2'
 import Footer from './Footer'
 import FrequentlyAsked from './FrequentlyAsked'
-import Contact from './contact'
+import Contact from "./Summit_Contact"
+
 
 const Summit = () => {
     const [showMobileMenu, setShowMobileMenu] = useState(false)

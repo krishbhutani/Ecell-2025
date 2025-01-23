@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Contact = () => {
+const Summit_Contact = () => {
     const [result, setResult] = React.useState("");
 
     const onSubmit = async (event) => {
@@ -51,7 +51,7 @@ const Contact = () => {
                         <textarea className='w-full border border-black rounded py-3 px-4 mt-2 h-48 resize-none' name='Message' placeholder='Message' required></textarea>
                     </div>
                     <div className='flex justify-center mb-10'>
-                    <button className='bg-yellow-400 text-black font-medium text-base px-4 py-1 rounded-sm '>Send Message</button>
+                    <button className='bg-yellow-400 text-black font-medium text-base px-4 py-1 rounded-sm '>{result ? result :"Send Message"}</button>
                     </div>
 
 
@@ -62,4 +62,4 @@ const Contact = () => {
     )
 }
 
-export default Contact
+export default Summit_Contact
