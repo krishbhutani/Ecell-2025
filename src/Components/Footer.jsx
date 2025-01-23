@@ -28,7 +28,7 @@ const Footer = () => {
                         <ul className='flex flex-col md:gap-1 gap-0'>
                             <Link className='sm:text-base text-base' to="https://e-crescendo.vercel.app">E-CRESCENDO</Link>
                             <Link className='sm:text-base text-base' to="https://ecell-hult-e.vercel.app">HULT PRIZE</Link>
-                            <Link className='sm:text-base text-base' to="/Summit">E-SUMMIT</Link>
+                            <Link className='sm:text-base text-base' target="_blank" to="/summit">E-SUMMIT</Link>
                             <Link className='sm:text-base text-base' to="/coming">SIP</Link>
                         </ul>
                     </div>

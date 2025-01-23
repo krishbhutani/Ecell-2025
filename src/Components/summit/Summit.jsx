@@ -46,7 +46,7 @@ const Summit = () => {
                     <div className='z-40 hidden lg:flex gap-7 items-center backdrop-blur-md bg-cyan-300/10 px-9 py-3 rounded-l-full'>
                         <Link onClick={()=>scrollToSection(home)} className='text-white font-normal text-base'>Home</Link>
                         <Link onClick={()=>scrollToSection(events)} className='text-white font-normal text-base'>Events</Link>
-                        <Link  className='text-white font-normal text-base'>Speakers</Link>
+                        <Link onClick={()=>scrollToSection(speaker)} className='text-white font-normal text-base'>Past Speakers</Link>
                         <Link onClick={()=>scrollToSection(faqs)} className='text-white font-normal text-base'>Faqs</Link>
                         <Link onClick={()=>scrollToSection(contact)} className='text-white font-normal text-base'>Contact Us</Link>
                         <button className='bg-yellow-400 text-black font-medium text-base px-4 py-1 rounded-sm '>Passes</button>
@@ -64,7 +64,7 @@ const Summit = () => {
                                         <span className='w-full h-[1px] bg-white'></span>
                                         <Link onClick={()=> {setShowMobileMenu(false),scrollToSection(events)}}  className='cursor-pointer text-white'>Events</Link>
                                         <span className='w-full h-[0.9px] bg-white'></span>
-                                        <Link onClick={()=> setShowMobileMenu(false)}  className='cursor-pointer text-white'>Speakers</Link>
+                                        <Link onClick={()=> {setShowMobileMenu(false),scrollToSection(speaker)}}  className='cursor-pointer text-white'>Past Speakers</Link>
                                         <div className='w-full h-[0.8px] bg-white'></div>
                                         <Link onClick={()=> {setShowMobileMenu(false),scrollToSection(faqs)}}  className='cursor-pointer text-white'>Faqs</Link>
                                         <div className='w-full h-[0.8px] bg-white'></div>
