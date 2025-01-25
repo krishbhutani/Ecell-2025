@@ -93,20 +93,7 @@ const Summit = () => {
                     <img src={assets.bg_5} className='z-0 absolute h-[70vmin] right-0 top-11' alt="" />
                     <img src={assets.bg_6} className='z-0 absolute h-[70vmin] left-0 bottom-9' alt="" />
 
-                    <div className='lg:px-20 sm:px-16 px-12  flex flex-wrap gap-5 gap-y-7 justify-center'>
-                        <Card img={assets.Event_1} title="Virtual Stock Market" subtitle = "kdhlas hlhf shf hf ksfk skfls fsal fasfls gsdglsdl sd hello something something hello honey bunny" />
-                        <Card img={assets.Event_2} title="Find The Bug" />
-                        <Card img={assets.Event_3} title="Startup Expo" />
-                        <Card img={assets.Event_4} title="Startup Debate" />
-                        <Card img={assets.Event_1} title="Virtual Stock Market" />
-                        <Card img={assets.Event_2} title="Find The Bug" />
-                        <Card img={assets.Event_3} title="Startup Expo" />
-                        <Card img={assets.Event_4} title="Startup Debate" />
-                        <Card img={assets.Event_1} title="Virtual Stock Market" />
-                        <Card img={assets.Event_2} title="Find The Bug" />
-                        <Card img={assets.Event_3} title="Startup Expo" />
-                        <Card img={assets.Event_4} title="Startup Debate" />
-                    </div>
+                        <Card/>
 
                 </div>
 

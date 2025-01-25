@@ -106,16 +106,6 @@ const App = () => {
   return (
     <div className='w-full'>
       <RouterProvider router={router} />
-
-      {/* <Navbar />
-      <Header />
-      <Cooper />
-      <Initiatives />
-      <Past_speaker />
-      <Events />
-      <Gallery />
-      <Team />
-      <Footer /> */}
     </div>
 
 
