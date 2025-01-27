@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
+import Marquee from 'react-fast-marquee'
 import { assets } from '../assets/assets'
 import { Link } from 'react-router-dom'
+import SimpleImageSlider from "react-simple-image-slider";
 import { motion } from 'framer-motion'
 import img_slider_1 from "../assets/img_slider_1.jpg"
 import img_slider_2 from "../assets/img_slider_2.jpg"
@@ -91,11 +93,11 @@ const Gallery = () => {
 
             </div>
 
-           
+
 
             <div className='hidden sm:flex sm:h-96 h-56 my-10  items-center flex-col justify-center '>
                 {images.map((image, index) => (
-                    
+
                     <motion.img
                         key={index}
                         src={image}
@@ -111,7 +113,7 @@ const Gallery = () => {
 
             <div className='sm:hidden  h-56 my-10 flex items-center flex-col justify-center '>
                 {images.map((image, index) => (
-                    
+
                     <motion.img
                         key={index}
                         src={image}
@@ -134,7 +136,7 @@ const Gallery = () => {
                     </button>
             </div>
 
-                
+
 
             <div className='flex sm:flex-row flex-col sm:px-0 px-6 items-center sm:justify-center py-5 bg-[#310742] mt-8'>
                 <div className='text-white font-medium text-xl sm:text-3xl mr-3'>Wanna to see something Crazy
@@ -156,3 +158,98 @@ const Gallery = () => {
 }
 
 export default Gallery
+
+// const Gallery = () => {
+//     return (
+//         <div>
+//             <div className='w-full  sm:pt-10 pt-5 sm:px-36 px-7'>
+//                 <div className='sm:text-4xl text-3xl font-medium flex items-center gap-3  '>
+//                     <span className='text-slate-500'>Our</span><span>Gallery</span>
+//                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="hidden size-20">
+//                         <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />                     </svg>
+
+//                 </div>                 <div className='sm:w-5/12 w-full font-medium font-title text-slate-500 mt-5'>                     Step into the vibrant world of E-Cell NIT Hamirpur through our gallery, capturing moments of inspiration, collaboration, and entrepreneurial zeal from our events and initiatives.                 </div>
+//             </div>
+//             <Marquee className='pt-10' pauseOnHover speed={150}>
+//                 {
+//                     data.map((item) => (
+//                         <>
+                        
+//                         <div className=' lg:mx-4 mx-2 lg:h-[350px] sm:h-[300px] h-[200px] lg:w-[40vw] md:w-[70vw] w-[90vw] border-4 border-[#310742] rounded-t-lg'>
+//                             <img className='rounded-t-sm h-full w-full object-cover' src={item.url} alt="" />
+//                         </div>
+//                         <div className='bg-[#310742] lg:mx-4 mx-2 lg:h-[50px] h-[50px] lg:w-[40vw] md:w-[70vw] w-[90vw] border-4 border-[#310742] text-white flex justify-center items-center font-semibold text-2xl rounded-b-lg'>
+//                             E-Cell
+//                         </div>
+//                         </>
+//                     ))
+// }
+//             </Marquee>
+
+// <div className="hidden">
+//             <SimpleImageSlider  autoPlay={true}
+//             className="sm:h-[350px] h-[200px] sm:w-[40vw] w-[90vw] border-4 border-[#310742]"
+//         width={896}
+//         height={504}
+//         images={data}
+//         showBullets={true}
+//         showNavs={true}
+//         autoPlayDelay={3}
+//       />
+
+// </div>
+
+
+
+
+
+//             <div className='flex sm:flex-row flex-col sm:px-0 px-6 items-center sm:justify-center py-5 bg-[#310742] mt-8'>
+//                 <div className='text-white font-medium text-xl sm:text-3xl mr-3'>Wanna to see something Crazy
+//                 </div>
+//                 {/* <div className='text-yellow-300 pl-2 font-medium text-xl sm:text-3xl mr-3'> Instagram</div> */}
+//                 <div>
+//                     <button type="button" className="text-black mt-4 sm:mt-0 bg-white font-medium rounded-full text-sm px-5 py-2.5 text-center inline-flex items-center ">
+//                         <Link to="/coming">Click here</Link>
+//                         <svg class="hidden rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+//                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+//                         </svg>
+//                     </button>
+//                 </div>
+//             </div>
+//         </div>
+//     )
+// }
+
+// export default Gallery
+
+
+
+// const data =[
+//     {
+//         url: `${assets.img_slider_1}`
+//     },
+
+//     {
+//         url: `${assets.img_slider_2}`
+//     },
+
+//     {
+//         url: `${assets.img_slider_3}`
+//     },
+
+//     {
+//         url: `${assets.img_slider_4}`
+//     },
+
+//     {
+//         url: `${assets.img_slider_5}`
+//     },
+//     {
+//         url: `${assets.img_slider_6}`
+//     },
+//     {
+//         url: `${assets.img_slider_7}`
+//     },
+
+// ]
+

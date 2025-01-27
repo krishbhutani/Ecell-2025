@@ -31,22 +31,22 @@ const Summit_Contact = () => {
 
     return (
         <div>
-            <div className='w-full sm:px-36 px-7'>
+            <div className='w-full sm:px-36 px-7 py-4'>
 
-                <form onSubmit={onSubmit} className='max-w-2xl mx-auto text-gray-600 pt-8'>
+                <form onSubmit={onSubmit} className='max-w-2xl mx-auto text-gray-600 pt-8  px-6 py-3 rounded-md'>
                     <div className='flex flex-wrap'>
-                        <div className='font-semibold w-full md:w-1/2 text-left text-white'>
+                        <div className='font-semibold w-full md:w-1/2 text-left'>
                             Your Name
                             <input className='w-full border border-black rounded py-3 px-4 mt-2' type="text" name='Name' placeholder='Your Name' required />
                         </div>
 
-                        <div className='font-semibold w-full md:w-1/2 text-left md:pl-4 text-white'>
+                        <div className='font-semibold w-full md:w-1/2 text-left md:pl-4 '>
                             Your Email
                             <input className='w-full border border-black rounded py-3 px-4 mt-2' type="text" name='Email' placeholder='Your Email' required />
                         </div>
                     </div>
 
-                    <div className='font-semibold my-6 text-left text-white'>
+                    <div className='font-semibold my-6 text-left '>
                         Message
                         <textarea className='w-full border border-black rounded py-3 px-4 mt-2 h-48 resize-none' name='Message' placeholder='Message' required></textarea>
                     </div>

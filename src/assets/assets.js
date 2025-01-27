@@ -86,8 +86,31 @@ import Event_1 from "./Summit_photos/Event_1.png"
 import Event_2 from "./Summit_photos/Event_2.png"
 import Event_3 from "./Summit_photos/Event_3.png"
 import Event_4 from "./Summit_photos/Event_4.png"
+import Event_5 from "./Summit_photos/Event_5.png"
+import Event_6 from "./Summit_photos/Event_6.png"
+import Event_7 from "./Summit_photos/Event_7.png"
+import Event_8 from "./Summit_photos/Event_8.png"
+import Event_9 from "./Summit_photos/Event_9.jpg"
+import Event_10 from "./Summit_photos/Event_10.png"
+import Event_11 from "./Summit_photos/Event_11.png"
+import Event_12 from "./Summit_photos/Event_12.png"
+import Event_13 from "./Summit_photos/Event_13.png"
+import Event_14 from "./Summit_photos/Event_14.png"
+import Event_15 from "./Summit_photos/Event_15.png"
+import Event_16 from "./Summit_photos/Event_16.png"
 import Summit_footer from "./Summit_photos/Summit_footer.png"
-
+import speaker_1_yogesh from "./Summit_photos/speaker_1_yogesh.jpg"
+import speaker_2_ankush from "./Summit_photos/speaker_2_ankush.jpg"
+import speaker_3_sunil from "./Summit_photos/speaker_3_sunil.webp"
+import speaker_4_deepak from './Summit_photos/speaker_4_deepak.jpeg'
+import speaker_5_vaibhav from "./Summit_photos/speaker_5_vaibhav.jpeg"
+import speaker_6_varun from "./Summit_photos/speaker_6_varun.jpg"
+import speaker_7_amandeep from "./Summit_photos/speaker_7_amandeep.jpg"
+import speaker_8_prabhat from "./Summit_photos/speaker_8_prabhat.png"
+import speaker_9_akshar from "./Summit_photos/speaker_9_akshar.jpeg"
+import speaker_10_sandip from "./Summit_photos/speaker_10_sandip.jpg"
+import speaker_11_maitri from "./Summit_photos/speaker_11_maitri.avif"
+import speaker_12_dhwani from "./Summit_photos/speaker_12_dhwani.jpg"
 
 export const assets = {
     Ecell_logo,
@@ -178,7 +201,31 @@ export const assets = {
     Event_2,
     Event_3,
     Event_4,
+    Event_5,
+    Event_6,
+    Event_7,
+    Event_8,
+    Event_9,
+    Event_10,
+    Event_11,
+    Event_12,
+    Event_13,
+    Event_14,
+    Event_15,
+    Event_16,
     Summit_footer,
+    speaker_1_yogesh,
+    speaker_2_ankush,
+    speaker_3_sunil,
+    speaker_4_deepak,
+    speaker_5_vaibhav,
+    speaker_6_varun,
+    speaker_7_amandeep,
+    speaker_8_prabhat,
+    speaker_9_akshar,
+    speaker_10_sandip,
+    speaker_11_maitri,
+    speaker_12_dhwani
 
 }
 

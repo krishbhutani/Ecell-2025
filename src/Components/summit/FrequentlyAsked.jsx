@@ -43,7 +43,7 @@ export default FrequentlyAsked
 
 const data = [
     {
-        question: "Welcome to our E-Cell, the pulsating heart of innovation and entrepreneurship on campus. ",
+        question: "Pending Work Of Khushi",
         answer: "Welcome to our E-Cell, the pulsating heart of innovation and entrepreneurship on campus. Welcome to our E-Cell, the pulsating heart of innovation and entrepreneurship on campus. Welcome to our E-Cell, the pulsating heart of innovation and entrepreneurship on campus. Welcome to our E-Cell, the pulsating heart of innovation and entrepreneurship on campus. Welcome to our E-Cell, the pulsating heart of innovation and entrepreneurship on campus. Welcome to our E-Cell, the pulsating heart of innovation and entrepreneurship on campus. Welcome to our E-Cell, the pulsating heart of innovation and entrepreneurship on campus. "
     },
 

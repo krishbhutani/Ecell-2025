@@ -102,18 +102,18 @@ const Summit = () => {
                 </div>
 
                 <div className='lg:px-20 sm:px-16 px-12  flex flex-wrap gap-5 gap-y-7 justify-center'>
-                    <Card2 img={assets.Past_sp_6} title="Ankush Barjata" post="Founder, Deeva" />
-                    <Card2 img={assets.Past_sp_6} title="Ankush Barjata" post="Founder, Deeva" />
-                    <Card2 img={assets.Past_sp_6} title="Ankush Barjata" post="Founder, Deeva" />
-                    <Card2 img={assets.Past_sp_6} title="Ankush Barjata" post="Founder, Deeva" />
-                    <Card2 img={assets.Past_sp_6} title="Ankush Barjata" post="Founder, Deeva" />
-                    <Card2 img={assets.Past_sp_6} title="Ankush Barjata" post="Founder, Deeva" />
-                    <Card2 img={assets.Past_sp_6} title="Ankush Barjata" post="Founder, Deeva" />
-                    <Card2 img={assets.Past_sp_6} title="Ankush Barjata" post="Founder, Deeva" />
-                    <Card2 img={assets.Past_sp_6} title="Ankush Barjata" post="Founder, Deeva" />
-                    <Card2 img={assets.Past_sp_6} title="Ankush Barjata" post="Founder, Deeva" />
-                    <Card2 img={assets.Past_sp_6} title="Ankush Barjata" post="Founder, Deeva" />
-                    <Card2 img={assets.Past_sp_6} title="Ankush Barjata" post="Founder, Deeva" />
+                    <Card2 img={assets.speaker_1_yogesh} title="Yogesh Shinde" post="Founder, Bamboo India" />
+                    <Card2 img={assets.speaker_2_ankush} title="Ankush Barjata" post="Founder, Deeva" />
+                    <Card2 img={assets.speaker_3_sunil} title="Sunil Prem" post="Founder, Brisk Olive" />
+                    <Card2 img={assets.speaker_4_deepak} title="Deepak Goyal" post="Co-Founder, Crew Sphere" />
+                    <Card2 img={assets.speaker_5_vaibhav} title="Vaibhav Rathore" post="Co-Founder, Upthrust Esports" />
+                    <Card2 img={assets.speaker_6_varun} title="Varun Rattan Singh" post="CEO, Development Logics" />
+                    <Card2 img={assets.speaker_7_amandeep} title="Amandeep Srivastava" post="Co-Founder, Black Eye Technologies" />
+                    <Card2 img={assets.speaker_8_prabhat} title="Prabhat Labh" post="CEO, Grameen Foundation" />
+                    <Card2 img={assets.speaker_9_akshar} title="Akshar Madhavaram" post="Co-Founder & CEO, TIAR" />
+                    <Card2 img={assets.speaker_10_sandip} title="Sandip Patil" post="Founder, E-Spin" />
+                    <Card2 img={assets.speaker_11_maitri} title="Maitri Shah" post="Co-Founder & CEO, Mind Assest" />
+                    <Card2 img={assets.speaker_12_dhwani} title="Dhwani Jain" post="Founder, KARMA Foundation" />
 
                 </div>
 
