@@ -17,7 +17,7 @@ import { ToastContainer } from 'react-toastify';
 import ScrollToTop from './ScrollToTop'
 import Coming_Soon from './Components/Coming_Soon'
 import Summit from './Components/summit/Summit.jsx'
-import Passes from './Components/summit/passes.jsx'
+import Passes from './Components/summit/Passes.jsx'
 
 const router = createBrowserRouter(
   [
