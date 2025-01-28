@@ -13,10 +13,11 @@ import Alumni from './Components/Alumni'
 import TeamMem from './Components/TeamMem'
 import Contact from './Components/Contact'
 import About from "./Components/About"
-import { ToastContainer} from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
 import ScrollToTop from './ScrollToTop'
 import Coming_Soon from './Components/Coming_Soon'
 import Summit from './Components/summit/Summit.jsx'
+import Passes from './Components/summit/passes.jsx'
 
 const router = createBrowserRouter(
   [
@@ -24,7 +25,7 @@ const router = createBrowserRouter(
       path: '/',
       element:
         <div>
-          <ScrollToTop/>
+          <ScrollToTop />
           <Navbar />
           <Header />
           <Cooper />
@@ -42,61 +43,71 @@ const router = createBrowserRouter(
       path: '/about',
       element:
         <div>
-          <ScrollToTop/>
+          <ScrollToTop />
           <Navbar />
-          <About/>
-          <Footer/>
+          <About />
+          <Footer />
         </div>
     },
     {
       path: '/alumni',
       element:
         <div>
-          <ScrollToTop/>
+          <ScrollToTop />
           <Navbar />
           <Alumni />
-          <Footer/>
+          <Footer />
         </div>
     },
     {
       path: '/team',
       element:
-      <div>
-        <ScrollToTop/>
-        <Navbar/>
-        <TeamMem/>
-        <Footer/>
-      </div>
+        <div>
+          <ScrollToTop />
+          <Navbar />
+          <TeamMem />
+          <Footer />
+        </div>
     },
     {
       path: '/contact',
       element:
-      <div>
-        <ScrollToTop/>
-        <ToastContainer/>
-        <Navbar/>
-        <Contact/>
-        <Footer/>
-      </div>
+        <div>
+          <ScrollToTop />
+          <ToastContainer />
+          <Navbar />
+          <Contact />
+          <Footer />
+        </div>
     },
 
     {
       path: '/coming',
       element:
-      <div>
-        <ScrollToTop/>
-        <Navbar/>
-        <Coming_Soon/>
-        <Footer/>
-      </div>
+        <div>
+          <ScrollToTop />
+          <Navbar />
+          <Coming_Soon />
+          <Footer />
+        </div>
     },
 
     {
       path: '/summit',
       element:
         <div>
-           <ScrollToTop/>
-          <Summit/>
+          <ScrollToTop />
+          <Summit />
+        </div>
+    },
+
+    {
+      path: '/summit/passes',
+      element:
+        <div>
+          <ScrollToTop />
+          <Passes/>
+         
         </div>
     },
   ]

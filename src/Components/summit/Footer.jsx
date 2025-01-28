@@ -22,7 +22,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className='mt-4 pl-10 lg:w-[650px] md:w-96 '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, quae recusandae placeat voluptatem, earum sapiente at repudiandae sequi itaque eos odio facilis perferendis totam reiciendis, accusamus fuga debitis ratione possimus dolores! Animi, optio beatae modi iure debitis enim. Nam voluptas possimus deserunt magnam maiores impedit quisquam. Veniam!</div>
-                    <div className='flex gap-2 mt-4 ml-10 text-2xl text-black py-2 bg-[#FEA15E] w-48 justify-around rounded-md'>
+                    <div className='flex gap-2 mt-4 ml-10 text-2xl text-black py-2  bg-[#FEA15E] w-48 justify-around rounded-md'>
                         <Link><FaInstagram /></Link>
                         <Link><FaXTwitter /></Link>
                         <Link><CiLinkedin /></Link>

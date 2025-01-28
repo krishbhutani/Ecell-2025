@@ -50,7 +50,7 @@ const Summit = () => {
                         <Link onClick={()=>scrollToSection(speaker)} className='text-white font-normal text-base'>Past Speakers</Link>
                         <Link onClick={()=>scrollToSection(faqs)} className='text-white font-normal text-base'>Faqs</Link>
                         <Link onClick={()=>scrollToSection(contact)} className='text-white font-normal text-base'>Contact Us</Link>
-                        <button className='bg-yellow-400 text-black font-medium text-base px-4 py-1 rounded-sm '>Passes</button>
+                        <button className='bg-yellow-400 text-black font-medium text-base px-4 py-1 rounded-sm '><Link to='/summit/passes'>Passes</Link></button>
 
                     </div>
 
@@ -108,7 +108,7 @@ const Summit = () => {
                     <Card2 img={assets.speaker_4_deepak} title="Deepak Goyal" post="Co-Founder, Crew Sphere" />
                     <Card2 img={assets.speaker_5_vaibhav} title="Vaibhav Rathore" post="Co-Founder, Upthrust Esports" />
                     <Card2 img={assets.speaker_6_varun} title="Varun Rattan Singh" post="CEO, Development Logics" />
-                    <Card2 img={assets.speaker_7_amandeep} title="Amandeep Srivastava" post="Co-Founder, Black Eye Technologies" />
+                    <Card2 img={assets.speaker_7_amandeep} title="Amandeep Srivastava" post="Co-Founder, Black Eye Tech." />
                     <Card2 img={assets.speaker_8_prabhat} title="Prabhat Labh" post="CEO, Grameen Foundation" />
                     <Card2 img={assets.speaker_9_akshar} title="Akshar Madhavaram" post="Co-Founder & CEO, TIAR" />
                     <Card2 img={assets.speaker_10_sandip} title="Sandip Patil" post="Founder, E-Spin" />
