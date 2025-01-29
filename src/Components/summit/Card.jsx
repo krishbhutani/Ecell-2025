@@ -14,7 +14,7 @@ const Card = () => {
           <div className={`text_content absolute backdrop-blur-sm bg-[#11141192] top-[250px] transition-all duration-500 text-white w-full  flex flex-col items-center`}>
             <div className='font-bold text-lg w-full flex justify-around'>{item.title}</div>
             <div className='font-normal px-5 mb-1 text-wrap'>{item.subtitle}</div>
-            <button className='text-black bg-white p-2 px-3 rounded-full'><Link  to = {item.explore}>Explore More..</Link></button>
+            <button className='text-black bg-white p-2 px-3 rounded-full'><Link target='_blank' to = {item.explore}>Explore More..</Link></button>
           </div>
           
         </div>
