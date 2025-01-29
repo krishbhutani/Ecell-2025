@@ -43,7 +43,6 @@ const Contact = () => {
                 </div>
                 <div className='mt-5 sm:w-4/12 font-medium font-title text-slate-500'>
                     Whether you have questions,or ideas,or just want to connect,our Entrepreneurship Cell team is here for you. Do you have questions or feedback? We'd love to hear from you!
-
                 </div>
 
                 <form onSubmit={onSubmit} className='max-w-2xl mx-auto text-gray-600 pt-8'>

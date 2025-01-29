@@ -71,6 +71,7 @@ const Summit = () => {
                                         <div className='w-full h-[0.8px] bg-white'></div>
                                         <Link onClick={()=> {setShowMobileMenu(false), scrollToSection(contact)}} className='cursor-pointer text-white'>Contact Us</Link>
                                         <div className='w-full h-[0.8px] bg-white'></div>
+                                        <button className='bg-yellow-400 text-black font-medium text-base px-4 py-1 rounded-sm '><Link to='/summit/passes'>Passes</Link></button>
                 
                                     </ul>
                             </div>

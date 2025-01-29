@@ -21,11 +21,12 @@ const Footer = () => {
                             <div className='sm:text-3xl text-xl font-semibold'>NIT Hamirpur</div>
                         </div>
                     </div>
-                    <div className='mt-4 pl-10 lg:w-[650px] md:w-96 '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, quae recusandae placeat voluptatem, earum sapiente at repudiandae sequi itaque eos odio facilis perferendis totam reiciendis, accusamus fuga debitis ratione possimus dolores! Animi, optio beatae modi iure debitis enim. Nam voluptas possimus deserunt magnam maiores impedit quisquam. Veniam!</div>
+                    <div className='mt-4 pl-10 lg:w-[650px] md:w-96 '>A vibrant hub dedicated to sparking a lasting legacy of innovation and brilliance. Our mission is to fuel creativity, inspire leadership, and ignite the entrepreneurial spark within students, transforming ambitious ideas into game-changing ventures.
+                    With a thriving ecosystem of hands-on learning, expert mentorship, and invaluable networking, we prepare the next generation to conquer the entrepreneurial world. From immersive workshops and dynamic speaker series to adrenaline-packed hackathons and startup challenges, we plunge students into a world of real-world innovation.</div>
                     <div className='flex gap-2 mt-4 ml-10 text-2xl text-black py-2  bg-[#FEA15E] w-48 justify-around rounded-md'>
-                        <Link><FaInstagram /></Link>
+                        <Link to="https://www.instagram.com/ecell_nith?igsh=dG9vaDBxaWM0Z2pz&utm_source=qr"><FaInstagram /></Link>
                         <Link><FaXTwitter /></Link>
-                        <Link><CiLinkedin /></Link>
+                        <Link to="https://www.linkedin.com/company/entrepreneurshipcellnith/"><CiLinkedin /></Link>
                         <Link><FaFacebookSquare /></Link>
                     </div>
                 </div>
@@ -33,12 +34,11 @@ const Footer = () => {
                 <div className='flex  sm:gap-20 gap-10 lg:mr-6 ml-10 lg:ml-0'>
                     <div className='flex flex-col gap-2'>
                         <p className='font-medium'>Quick Links</p>
-                        <Link>Home</Link>
-                        <Link>Highlights</Link>
-                        <Link>Gallery</Link>
-                        <Link>Guest</Link>
-                        <Link>Organizers</Link>
-                        <button className='bg-[#FEA15E] text-black font-medium text-base px-4 py-1 rounded-sm '>Passes</button>
+                        <Link to="/summit">Home</Link>
+                        <Link to="/">E-Cell</Link>
+                        <Link to="https://nith.ac.in/">NITH</Link>
+                        <Link to="/contact">📧 CONTACT</Link>
+                        <button className='bg-[#FEA15E] text-black font-medium text-base px-4 py-1 rounded-sm '><Link to='/summit/passes'>Passes</Link></button>
                     </div>
 
                     <div className='flex flex-col gap-2 text-center'>

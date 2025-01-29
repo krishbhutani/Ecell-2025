@@ -111,6 +111,7 @@ import speaker_9_akshar from "./Summit_photos/speaker_9_akshar.jpeg"
 import speaker_10_sandip from "./Summit_photos/speaker_10_sandip.jpg"
 import speaker_11_maitri from "./Summit_photos/speaker_11_maitri.avif"
 import speaker_12_dhwani from "./Summit_photos/speaker_12_dhwani.jpg"
+import QR from "./Summit_photos/QR.jpg"
 
 export const assets = {
     Ecell_logo,
@@ -225,7 +226,8 @@ export const assets = {
     speaker_9_akshar,
     speaker_10_sandip,
     speaker_11_maitri,
-    speaker_12_dhwani
+    speaker_12_dhwani,
+    QR
 
 }
 

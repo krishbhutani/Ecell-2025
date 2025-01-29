@@ -1,23 +1,93 @@
-import React , { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import { assets } from '../../assets/assets'
 import { Link } from 'react-router-dom'
 import "./Passes.css"
 import Footer from './Footer'
+import { toast } from 'react-toastify';
 
 
 
 const Passes = () => {
-    const handleSubmit = (e)=>{
+    const handleSubmit = (e) => {
+        setResult("Submitting....")
         e.preventDefault()
-        const url= 'https://script.google.com/macros/s/AKfycbyqRbVn-3bGszMN53JfgJuKNnSxoVwDiwWmdW8o7ef22PZZ2lskRqAsVUskypbBe9h_yw/exec'
-        fetch(url,{
-            method:'POST',
-            headers: {"Content-Type": "application/x-www-form-urlencoded"},
-            body:(`Name=${e.target.Name.value}&College=${e.target.College.value}&Email=${e.target.Email.value}&District=${e.target.District.value}&Package=${e.target.Package.value}&Candidate=${e.target.Candidate.value}&Payment=${e.target.Payment.value}`)
-        }).then(res=>res.text()).then(data=>{
-            alert(data)
-        }).catch(error=>console.log(error))
+        const url = 'https://script.google.com/macros/s/AKfycby63_d3XhK6qkCogPyRyBxmerpyNZQYdvUlzrvkylw_Txk0NeVdH_iViK_nqpcbAVc/exec'
+        fetch(url, {
+            method: 'POST',
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            body: (`Name=${e.target.Name.value}&College=${e.target.College.value}&Email=${e.target.Email.value}&Phone=${e.target.Phone.value}&District=${e.target.District.value}&Package=${e.target.Package.value}&Candidate=${e.target.Candidate.value}Transaction=${e.target.Transaction.value}&Payment=${e.target.Payment.value}`)
+        }).then(res => res.text()).then(data => {
+            setResult("Submit");
+            alert(data);
+            e.target.reset();
+
+        }).catch(error => console.log(error))
     }
+
+
+    const [result, setResult] = React.useState("");
+
+
+    const onSubmit = async (event) => {
+        event.preventDefault();
+        setResult("Sending....");
+        const formData = new FormData(event.target);
+
+        formData.append("access_key", "b2726df1-3344-481f-9c96-10a2b14fe898");
+
+        const response = await fetch("https://api.web3forms.com/submit", {
+            method: "POST",
+            body: formData
+        });
+
+        const data = await response.json();
+
+        if (data.success) {
+            setResult("");
+            toast.success("Form Submitted Successfully")
+            event.target.reset();
+        } else {
+            console.log("Error", data);
+            setResult("");
+            toast.error(data.message);
+        }
+    };
+
+
+    const [pack, setpack] = useState(199);
+    const [people, setpeople] = useState(0);
+    const [total, settotal] = useState(0);
+
+
+
+    const handleChange = (e) => {
+        console.log(e.target.id, e.target.value);
+        const id = e.target.id;
+        const value = parseInt(e.target.value)
+
+        if (id === 'pack') {
+            setpack(value);
+        }
+
+        else {
+            setpeople(value);
+        }
+    }
+
+    const calculateTotal = () => {
+        let a = pack;
+        let b = people;
+        let c = a * b
+        settotal(c);
+    }
+
+    useEffect(() => {
+        calculateTotal();
+    }, [pack, people])
+
+
+
+
 
     return (
         <div>
@@ -36,10 +106,15 @@ const Passes = () => {
 
 
                     <div className='w-11/12 lg:w-9/12 bg-[#caccd02d] backdrop-blur-md rounded-3xl mb-12'>
-                        <form onSubmit={handleSubmit} method='post' name='contactform' action="" className='text-lg border-white border-2 rounded-xl px-12 py-10'>
+                        <form onSubmit={onSubmit} name='contactform' action="" className='text-lg border-white border-2 rounded-xl px-12 py-10'>
                             <div>
                                 <label className='block mb-2 mt-5 font-bold text-white ' htmlFor="">Name</label>
                                 <input required name="Name" className='border-2 border-[#ccc] text-white p-2 w-full box-border rounded-md bg-transparent' type="text" />
+                            </div>
+
+                            <div>
+                                <label className='block mb-2 mt-5 font-bold text-white ' htmlFor="">Team Name(If Applicable)</label>
+                                <input  name="Team Name" className='border-2 border-[#ccc] text-white p-2 w-full box-border rounded-md bg-transparent' type="text" />
                             </div>
                             <div>
                                 <label className='block mb-2 mt-5 font-bold text-white  ' htmlFor="">College</label>
@@ -50,49 +125,71 @@ const Passes = () => {
                                 <input required name='Email' className='border-2 border-[#ccc] text-white p-2 w-full box-border rounded-md bg-transparent' type="email" />
                             </div>
                             <div>
+                                <label className='block mb-2 mt-5 font-bold text-white' htmlFor="">Phone No.</label>
+                                <input required name='Number' className='border-2 border-[#ccc] text-white p-2 w-full box-border rounded-md bg-transparent' type="text" />
+                            </div>
+                            <div>
                                 <label className='block mb-2 mt-5 font-bold text-white' htmlFor="">District</label>
                                 <input required name='District' className='border-2 border-[#ccc] text-white p-2 w-full box-border rounded-md bg-transparent' type="text" />
                             </div>
 
                             <div>
+                                <label className='block mb-2 mt-5 font-bold text-white' htmlFor="">State</label>
+                                <input required name='State' className='border-2 border-[#ccc] text-white p-2 w-full box-border rounded-md bg-transparent' type="text" />
+                            </div>
+
+                            <div>
                                 <label className='block mb-2 mt-5 font-bold text-white' htmlFor="">Which package would you like to have?</label>
-                                <select required  className='border-2 border-[#ccc] p-2 w-full box-border text-white rounded-md bg-transparent ' name="Package" id="hello">
-                                    <option className='text-black cursor-pointer' value="Event - Rs. 500 per head">Event - Rs. 500 per head</option>
-                                    <option className='text-black' value="Event & T-shirt - Rs. 1100 per head">Event & T-shirt - Rs. 1100 per head</option>
-                                    <option  className='text-black' value="Event & Hoodie - Rs. 1200 per head">Event & Hoodie - Rs. 1200 per head</option>
-                                    <option  className='text-black' value="Event, Accomodation(3 days), T-shirt,Food - Rs. 2200 per head">Event, Accomodation(3 days), T-shirt,Food - Rs. 2200 per head</option>
-                                    <option  className='text-black' value="Event, Accomodation(3 days), Hoodie,Food - Rs. 2500 per head">Event, Accomodation(3 days), Hoodie,Food - Rs. 2500 per head</option>
-                                    <option  className='text-black' value="Event, Accomodation(3 days), Hoodie, T-shirt,Food - Rs. 3000 per head">Event, Accomodation(3 days), Hoodie, T-shirt,Food - Rs. 3000 per head</option>
+                                <select required onChange={handleChange} className='border-2 border-[#ccc] p-2 w-full box-border text-white rounded-md bg-transparent ' name="Package" id="pack">
+                                    <option className='text-black cursor-pointer' value="199">One Day Event Pass - Rs. 199 per head</option>
+                                    <option className='text-black cursor-pointer' value="499">Three Day Event Pass - Rs. 499 per head</option>
+                                    <option className='text-black' value="799">Event & T-shirt - Rs. 799 per head</option>
+                                    <option className='text-black' value="1099">Event & Hoodie - Rs. 1099 per head</option>
+                                    <option className='text-black cursor-pointer' value="1599">Event,Stay & Food - Rs. 1599 per head</option>
+                                    <option className='text-black' value="2199">Event, Accomodation(3 days), T-shirt,Food - Rs. 2199 per head</option>
+                                    <option className='text-black' value="2499">Event, Accomodation(3 days), Hoodie,Food - Rs. 2499 per head</option>
+                                    <option className='text-black' value="2999">Event, Accomodation(3 days), Hoodie, T-shirt,Food - Rs. 2999 per head</option>
                                 </select>
 
                             </div>
 
                             <div>
                                 <label className='block mb-2 mt-5 font-bold text-white' htmlFor="">How many people are coming from your college?</label>
-                                <input required className='border-2 border-[#ccc] p-2 text-white w-full box-border rounded-md bg-transparent' name='Candidate' type="number" />
+                                <input required onChange={handleChange} className='border-2 border-[#ccc] p-2 text-white w-full box-border rounded-md bg-transparent' name='Candidate' type="number" min='1' id='people' />
                             </div>
 
                             <div>
-                            <label className='block mb-2 mt-5 font-bold text-white' htmlFor="">Amount to be Paid : Rs <span>0</span></label>
-                            <div className='flex justify-center'>
-                                <img className='w-52 h-52' src={assets.Event_10} alt="" />
-                            </div>
+                                <label className='block mb-2 mt-5 font-bold text-white' htmlFor="">Amount to be Paid : Rs <span>{total}</span></label>
+                                <div className='flex justify-center'>
+                                    <img className='w-52 h-52' src={assets.QR} alt="" />
+                                </div>
                             </div>
 
                             <div>
-                            <label className='block mb-2 mt-5 font-bold text-white' htmlFor="">Past URL of Payment Recipt after Saving in Google Drive(Make Sure Link is accessible to all) </label>
+                                <label className='block mb-2 mt-5 font-bold text-white ' htmlFor="">Transaction ID</label>
+                                <input required type="text" name="Transaction" className='border-2 border-[#ccc] text-white p-2 w-full box-border rounded-md bg-transparent' />
+                            </div>
+
+                            <div>
+                                <label className='block mb-2 mt-5 font-bold text-white' htmlFor="">Past URL of Payment Recipt after Saving in Google Drive(Make Sure Link is accessible to all) </label>
                                 <input required className='border-2 border-[#ccc] p-2 text-white w-full box-border rounded-md bg-transparent' name='Payment' type="url" />
                             </div>
+
+                            
 
                             <div className='flex flex-wrap-reverse justify-around gap-6 mt-14'>
                                 <div>
                                     <input className='border-2 p-2 w-40 box-border rounded-md border-black bg-yellow-400 text-black ' type="reset" name="" id="" />
-                                  
                                 </div>
                                 <div>
-                                    <input className='border-2 p-2 w-40 box-border rounded-md border-black bg-yellow-400 text-black' type="submit" />
+                                    <button className='border-2 p-2 w-40 box-border rounded-md border-black bg-yellow-400 text-black '>{result ? result : "Submit"}</button>
                                 </div>
 
+                            </div>
+
+                            <div className='flex gap-3 mt-9 justify-start items-center'>
+                                <div className='block mb-2 mt-5 font-bold text-white'>Join Whatsapp Group for Further Information <Link className='decoration-white underline'>Click Here</Link></div>
+                                
                             </div>
                         </form>
                     </div>
@@ -102,6 +199,8 @@ const Passes = () => {
             <Footer />
         </div>
     )
+
+    console.log(getID)
 }
 
 export default Passes
