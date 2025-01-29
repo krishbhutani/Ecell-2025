@@ -112,6 +112,7 @@ import speaker_10_sandip from "./Summit_photos/speaker_10_sandip.jpg"
 import speaker_11_maitri from "./Summit_photos/speaker_11_maitri.avif"
 import speaker_12_dhwani from "./Summit_photos/speaker_12_dhwani.jpg"
 import QR from "./Summit_photos/QR.jpg"
+import Dream_dare_disrupt from "./Summit_photos/Dream_dare_disrupt.png"
 
 export const assets = {
     Ecell_logo,
@@ -227,7 +228,8 @@ export const assets = {
     speaker_10_sandip,
     speaker_11_maitri,
     speaker_12_dhwani,
-    QR
+    QR,
+    Dream_dare_disrupt
 
 }
 

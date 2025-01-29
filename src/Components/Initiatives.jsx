@@ -30,24 +30,25 @@ const Initiatives = () => {
 
                 <div className='flex flex-wrap justify-center lg:gap-6 gap-4 my-7'>
                     {
-                        data.map((item) => (
+                    
 
-                            <div className='relative h-80 w-[275px] rounded-lg border-black border-4 bg-black overflow-hidden'>
-                                <div className='p-2  bg-[#310742] w-full h-full  rounded-lg flex flex-col items-center top-0'>
-                                    <div className='flex justify-center font-bold sm:text-3xl text-xl text-white sm:mb-2 mb-1'>{item.heading}</div>
-                                    <p className=' text-white  sm:font-medium font-light sm:mb-4 mb-2  sm:text-center'>{item.info}</p>
-
-                                    <button type="button" className="text-black mt-4 sm:mt-0  bg-white font-medium rounded-full text-sm px-5 py-2.5 text-center inline-flex items-center ">
-                                        <Link to={item.link}>Explore</Link>
-                                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-                                        </svg>
-                                    </button>
+                            <div className='lg:px-20 sm:px-16 px-12  flex flex-wrap gap-5 gap-y-7 justify-center'>
+                                  {data.map((item, i) => (
+                                    <div className='card relative h-80 w-[275px] border-[2px] rounded-md border-black  overflow-hidden '>
+                                      <div>
+                                        <img className='h-80 w-[275px]  object-cover' src={item.img} alt="" />
+                                      </div>
+                                      <div className={`text_content absolute  bg-[#310742] top-80 transition-all duration-500 text-white w-full  flex flex-col items-center`}>
+                                        <div className='font-bold text-xl w-full flex justify-around mb-2'>{item.heading}</div>
+                                        <div className='font-normal px-5 mb-3 text-wrap '>{item.info}</div>
+                                        <button className='text-black bg-white p-2 px-3 rounded-full'><Link target='_blank' to = {item.link}>Explore More..</Link></button>
+                                      </div>
+                                      
+                                    </div>
+                            
+                                  ))}
                                 </div>
-
-                                <img className='absolute h-full hover:opacity-0 duration-1000 card overflow-hidden object-cover rounded-lg top-0' src={item.img} alt="" />
-                            </div>
-                        ))
+                       
                     }
                 </div>
             </motion.div >

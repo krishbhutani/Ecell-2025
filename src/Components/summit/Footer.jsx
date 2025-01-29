@@ -27,7 +27,7 @@ const Footer = () => {
                         <Link to="https://www.instagram.com/ecell_nith?igsh=dG9vaDBxaWM0Z2pz&utm_source=qr"><FaInstagram /></Link>
                         <Link><FaXTwitter /></Link>
                         <Link to="https://www.linkedin.com/company/entrepreneurshipcellnith/"><CiLinkedin /></Link>
-                        <Link><FaFacebookSquare /></Link>
+                        <Link to="https://m.facebook.com/@eclubnith/?hr=1"><FaFacebookSquare /></Link>
                     </div>
                 </div>
 

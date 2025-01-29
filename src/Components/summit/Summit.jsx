@@ -42,7 +42,7 @@ const Summit = () => {
             <div ref={home} className='bg-[#000000] w-full h-auto'>
                 <div className='z-10 sticky top-0 flex justify-between items-center lg:pl-9 pl-5 py-4 h-16 lg:h-auto  bg-cyan-300/10 lg:bg-transparent'>
 
-                    <img className='lg:h-12 md:h-9 my-auto h-8 z-20' src={assets.Ecell_logo} alt="" />
+                    <Link to='/summit'><img className='lg:h-12 md:h-9 my-auto h-8 z-20' src={assets.Ecell_logo} alt="" /></Link>
 
                     <div className='z-40 hidden lg:flex gap-7 items-center backdrop-blur-md bg-cyan-300/10 px-9 py-3 rounded-l-full'>
                         <Link onClick={()=>scrollToSection(home)} className='text-white font-normal text-base'>Home</Link>
@@ -77,7 +77,10 @@ const Summit = () => {
                             </div>
 
                 <div  className='relative h-auto flex flex-wrap justify-center items-center'>
-                    <img className='z-10 md:w-7/12 w-10/12 md:py-40 py-32 h-auto' src={assets.Summit_Header_img} alt="" />
+                  
+                    <img className='z-10 md:w-7/12 w-10/12 py-7 pt-28  h-auto' src={assets.Summit_Header_img} alt="" />
+                    <img className='z-10 pl-10 md:w-6/12 w-9/12 pb-24' src={assets.Dream_dare_disrupt} alt="" />
+                 
                     <img className='absolute w-[60vw] sm:w-[40vw] h-auto z-0 opacity-60 blur-md' src={assets.Summit_logo}></img>
                     <img src={assets.bg_1} className=' absolute h-[50vmin] right-0 -top-20' alt="" />
                     <img src={assets.bg_2} className='hidden sm:block z-[4] absolute h-[25vmin] left-0 bottom-5' alt="" />
@@ -103,15 +106,15 @@ const Summit = () => {
                 </div>
 
                 <div className='lg:px-20 sm:px-16 px-12  flex flex-wrap gap-5 gap-y-7 justify-center'>
-                    <Card2 img={assets.speaker_1_yogesh} title="Yogesh Shinde" post="Founder, Bamboo India" />
-                    <Card2 img={assets.speaker_2_ankush} title="Ankush Barjata" post="Founder, Deeva" />
-                    <Card2 img={assets.speaker_3_sunil} title="Sunil Prem" post="Founder, Brisk Olive" />
-                    <Card2 img={assets.speaker_4_deepak} title="Deepak Goyal" post="Co-Founder, Crew Sphere" />
-                    <Card2 img={assets.speaker_5_vaibhav} title="Vaibhav Rathore" post="Co-Founder, Upthrust Esports" />
-                    <Card2 img={assets.speaker_6_varun} title="Varun Rattan Singh" post="CEO, Development Logics" />
-                    <Card2 img={assets.speaker_7_amandeep} title="Amandeep Srivastava" post="Co-Founder, Black Eye Tech." />
-                    <Card2 img={assets.speaker_8_prabhat} title="Prabhat Labh" post="CEO, Grameen Foundation" />
-                    <Card2 img={assets.speaker_9_akshar} title="Akshar Madhavaram" post="Co-Founder & CEO, TIAR" />
+                    <Card2 img={assets.speaker_1_yogesh} title="Yogesh Shinde" post="Founder, Bamboo India" linkedin="https://www.linkedin.com/in/yogeshshinde11?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" />
+                    <Card2 img={assets.speaker_2_ankush} title="Ankush Barjata" post="Founder, Deeva" linkedin="https://www.linkedin.com/in/ankushbarjata?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" />
+                    <Card2 img={assets.speaker_3_sunil} title="Sunil Prem" post="Founder, Brisk Olive" linkedin="https://www.linkedin.com/in/sunil-prem?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" />
+                    <Card2 img={assets.speaker_4_deepak} title="Deepak Goyal" post="Co-Founder, Crew Sphere" linkedin="https://www.linkedin.com/in/deepak-goyal-1511ab7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" />
+                    <Card2 img={assets.speaker_5_vaibhav} title="Vaibhav Rathore" post="Co-Founder, Upthrust Esports" linkedin="https://www.linkedin.com/in/rathore-vaibhav?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"/>
+                    <Card2 img={assets.speaker_6_varun} title="Varun Rattan Singh" post="CEO, Development Logics" linkedin="https://www.linkedin.com/in/maverickvarun?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" />
+                    <Card2 img={assets.speaker_7_amandeep} title="Amandeep Srivastava" post="Co-Founder, Black Eye Tech." linkedin="https://www.linkedin.com/in/amandeep-srivastava-6b1a41b8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" />
+                    <Card2 img={assets.speaker_8_prabhat} title="Prabhat Labh" post="CEO, Grameen Foundation" linkedin="https://www.linkedin.com/in/prabhatlabh?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" />
+                    <Card2 img={assets.speaker_9_akshar} title="Akshar Madhavaram" post="Co-Founder & CEO, TIAR" linkedin=""/>
                     <Card2 img={assets.speaker_10_sandip} title="Sandip Patil" post="Founder, E-Spin" />
                     <Card2 img={assets.speaker_11_maitri} title="Maitri Shah" post="Co-Founder & CEO, Mind Assest" />
                     <Card2 img={assets.speaker_12_dhwani} title="Dhwani Jain" post="Founder, KARMA Foundation" />
@@ -119,7 +122,7 @@ const Summit = () => {
                 </div>
 
                 <div ref={faqs} className='text-white font-extrabold py-6 sm:text-7xl text-5xl  my-5 flex justify-center '>
-                    Faqs
+                    FAQs
                 </div>
 
                 <FrequentlyAsked/>
@@ -127,8 +130,10 @@ const Summit = () => {
                 <div ref={contact} className='text-white font-extrabold py-6 sm:text-7xl text-5xl  my-5 flex justify-center '>
                     Contact Us
                 </div>
-
+                
                 <Contact/>
+              
+               
 
                 <Footer/>
 

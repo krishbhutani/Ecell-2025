@@ -93,7 +93,7 @@ const Passes = () => {
         <div>
             <div className='bg-[#000000] w-full h-auto'>
                 <div className='z-10 sticky top-0 flex justify-between items-center lg:px-9 px-5 py-4 h-16 lg:h-auto backdrop-blur-md bg-cyan-300/10 '>
-                    <img className='lg:h-12 md:h-9 my-auto h-8 z-20' src={assets.Ecell_logo} alt="" />
+                    <Link to='/summit'><img className='lg:h-12 md:h-9 my-auto h-8 z-20' src={assets.Ecell_logo} alt="" /></Link>
                     <button className='bg-yellow-400 text-black font-medium text-base px-4 py-1 rounded-sm '><Link to='/summit'>Home</Link></button>
                 </div>
 
@@ -188,7 +188,7 @@ const Passes = () => {
                             </div>
 
                             <div className='flex gap-3 mt-9 justify-start items-center'>
-                                <div className='block mb-2 mt-5 font-bold text-white'>Join Whatsapp Group for Further Information <Link className='decoration-white underline'>Click Here</Link></div>
+                                <div className='block mb-2 mt-5 font-bold text-white'>Join Whatsapp Group for Further Information <Link to="https://chat.whatsapp.com/LGaJdMYIwnv872Gybc2FF3" className='decoration-white underline'>Click Here</Link></div>
                                 
                             </div>
                         </form>
