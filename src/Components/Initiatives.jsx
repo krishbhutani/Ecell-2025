@@ -79,7 +79,7 @@ const data = [
         img: `${assets.E_summit}`,
         heading: "E-Summit",
         info: "E-Summit is where innovation meets opportunity! Attendees connect with industry leaders, participate in workshops, and pitch startups to investors, making it ideal for budding entrepreneurs.",
-        link: "/coming"
+        link: "/summit"
     },
 
     {
