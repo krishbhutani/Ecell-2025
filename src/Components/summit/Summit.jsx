@@ -67,7 +67,7 @@ const Summit = () => {
                                         <span className='w-full h-[0.9px] bg-white'></span>
                                         <Link onClick={()=> {setShowMobileMenu(false),scrollToSection(speaker)}}  className='cursor-pointer text-white'>Past Speakers</Link>
                                         <div className='w-full h-[0.8px] bg-white'></div>
-                                        <Link onClick={()=> {setShowMobileMenu(false),scrollToSection(faqs)}}  className='cursor-pointer text-white'>Faqs</Link>
+                                        <Link onClick={()=> {setShowMobileMenu(false),scrollToSection(faqs)}}  className='cursor-pointer text-white'>FAQs</Link>
                                         <div className='w-full h-[0.8px] bg-white'></div>
                                         <Link onClick={()=> {setShowMobileMenu(false), scrollToSection(contact)}} className='cursor-pointer text-white'>Contact Us</Link>
                                         <div className='w-full h-[0.8px] bg-white'></div>
