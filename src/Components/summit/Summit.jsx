@@ -48,6 +48,7 @@ const Summit = () => {
                         <Link onClick={()=>scrollToSection(home)} className='text-white font-normal text-base'>Home</Link>
                         <Link onClick={()=>scrollToSection(events)} className='text-white font-normal text-base'>Events</Link>
                         <Link onClick={()=>scrollToSection(speaker)} className='text-white font-normal text-base'>Past Speakers</Link>
+                        <Link to="/summit/merchandise" className='text-white font-normal text-base'>Goodies</Link>
                         <Link onClick={()=>scrollToSection(faqs)} className='text-white font-normal text-base'>FAQs</Link>
                         <Link onClick={()=>scrollToSection(contact)} className='text-white font-normal text-base'>Contact Us</Link>
                         <button className='bg-yellow-400 text-black font-medium text-base px-4 py-1 rounded-sm '><Link to='/summit/passes'>Passes</Link></button>
@@ -66,6 +67,8 @@ const Summit = () => {
                                         <Link onClick={()=> {setShowMobileMenu(false),scrollToSection(events)}}  className='cursor-pointer text-white'>Events</Link>
                                         <span className='w-full h-[0.9px] bg-white'></span>
                                         <Link onClick={()=> {setShowMobileMenu(false),scrollToSection(speaker)}}  className='cursor-pointer text-white'>Past Speakers</Link>
+                                        <div className='w-full h-[0.8px] bg-white'></div>
+                                        <Link onClick={()=> {setShowMobileMenu(false)}}  to="/summit/merchandise" className='cursor-pointer text-white'>Goodies</Link>
                                         <div className='w-full h-[0.8px] bg-white'></div>
                                         <Link onClick={()=> {setShowMobileMenu(false),scrollToSection(faqs)}}  className='cursor-pointer text-white'>FAQs</Link>
                                         <div className='w-full h-[0.8px] bg-white'></div>

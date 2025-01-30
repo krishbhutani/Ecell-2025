@@ -18,6 +18,7 @@ import ScrollToTop from './ScrollToTop'
 import Coming_Soon from './Components/Coming_Soon'
 import Summit from './Components/summit/Summit.jsx'
 import Passes from './Components/summit/Passes.jsx'
+import Merchandise from "./Components/summit/merchandise.jsx"
 
 const router = createBrowserRouter(
   [
@@ -110,6 +111,18 @@ const router = createBrowserRouter(
          
         </div>
     },
+
+    {
+      path: '/summit/merchandise',
+      element:
+        <div>
+          <ScrollToTop />
+          <Merchandise/>
+         
+        </div>
+    },
+
+
   ]
 )
 

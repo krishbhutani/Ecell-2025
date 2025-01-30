@@ -113,6 +113,16 @@ import speaker_11_maitri from "./Summit_photos/speaker_11_maitri.avif"
 import speaker_12_dhwani from "./Summit_photos/speaker_12_dhwani.jpg"
 import QR from "./Summit_photos/QR.jpg"
 import Dream_dare_disrupt from "./Summit_photos/Dream_dare_disrupt.png"
+import FRONT_BLACK from "./Summit_photos/FRONT_BLACK.png"
+import BACK_BLACK from "./Summit_photos/BACK_BLACK.png"
+import FRONT_BLUE from "./Summit_photos/FRONT_BLUE.png"
+import BACK_BLUE from "./Summit_photos/BACK_BLUE.png"
+import FRONT_T from "./Summit_photos/FRONT_T.png"
+import BACK_T from "./Summit_photos/BACK_T.png"
+import V_QR from "./Summit_photos/V_QR.jpg"
+
+
+
 
 export const assets = {
     Ecell_logo,
@@ -229,7 +239,15 @@ export const assets = {
     speaker_11_maitri,
     speaker_12_dhwani,
     QR,
-    Dream_dare_disrupt
+    Dream_dare_disrupt,
+    FRONT_BLACK,
+    BACK_BLACK,
+    FRONT_BLUE,
+    BACK_BLUE,
+    FRONT_T,
+    BACK_T,
+    V_QR
+
 
 }
 
