@@ -82,6 +82,7 @@ import bg_3 from "./Summit_photos/bg_3.png"
 import bg_4 from "./Summit_photos/bg_4.png"
 import bg_5 from "./Summit_photos/bg_5.png"
 import bg_6 from "./Summit_photos/bg_6.png"
+import bg_7 from "./Summit_photos/bg_7.png"
 import Event_1 from "./Summit_photos/Event_1.png"
 import Event_2 from "./Summit_photos/Event_2.png"
 import Event_3 from "./Summit_photos/Event_3.png"
@@ -209,6 +210,7 @@ export const assets = {
     bg_4,
     bg_5,
     bg_6,
+    bg_7,
     Event_1,
     Event_2,
     Event_3,

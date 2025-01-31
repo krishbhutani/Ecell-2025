@@ -19,6 +19,8 @@ import Coming_Soon from './Components/Coming_Soon'
 import Summit from './Components/summit/Summit.jsx'
 import Passes from './Components/summit/Passes.jsx'
 import Merchandise from "./Components/summit/merchandise.jsx"
+import Passes_types from './Components/summit/Passes_types.jsx'
+import Passes_Mou from './Components/summit/Passes_Mou.jsx'
 
 const router = createBrowserRouter(
   [
@@ -107,7 +109,27 @@ const router = createBrowserRouter(
       element:
         <div>
           <ScrollToTop />
+          <Passes_types/>
+         
+        </div>
+    },
+
+    {
+      path: '/summit/passes/general',
+      element:
+        <div>
+          <ScrollToTop />
           <Passes/>
+         
+        </div>
+    },
+
+    {
+      path: '/summit/passes/mou',
+      element:
+        <div>
+          <ScrollToTop />
+          <Passes_Mou/>
          
         </div>
     },

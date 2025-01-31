@@ -31,16 +31,16 @@ const Summit_Contact = () => {
 
     return (
         <div>
-            <div className='w-full sm:px-36 px-7 py-4'>
+            <div className='w-full z-10 sm:px-36 px-7 py-4'>
 
                 <form onSubmit={onSubmit} className='max-w-2xl mx-auto text-gray-600 pt-8  px-6 py-3 rounded-md'>
-                    <div className='flex flex-wrap'>
-                        <div className='font-semibold w-full md:w-1/2 text-left'>
+                    <div className=' z-10 flex flex-wrap'>
+                        <div className='font-semibold z-10 w-full md:w-1/2 text-left'>
                             Your Name
-                            <input className='w-full border border-black rounded py-3 px-4 mt-2' type="text" name='Name' placeholder='Your Name' required />
+                            <input className='w-full z-10 border border-black rounded py-3 px-4 mt-2' type="text" name='Name' placeholder='Your Name' required />
                         </div>
 
-                        <div className='font-semibold w-full md:w-1/2 text-left md:pl-4 '>
+                        <div className='font-semibold z-10 w-full md:w-1/2 text-left md:pl-4 '>
                             Your Email
                             <input className='w-full border border-black rounded py-3 px-4 mt-2' type="text" name='Email' placeholder='Your Email' required />
                         </div>

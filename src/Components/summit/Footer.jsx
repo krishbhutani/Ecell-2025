@@ -48,7 +48,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className='flex justify-center  items-end text-white font-semibold sm:text-base text-xs pb-2'>©2025 ECELL NIT HAMIRPUR. All Rights Reserved.</div>
+            <div className='flex justify-center bg-black  items-end text-white font-semibold sm:text-base text-xs pb-2'>©2025 ECELL NIT HAMIRPUR. All Rights Reserved.</div>
         </div>
     )
 }

@@ -6,101 +6,102 @@ import Footer from './Footer'
 import { toast } from 'react-toastify';
 
 
-
-const Passes = () => {
+const Passes_Mou = () => {
     const handleSubmit = (e) => {
-        setResult("Submitting....")
-        e.preventDefault()
-        const url = 'https://script.google.com/macros/s/AKfycby63_d3XhK6qkCogPyRyBxmerpyNZQYdvUlzrvkylw_Txk0NeVdH_iViK_nqpcbAVc/exec'
-        fetch(url, {
-            method: 'POST',
-            headers: { "Content-Type": "application/x-www-form-urlencoded" },
-            body: (`Name=${e.target.Name.value}&College=${e.target.College.value}&Email=${e.target.Email.value}&Phone=${e.target.Phone.value}&District=${e.target.District.value}&Package=${e.target.Package.value}&Candidate=${e.target.Candidate.value}Transaction=${e.target.Transaction.value}&Payment=${e.target.Payment.value}`)
-        }).then(res => res.text()).then(data => {
-            setResult("Submit");
-            alert(data);
-            e.target.reset();
-
-        }).catch(error => console.log(error))
-    }
-
-
-    const [result, setResult] = React.useState("");
-
-
-    const onSubmit = async (event) => {
-        event.preventDefault();
-        setResult("Sending....");
-        const formData = new FormData(event.target);
-
-        formData.append("access_key", "42839a8d-138b-4050-b8b0-cf399c1bb3a4");
-
-        const response = await fetch("https://api.web3forms.com/submit", {
-            method: "POST",
-            body: formData
-        });
-
-        const data = await response.json();
-
-        if (data.success) {
-            setResult("");
-            toast.success("Form Submitted Successfully")
-            event.target.reset();
-        } else {
-            console.log("Error", data);
-            setResult("");
-            toast.error(data.message);
+            setResult("Submitting....")
+            e.preventDefault()
+            const url = 'https://script.google.com/macros/s/AKfycby63_d3XhK6qkCogPyRyBxmerpyNZQYdvUlzrvkylw_Txk0NeVdH_iViK_nqpcbAVc/exec'
+            fetch(url, {
+                method: 'POST',
+                headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                body: (`Name=${e.target.Name.value}&College=${e.target.College.value}&Email=${e.target.Email.value}&Phone=${e.target.Phone.value}&District=${e.target.District.value}&Package=${e.target.Package.value}&Candidate=${e.target.Candidate.value}Transaction=${e.target.Transaction.value}&Payment=${e.target.Payment.value}`)
+            }).then(res => res.text()).then(data => {
+                setResult("Submit");
+                alert(data);
+                e.target.reset();
+    
+            }).catch(error => console.log(error))
         }
-    };
-
-
-    const [pack, setpack] = useState(99);
-    const [people, setpeople] = useState(0);
-    const [total, settotal] = useState(0);
-    const [promo, setpromo] = useState(0);
-
-    // const Checker = () =>{
-    //     if( === "MOU-NITH"){
-    //         setpromo(200);
-    //     }
-    // }
-
-
-    const handleChange = (e) => {
-        const id = e.target.id;
-        const value = parseInt(e.target.value)
-
-        if (id === 'pack') {
-            setpack(value);
+    
+    
+        const [result, setResult] = React.useState("");
+    
+    
+        const onSubmit = async (event) => {
+            event.preventDefault();
+            setResult("Sending....");
+            const formData = new FormData(event.target);
+    
+            formData.append("access_key", "42839a8d-138b-4050-b8b0-cf399c1bb3a4");
+    
+            const response = await fetch("https://api.web3forms.com/submit", {
+                method: "POST",
+                body: formData
+            });
+    
+            const data = await response.json();
+    
+            if (data.success) {
+                setResult("");
+                toast.success("Form Submitted Successfully")
+                event.target.reset();
+            } else {
+                console.log("Error", data);
+                setResult("");
+                toast.error(data.message);
+            }
+        };
+    
+    
+        const [pack, setpack] = useState(599);
+        const [people, setpeople] = useState(0);
+        const [total, settotal] = useState(0);
+        const [promo, setpromo] = useState(0);
+    
+        // const Checker = () =>{
+        //     if( === "MOU-NITH"){
+        //         setpromo(200);
+        //     }
+        // }
+    
+    
+        const handleChange = (e) => {
+            const id = e.target.id;
+            const value = parseInt(e.target.value)
+    
+            if (id === 'pack') {
+                setpack(value);
+            }
+    
+    
+    
+            else {
+                setpeople(value);
+            }
+       
+            
         }
-
-
-
-        else {
-            setpeople(value);
+    
+        const calculateTotal = () => {
+            let a = pack;
+            let b = people;
+            let c ;
+            if(b>=8){
+                c = (a* (b-1));
+            }
+            else{
+                c = (a * b) ;
+            }
+            
+    
+            settotal(c);
         }
-   
-        
-    }
-
-    const calculateTotal = () => {
-        let a = pack;
-        let b = people;
-        let c = (a * b) ;
-
-        settotal(c);
-    }
-
-    useEffect(() => {
-        calculateTotal();
-    }, [pack, people,promo])
-
-
-
-
-
-    return (
-        <div>
+    
+        useEffect(() => {
+            calculateTotal();
+        }, [pack, people,promo])
+  return (
+    <div>
             <div className='bg-[#000000] w-full h-auto'>
                 <div className='z-10 sticky top-0 flex justify-between items-center lg:px-9 px-5 py-4 h-16 lg:h-auto backdrop-blur-md bg-cyan-300/10 '>
                     <Link to='/summit'><img className='lg:h-12 md:h-9 my-auto h-8 z-20' src={assets.Ecell_logo} alt="" /></Link>
@@ -118,8 +119,8 @@ const Passes = () => {
                     <div className='w-11/12 lg:w-9/12 bg-[#caccd02d] backdrop-blur-md rounded-3xl mb-12'>
                         <form onSubmit={onSubmit} name='contactform' action="" className='text-lg border-white border-2 rounded-xl px-12 py-10'>
                             <div>
-                                <label className='block mb-2 mt-5 font-bold text-white ' htmlFor="">Name</label>
-                                <input required name="Name" className='border-2 border-[#ccc] text-white p-2 w-full box-border rounded-md bg-transparent' type="text" />
+                                <label className='block mb-2 mt-5 font-bold text-white ' htmlFor="">Campus Ambassador Name</label>
+                                <input required name="CA Name" className='border-2 border-[#ccc] text-white p-2 w-full box-border rounded-md bg-transparent' type="text" />
                             </div>
 
                             <div>
@@ -151,14 +152,12 @@ const Passes = () => {
                             <div>
                                 <label className='block mb-2 mt-5 font-bold text-white' htmlFor="">Which package would you like to have?</label>
                                 <select required onChange={handleChange} className='border-2 border-[#ccc] p-2 w-full box-border text-white rounded-md bg-transparent ' name="Package" id="pack">
-                                    <option className='text-black cursor-pointer' value="99">One Day Event Pass - Rs. 99 per head (* For Hamirpur College Students Only)</option>
-                                    <option className='text-black cursor-pointer' value="249">Three Day Event Pass - Rs. 249 per head</option>
-                                    <option className='text-black' value="799">Event & T-shirt - Rs. 799 per head</option>
-                                    <option className='text-black' value="1099">Event & Hoodie - Rs. 1099 per head</option>
-                                    <option className='text-black cursor-pointer' value="1599">Event,Stay & Food - Rs. 1599 per head</option>
-                                    <option className='text-black' value="2199">Event, Accomodation(3 days), T-shirt,Food - Rs. 2199 per head</option>
-                                    <option className='text-black' value="2499">Event, Accomodation(3 days), Hoodie,Food - Rs. 2499 per head</option>
-                                    <option className='text-black' value="2999">Event, Accomodation(3 days), Hoodie, T-shirt,Food - Rs. 2999 per head</option>
+                                    <option className='text-black' value="599">Event & T-shirt - Rs. 599 per head</option>
+                                    <option className='text-black' value="899">Event & Hoodie - Rs. 899 per head</option>
+                                    <option className='text-black cursor-pointer' value="1399">Event,Stay & Food - Rs. 1399 per head</option>
+                                    <option className='text-black' value="1999">Event, Accomodation(3 days), T-shirt,Food - Rs. 1999 per head</option>
+                                    <option className='text-black' value="2299">Event, Accomodation(3 days), Hoodie,Food - Rs. 2299 per head</option>
+                                    <option className='text-black' value="2799">Event, Accomodation(3 days), Hoodie, T-shirt,Food - Rs. 2799 per head</option>
                                 </select>
 
                             </div>
@@ -168,7 +167,8 @@ const Passes = () => {
                                 <input required onChange={handleChange} className='border-2 border-[#ccc] p-2 text-white w-full box-border rounded-md bg-transparent' name='Candidate' type="number" min='1' id='people' />
                             </div>
 
-    
+                
+
                             
 
                             <div>
@@ -211,11 +211,7 @@ const Passes = () => {
             </div>
             <Footer />
         </div>
-    )
-
-    console.log(getID)
+  )
 }
 
-export default Passes
-
-
+export default Passes_Mou

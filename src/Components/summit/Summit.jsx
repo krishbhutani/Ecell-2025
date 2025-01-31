@@ -40,7 +40,7 @@ const Summit = () => {
     return (
         <div>
             <div ref={home} className='bg-[#000000] w-full h-auto'>
-                <div className='z-10 sticky top-0 flex justify-between items-center lg:pl-9 pl-5 py-4 h-16 lg:h-auto  bg-cyan-300/10 lg:bg-transparent'>
+                <div className='z-40 sticky top-0 flex justify-between items-center lg:pl-9 pl-5 py-4 h-16 lg:h-auto  bg-cyan-300/10 lg:bg-transparent'>
 
                     <Link to='/summit'><img className='lg:h-12 md:h-9 my-auto h-8 z-20' src={assets.Ecell_logo} alt="" /></Link>
 
@@ -128,13 +128,18 @@ const Summit = () => {
                     FAQs
                 </div>
 
-                <FrequentlyAsked/>
+                <FrequentlyAsked />
 
-                <div ref={contact} className='text-white font-extrabold py-6 sm:text-7xl text-5xl  my-5 flex justify-center '>
+                <div ref={contact} className='relative text-white font-extrabold z-10 py-6 sm:text-7xl text-5xl  my-5 flex justify-center '>
                     Contact Us
+                    
+                </div>
+
+                <div className='relative flex justify-center'>
+                <img src={assets.bg_7} className=' absolute h-[70vmin] z-0 md:-top-96 -top-60' alt="" />
                 </div>
                 
-                <Contact/>
+                <Contact className="z-10"/>
               
                
 

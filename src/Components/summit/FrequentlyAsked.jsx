@@ -14,9 +14,9 @@ const FrequentlyAsked = () => {
 
 
     return (
-        <div className='text-white flex flex-col gap-6 mb-10 '>
+        <div className='text-white flex flex-col  gap-6 mb-10 '>
             {data.map((item, i) => (
-                <div className='mx-[15vw]  backdrop-blur-md bg-cyan-300/10 rounded-md px-6 py-5 border-[1px] border-white'>
+                <div className='mx-[15vw]  backdrop-blur-md z-10 bg-cyan-300/10 rounded-md px-6 py-5 border-[1px] border-white'>
                 <div className='flex md:justify-between   items-center   cursor-pointer' onClick={()=> toggle(i)}>
                     <div className='pb-2 md:text-xl font-semibold'>{item.question}</div>
                     <div className=' md:text-3xl md:block hidden font-semibold '>{active ==i ? <IoIosArrowUp/>:<IoIosArrowDown/> }</div>
