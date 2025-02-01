@@ -31,7 +31,8 @@ const data = [
   {
     img: `${assets.Event_1}`,
     title: "Virtual Stock Market",
-    subtitle: "Buckle up for the big reveal! After days of simulated stock market thrills and strategic investing, the champions of this high-stakes financial adventure will take center stage to claim their glory."
+    subtitle: "Buckle up for the big reveal! After days of simulated stock market thrills and strategic investing, the champions of this high-stakes financial adventure will take center stage to claim their glory.",
+    explore:"https://community.stockgro.club/form/fe680d9f-c6aa-4391-8d71-e48a112bb728"
 
   },
 
@@ -45,8 +46,8 @@ const data = [
   {
     img: `${assets.Event_3}`,
     title: "Find The Bug",
-    subtitle: "Think like a detective, act like a strategist! Uncover the hidden flaws in company workflows and propose genius solutions to tackle real-world business conundrums."
-
+    subtitle: "Think like a detective, act like a strategist! Uncover the hidden flaws in company workflows and propose genius solutions to tackle real-world business conundrums.",
+    explore:"https://unstop.com/o/qI83MkO&utm_medium=Share&utm_source=WhatsApp"
   },
 
 
@@ -95,7 +96,8 @@ const data = [
   {
     img: `${assets.Event_10}`,
     title: "Sell Your Idea",
-    subtitle: "Creativity knows no bounds here! Craft ingenious marketing strategies and pitch them with flair. Bring your wildest ideas to life and win over the judges with your brilliance."
+    subtitle: "Creativity knows no bounds here! Craft ingenious marketing strategies and pitch them with flair. Bring your wildest ideas to life and win over the judges with your brilliance.",
+    explore:"https://unstop.com/o/YKJIod4?lb=udjUih6l&utm_medium=Share&utm_source=shortUrl"
 
   },
 
