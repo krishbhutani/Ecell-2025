@@ -47,7 +47,7 @@ const data = [
     img: `${assets.Event_3}`,
     title: "Find The Bug",
     subtitle: "Think like a detective, act like a strategist! Uncover the hidden flaws in company workflows and propose genius solutions to tackle real-world business conundrums.",
-    explore:"https://unstop.com/o/qI83MkO&utm_medium=Share&utm_source=WhatsApp"
+    explore:"https://unstop.com/o/qI83MkO?lb=udjUih6l"
   },
 
 
