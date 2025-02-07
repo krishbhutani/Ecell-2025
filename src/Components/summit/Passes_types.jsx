@@ -17,7 +17,7 @@ const Passes_types = () => {
 
                     <div className='flex flex-col py-12 gap-7'>
                         <button className='bg-yellow-400 text-black font-bold md:text-4xl text-2xl md:px-8 px-4 py-4 sm:mx-0 mx-6 rounded-lg '><Link to='/summit/passes/general'>Passes for Himachal Pradesh Colleges</Link></button>
-                        <button className='bg-yellow-400 text-black font-bold md:text-4xl text-2xl md:px-8 px-4 py-4 sm:mx-0 mx-6 rounded-lg '><Link to='/summit/passes/mou'>Passes </Link></button>
+                        <button className='bg-yellow-400 text-black font-bold md:text-4xl text-2xl md:px-8 px-4 py-4 sm:mx-0 mx-6 rounded-lg '><Link to='/summit/passes/mou'>Passes</Link></button>
                     </div>
 
 

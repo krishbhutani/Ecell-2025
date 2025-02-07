@@ -2,10 +2,14 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { assets } from '../assets/assets'
 import { motion } from "framer-motion"
+import Particle from './Particle'
 
 const Header = () => {
     return (
-        <div className='w-full bg-[#F3F2E3] h-max pb-12 md:pb-24 lg:pb-32'>
+        <>
+        <div className='relative w-full bg-[#F3F2E3] h-max pb-12 md:pb-24 lg:pb-32'>
+
+            
 
             <div className='flex pt-6 lg:pt-16 xl:pt-28 lg:pl-32 md:pl-20 sm:pl-7 pl-5 px-2  sm:px-0'>
                 <motion.div
@@ -47,6 +51,7 @@ const Header = () => {
             </div>
 
         </div>
+        </>
 
     )
 }

@@ -21,6 +21,7 @@ import Passes from './Components/summit/Passes.jsx'
 import Merchandise from "./Components/summit/merchandise.jsx"
 import Passes_types from './Components/summit/Passes_types.jsx'
 import Passes_Mou from './Components/summit/Passes_Mou.jsx'
+import Particle from './Components/Particle.jsx'
 
 const router = createBrowserRouter(
   [
@@ -29,7 +30,7 @@ const router = createBrowserRouter(
       element:
         <div>
           <ScrollToTop />
-          <Navbar />
+          <Navbar />   
           <Header />
           <Cooper />
           <Initiatives />
@@ -39,8 +40,6 @@ const router = createBrowserRouter(
           <Team />
           <Footer />
         </div>
-
-
     },
     {
       path: '/about',

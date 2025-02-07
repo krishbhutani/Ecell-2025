@@ -51,7 +51,7 @@ const Summit = () => {
                         <Link to="/summit/merchandise" className='text-white font-normal text-base'>Goodies</Link>
                         <Link onClick={()=>scrollToSection(faqs)} className='text-white font-normal text-base'>FAQs</Link>
                         <Link onClick={()=>scrollToSection(contact)} className='text-white font-normal text-base'>Contact Us</Link>
-                        <button className='bg-yellow-400 text-black font-medium text-base px-4 py-1 rounded-sm '><Link to='/summit/passes'>Passes</Link></button>
+                        <button className='bg-yellow-400 text-black font-medium text-base px-4 py-1 rounded-sm '><Link to='#'>Passes</Link></button>
 
                     </div>
 
@@ -74,7 +74,7 @@ const Summit = () => {
                                         <div className='w-full h-[0.8px] bg-white'></div>
                                         <Link onClick={()=> {setShowMobileMenu(false), scrollToSection(contact)}} className='cursor-pointer text-white'>Contact Us</Link>
                                         <div className='w-full h-[0.8px] bg-white'></div>
-                                        <button className='bg-yellow-400 text-black font-medium text-base px-4 py-1 rounded-sm '><Link to='/summit/passes'>Passes</Link></button>
+                                        <button className='bg-yellow-400 text-black font-medium text-base px-4 py-1 rounded-sm '><Link to='#'>Passes</Link></button>
                 
                                     </ul>
                             </div>
