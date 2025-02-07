@@ -90,6 +90,32 @@ const Summit = () => {
                     <img src={assets.bg_3} className='hidden sm:block z-0 absolute h-[40vmin] left-0 -bottom-4' alt="" />
                 </div>
 
+                <div className='realtive z-10 bg-white text-black font-extrabold mt-10 sm:mb-5 py-4 sm:text-4xl text- px-10 sm:flex justify-center'>
+                    Timeline for E-Summit - <Link to="https://drive.google.com/file/d/1bSDbPdc8S0LQOYWSV3fenLcksSuIz_9D/view?usp=sharing" target='_blank'>Click here</Link>
+                </div>
+
+
+
+                {/* <div className='font-semibold sm:text-4xl text-2xl flex flex-col justify-start gap-2 sm:items-start items-center sm:px-56'>
+                    <h3 className='text-white'>Day 1</h3>
+                    <h5 className='font-semibold sm:text-2xl text-xl text-white'>7th February, 2025</h5>
+                </div>
+
+                <div className='text-white sm:px-56 px-10 mt-4'>
+                    <table>
+                        <th>Hello</th>
+                        <th>Hello</th>
+                        <th>Hello</th>
+                        <th>Hello</th>
+                        <th>Hello</th>
+
+                        <tr>hello</tr>
+                        <tr>hello</tr>
+                        <tr>hello</tr>
+                        <tr>hello</tr>
+                    </table>
+                </div> */}
+
                 <div ref={events} className='realtive z-10 text-white font-extrabold mt-10 mb-5 py-6 sm:text-7xl text-5xl   flex justify-center '>
                     Events
 
