@@ -108,9 +108,9 @@ const Passes = () => {
                 </div>
 
                 <div className='text-white font-extrabold mt-10 mb-5 py-6 sm:text-7xl text-3xl   flex justify-center '>
-                Registration Form will open soon.
+                Registration Form
                 </div>
-                {/* <div className='relative flex justify-center'>
+                <div className='relative flex justify-center'>
 
                     <img src={assets.bg_2} className=' absolute left-20 -top-10 h-[50vmin]' alt="" />
 
@@ -206,7 +206,7 @@ const Passes = () => {
                             </div>
                         </form>
                     </div>
-                </div> */}
+                </div>
 
             </div>
             <Footer />
