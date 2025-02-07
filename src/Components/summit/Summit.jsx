@@ -51,7 +51,7 @@ const Summit = () => {
                         <Link to="/summit/merchandise" className='text-white font-normal text-base'>Goodies</Link>
                         <Link onClick={()=>scrollToSection(faqs)} className='text-white font-normal text-base'>FAQs</Link>
                         <Link onClick={()=>scrollToSection(contact)} className='text-white font-normal text-base'>Contact Us</Link>
-                        <button className='bg-yellow-400 text-black font-medium text-base px-4 py-1 rounded-sm '><Link to='#'>Passes</Link></button>
+                        <button className='bg-yellow-400 text-black font-medium text-base px-4 py-1 rounded-sm '><Link to='/summit/passes'>Passes</Link></button>
 
                     </div>
 
@@ -74,7 +74,7 @@ const Summit = () => {
                                         <div className='w-full h-[0.8px] bg-white'></div>
                                         <Link onClick={()=> {setShowMobileMenu(false), scrollToSection(contact)}} className='cursor-pointer text-white'>Contact Us</Link>
                                         <div className='w-full h-[0.8px] bg-white'></div>
-                                        <button className='bg-yellow-400 text-black font-medium text-base px-4 py-1 rounded-sm '><Link to='#'>Passes</Link></button>
+                                        <button className='bg-yellow-400 text-black font-medium text-base px-4 py-1 rounded-sm '><Link to='/summit/passes'>Passes</Link></button>
                 
                                     </ul>
                             </div>
@@ -90,7 +90,7 @@ const Summit = () => {
                     <img src={assets.bg_3} className='hidden sm:block z-0 absolute h-[40vmin] left-0 -bottom-4' alt="" />
                 </div>
 
-                <div className='realtive z-10 bg-white text-black font-extrabold mt-10 sm:mb-5 py-4 sm:text-4xl text- px-10 sm:flex justify-center'>
+                <div className='realtive z-10 bg-white text-black font-extrabold mt-10 sm:mb-5 py-4 sm:text-4xl text-sm px-10 sm:flex justify-center'>
                     Timeline for E-Summit - <Link to="https://drive.google.com/file/d/1bSDbPdc8S0LQOYWSV3fenLcksSuIz_9D/view?usp=sharing" target='_blank'>Click here</Link>
                 </div>
 
