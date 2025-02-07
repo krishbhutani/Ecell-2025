@@ -109,7 +109,7 @@ const Passes_Mou = () => {
                 </div>
 
                 <div className='text-white font-extrabold mt-10 mb-5 py-6 sm:text-7xl text-3xl   flex justify-center '>
-                    Registration Form will be opened soon
+                Registration Form will open soon.
                 </div>
                 {/* <div className='relative flex justify-center'>
 
