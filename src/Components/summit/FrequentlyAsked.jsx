@@ -49,7 +49,7 @@ const data = [
 
     {
         question: "When and where is the E-Summit being held?",
-        answer: "The E-Summit is being held on [insert dates] at the National Institute of Technology (NIT) Hamirpur campus. Specific venues for different events will be shared in the schedule."
+        answer: "The E-Summit is being held on 7th to 9th February at the National Institute of Technology (NIT) Hamirpur campus. Specific venues for different events will be shared in the schedule."
     },
 
     {
