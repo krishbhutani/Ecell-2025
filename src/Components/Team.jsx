@@ -53,11 +53,11 @@ const Team = () => {
 
                     <div className=' bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl   h-[655px]  w-72'>
                         <div >
-                            <img className="h-64 w-full object-cover rounded-t-lg " src={assets.Rishikesh_Mishra} alt="" />
+                            <img className="h-64 w-full object-cover rounded-t-lg " src={assets.Krish} alt="" />
                         </div>
                         <div className='w-full h-px bg-black'></div>
                         <div className='relative rounded-b-lg bg-[#310742a4] h-[399px] top-0'>
-                            <p className='text-white text-xl mb-1 font-medium pl-2 pt-2 flex justify-center'>Rishikesh Mishra</p>
+                            <p className='text-white text-xl mb-1 font-medium pl-2 pt-2 flex justify-center'>Krish Bhutani</p>
                             <p className='text-slate-100 pl-2 -mt-1 flex justify-center pb-2'>Manager</p>
                             <div className='w-full h-px bg-black'></div>
                             <p className='px-4 py-2 h-auto text-white'>It is with great enthusiasm and pride that I welcome you to E-Cell NIT Hamirpur, a celebration of innovation, entrepreneurship, and collaborative growth. E-Cell stands as a testament to our commitment to fostering an ecosystem where ideas flourish and ambitions transform into impactful realities. Let's ideate, innovate, and impact together!</p>
@@ -67,11 +67,11 @@ const Team = () => {
 
                     <div className=' bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl   h-[655px]  w-72'>
                         <div >
-                            <img className="h-64 w-full object-cover rounded-t-lg " src={assets.Aryan_mittal} alt="" />
+                            <img className="h-64 w-full object-cover rounded-t-lg " src={assets.Khushi} alt="" />
                         </div>
                         <div className='w-full h-px bg-black'></div>
                         <div className='relative rounded-b-lg bg-[#310742a4] h-[399px] top-0'>
-                            <p className='text-white text-xl mb-1 font-medium pl-2 pt-2 flex justify-center'>Aryan Mittal</p>
+                            <p className='text-white text-xl mb-1 font-medium pl-2 pt-2 flex justify-center'>Khushi Singh</p>
                             <p className='text-slate-100 pl-2 -mt-1 flex justify-center pb-2'>Assistant Manager</p>
                             <div className='w-full h-px bg-black'></div>
                             <p className='px-4 py-2 h-auto text-white'>E-Summit at NIT Hamirpur celebrates ideas, creativity, and entrepreneurship. It fosters partnerships that drive development and transformation. As Assistant Manager, I’m honored to be part of this adventure and encourage you to engage in this life-changing event. Together, let’s innovate and make a lasting impact!</p>
@@ -81,11 +81,11 @@ const Team = () => {
 
                     <div className=' bg-slate-500 rounded-lg border-black border-2 shadow-[#310747] shadow-xl   h-[655px]  w-72'>
                         <div >
-                            <img className="h-64 w-full object-cover rounded-t-lg " src={assets.Ashmit} alt="" />
+                            <img className="h-64 w-full object-cover rounded-t-lg " src={assets.Prashant} alt="" />
                         </div>
                         <div className='w-full h-px bg-black'></div>
                         <div className='relative rounded-b-lg bg-[#310742a4] h-[399px] top-0'>
-                            <p className='text-white text-xl mb-1 font-medium pl-2 pt-2 flex justify-center'>Ashmit Gupta</p>
+                            <p className='text-white text-xl mb-1 font-medium pl-2 pt-2 flex justify-center'>Prashant Kumar</p>
                             <p className='text-slate-100 pl-2 -mt-1 flex justify-center pb-2'>Overall Coordinator</p>
                             <div className='w-full h-px bg-black'></div>
                             <p className='px-4 py-2 h-auto text-white'>The NIT Hamirpur E-Summit showcases the power of foresight, creativity, and teamwork. As Overall Coordinator, I’m excited to introduce this vibrant platform uniting change-makers, industry leaders, and aspiring entrepreneurs. Join us to brainstorm, innovate, and pave the way for a brighter entrepreneurial future!</p>
